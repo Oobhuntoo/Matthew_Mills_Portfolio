@@ -1,4 +1,9 @@
-﻿using System;
+﻿//@Author: Matthew Mills
+//@Title: Binary Forms Calculator
+//@Purpose: to calculate the classes of integral binary quadratic forms for a given discriminant value
+//@Date: 04/22/2018
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
