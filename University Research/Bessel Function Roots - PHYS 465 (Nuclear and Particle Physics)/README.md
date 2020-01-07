@@ -9,7 +9,9 @@ be at a given energy level.
 https://farside.ph.utexas.edu/teaching/qmech/Quantum/node81.html
 
 The formula at the following link was used as the expression for the bessel equation of the first kind onto which a numerical method 
-was applied to render a function that returns the desired roots of the bessel function accurate up to 6 decimal places.
+was applied to render a function that returns the desired roots of the bessel function accurate up to 6 decimal places. The method involved
+iteratively plugging in equispaced points along the positive real number line into the Bessel function and using the Intermediate Value Theorem to
+find when there was a change in sign of the function values and thus approximate the root.
 
 https://keisan.casio.com/exec/system/1180573472
 
