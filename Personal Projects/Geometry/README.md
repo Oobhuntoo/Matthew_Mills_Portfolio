@@ -1,4 +1,4 @@
-# Sacred Geometry
+# Geometry
 
 This project is a Python program that automatically graphs various patterns selected to imitate a "tree of life"
 type of pattern using python math and matplotlib. In "tree_of_life.py", there is a function that takes as its input an integer n, and then outputs an image depicting
