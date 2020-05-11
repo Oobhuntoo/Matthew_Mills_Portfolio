@@ -1,0 +1,47 @@
+WARNING(11): The variable 'y' seems not to be used.
+WARNING(7): Expecting to return type int but function 'main' has no return statement.
+WARNING(7): The parameter 'u' seems not to be used.
+WARNING(9): The variable 'w' seems not to be used.
+WARNING(7): The parameter 'z' seems not to be used.
+ERROR(20): Cannot use function 'dog' as a variable.
+ERROR(21): Symbol 'klingon' is not declared.
+ERROR(22): Symbol 'klingon' is not declared.
+ERROR(22): Symbol 'romulon' is not declared.
+WARNING(19): Expecting to return type int but function 'elk' has no return statement.
+WARNING(19): The function 'elk' seems not to be used.
+WARNING(1): The variable 'g' seems not to be used.
+Var g of type int [mem: Global  size: 1  loc: 0]
+Sibling: 0  Var h of type int [mem: Global  size: 1  loc: -1]
+Sibling: 1  Func cat returns type void [mem: Global  loc: 0]
+Sibling: 2  Func dog returns type void [mem: Global  loc: 0]
+Sibling: 3  Func main returns type int [mem: Global  loc: 0]
+!   Child: 0  Param u of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param z of type int [mem: Parameter  size: 1  loc: -3]
+!   Child: 1  Compound
+!   !   Child: 0  Var v of type int [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 0  Var w of type int [mem: Local  size: 1  loc: -5]
+!   !   Child: 1  Compound
+!   !   !   Child: 0  Var x of type int [mem: Local  size: 1  loc: -6]
+!   !   !   Sibling: 0  Var y of type int [mem: Local  size: 1  loc: -7]
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -6]
+!   !   !   !   Child: 1  Const: 666
+!   !   !   Sibling: 0  Assign: =
+!   !   !   !   Child: 0  Id: v [mem: Local  size: 1  loc: -4]
+!   !   !   !   Child: 1  Const: 777
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: h [mem: Global  size: 1  loc: -1]
+!   !   !   Child: 1  Const: 888
+!   !   Sibling: 1  Call: cat
+Sibling: 4  Func elk returns type int [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: dog [mem: Global  size: -2  loc: 0]
+!   !   !   Child: 1  Const: 3
+!   !   Sibling: 0  Id: klingon [mem: None  size: 1  loc: 0]
+!   !   Sibling: 1  Assign: =
+!   !   !   Child: 0  Id: klingon [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Id: romulon [mem: None  size: 1  loc: 0]
+Offset for end of global space: -2
+Number of warnings: 8
+Number of errors: 4

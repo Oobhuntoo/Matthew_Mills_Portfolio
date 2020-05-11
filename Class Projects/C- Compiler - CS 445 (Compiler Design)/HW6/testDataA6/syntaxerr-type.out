@@ -1,0 +1,11 @@
+ERROR(2): Syntax error, unexpected ';', expecting identifier.
+ERROR(3): Syntax error, unexpected identifier "b", expecting ',' or ';'.
+ERROR(7): Syntax error, unexpected "bool", expecting ',' or ';'.
+ERROR(8): Syntax error, unexpected ',', expecting identifier.
+ERROR(9): Syntax error, unexpected "while", expecting identifier.
+ERROR(11): Syntax error, unexpected identifier "b", expecting ',' or ';'.
+Var b of type bool [mem: Local  size: 1  loc: 0]
+Sibling: 0  Var b of type int [mem: Local  size: 1  loc: 0]
+Offset for end of global space: 0
+Number of warnings: 0
+Number of errors: 6

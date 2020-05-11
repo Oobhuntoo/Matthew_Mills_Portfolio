@@ -1,0 +1,218 @@
+WARNING(4): The parameter 'x' seems not to be used.
+ERROR(5): Symbol 'bender' is already declared at line 4.
+ERROR(9): Symbol 'x' is already declared at line 7.
+ERROR(10): Symbol 'x' is already declared at line 7.
+ERROR(10): Symbol 'y' is already declared at line 9.
+ERROR(12): Symbol 'z' is not declared.
+ERROR(13): '=' requires operands of the same type but lhs is type bool and rhs is type int.
+WARNING(15): Variable 'z' may be uninitialized when used here.
+ERROR(17): Symbol 'z' is not declared.
+ERROR(17): Symbol 'z' is not declared.
+ERROR(18): Cannot use function 'main' as a variable.
+ERROR(19): Cannot index nonarray 'x'.
+ERROR(20): Array 'y' should be indexed by type int but got type char.
+ERROR(21): Array index is the unindexed array 'y'.
+ERROR(23): Array 'y' should be indexed by type int but got type bool.
+ERROR(24): Cannot use function 'main' as a variable.
+ERROR(25): Cannot use function 'main' as a variable.
+ERROR(25): Array 'main' should be indexed by type int but got type char.
+ERROR(26): 'and' requires operands of type bool but lhs is of type int.
+ERROR(26): 'and' requires operands of type bool but rhs is of type char.
+ERROR(29): The operation '*' only works with arrays.
+ERROR(30): Too few parameters passed for function 'main' declared on line 7.
+ERROR(30): The operation '*' only works with arrays.
+ERROR(31): Unary '?' requires an operand of type int but was given type char.
+ERROR(31): Unary '?' requires an operand of type int but was given type bool.
+ERROR(33): Too few parameters passed for function 'main' declared on line 7.
+ERROR(33): Symbol 'fred' is not declared.
+ERROR(33): 'and' requires operands of type bool but lhs is of type int.
+ERROR(34): '+' requires operands of type int but lhs is of type bool.
+ERROR(34): '+' requires operands of type int but rhs is of type bool.
+ERROR(35): Too few parameters passed for function 'bender' declared on line 4.
+ERROR(35): '*' requires operands of type int but rhs is of type void.
+ERROR(36): Too few parameters passed for function 'bender' declared on line 4.
+ERROR(36): '=' requires operands of type bool, char, or int but rhs is of type void.
+ERROR(37): Too few parameters passed for function 'main' declared on line 7.
+ERROR(37): '=' requires operands of the same type but lhs is type bool and rhs is type int.
+ERROR(38): Too few parameters passed for function 'bender' declared on line 4.
+ERROR(38): Too few parameters passed for function 'bender' declared on line 4.
+ERROR(38): '==' requires operands of type bool, char, or int but lhs is of type void.
+ERROR(38): '==' requires operands of type bool, char, or int but rhs is of type void.
+ERROR(39): Too few parameters passed for function 'bender' declared on line 4.
+ERROR(39): Too few parameters passed for function 'bender' declared on line 4.
+ERROR(39): '!=' requires operands of type bool, char, or int but lhs is of type void.
+ERROR(39): '!=' requires operands of type bool, char, or int but rhs is of type void.
+ERROR(40): Too few parameters passed for function 'bender' declared on line 4.
+ERROR(40): Too few parameters passed for function 'bender' declared on line 4.
+ERROR(40): '-' requires operands of type int but lhs is of type void.
+ERROR(40): '-' requires operands of type int but rhs is of type void.
+ERROR(41): Expecting type int in parameter 1 of call to 'bender' declared on line 4 but got type void.
+ERROR(42): Array 'y' should be indexed by type int but got type void.
+ERROR(43): '<' requires operands of type char or type int but lhs is of type bool.
+ERROR(43): '<' requires operands of type char or type int but rhs is of type bool.
+ERROR(44): '<' requires operands of the same type but lhs is type char and rhs is type int.
+ERROR(48): Function 'main' at line 7 is expecting to return type int but return has no return value.
+ERROR(49): Function 'main' at line 7 is expecting to return type int but got type bool.
+ERROR(50): Function 'main' at line 7 is expecting to return type int but got type char.
+ERROR(51): Too few parameters passed for function 'bender' declared on line 4.
+ERROR(51): Function 'main' at line 7 is expecting to return type int but got type void.
+WARNING(2): The variable 'x' seems not to be used.
+WARNING(2): The variable 'y' seems not to be used.
+Var w of type bool [mem: Global  size: 1  loc: 0]
+Sibling: 0  Var x of type bool [mem: Global  size: 1  loc: -1]
+Sibling: 1  Var y of type bool [mem: Global  size: 1  loc: -2]
+Sibling: 2  Func bender returns type void [mem: Global  loc: 0]
+!   Child: 0  Param x of type int [mem: Parameter  size: 1  loc: -2]
+Sibling: 3  Func bender returns type int [mem: Global  loc: 0]
+!   Child: 1  Return
+!   !   Child: 0  Const: 666
+Sibling: 4  Func main returns type int [mem: Global  loc: 0]
+!   Child: 0  Param x of type int [mem: Parameter  size: 1  loc: -2]
+!   Child: 1  Compound
+!   !   Child: 0  Var x of type int [mem: Local  size: 1  loc: 0]
+!   !   Sibling: 0  Var y is array of type int [mem: Local  size: 11  loc: -4]
+!   !   Sibling: 1  Var x of type char [mem: Local  size: 1  loc: 0]
+!   !   Sibling: 2  Var y of type char [mem: Local  size: 1  loc: 0]
+!   !   Child: 1  Op: +
+!   !   !   Child: 0  Id: z [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: w [mem: Global  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 72
+!   !   Sibling: 1  Compound
+!   !   !   Child: 0  Var z of type int [mem: Local  size: 1  loc: -14]
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -14]
+!   !   !   !   Child: 1  Op: /
+!   !   !   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -14]
+!   !   !   !   !   Child: 1  Id: z [mem: Local  size: 1  loc: -14]
+!   !   Sibling: 2  Op: +
+!   !   !   Child: 0  Id: z [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Id: z [mem: None  size: 1  loc: 0]
+!   !   Sibling: 3  Assign: =
+!   !   !   Child: 0  Id: main [mem: Local  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 10
+!   !   Sibling: 4  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 2
+!   !   !   Child: 1  Const: 3
+!   !   Sibling: 5  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 11  loc: -4]
+!   !   !   !   Child: 1  Const: 'c'
+!   !   !   Child: 1  Const: 4
+!   !   Sibling: 6  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 11  loc: -4]
+!   !   !   !   Child: 1  Id: y [mem: Local  size: 11  loc: -4]
+!   !   !   Child: 1  Const: 5
+!   !   Sibling: 7  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 11  loc: -4]
+!   !   !   !   Child: 1  Op: [
+!   !   !   !   !   Child: 0  Id: y [mem: Local  size: 11  loc: -4]
+!   !   !   !   !   Child: 1  Const: 0
+!   !   !   Child: 1  Const: 55
+!   !   Sibling: 8  Op: [
+!   !   !   Child: 0  Id: y [mem: Local  size: 11  loc: -4]
+!   !   !   Child: 1  Const: true
+!   !   Sibling: 9  Op: [
+!   !   !   Child: 0  Id: y [mem: Local  size: 11  loc: -4]
+!   !   !   Child: 1  Id: main [mem: Local  size: 1  loc: 0]
+!   !   Sibling: 10  Op: [
+!   !   !   Child: 0  Id: main [mem: Local  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 'c'
+!   !   Sibling: 11  Op: and
+!   !   !   Child: 0  Const: 6
+!   !   !   Child: 1  Const: 'x'
+!   !   Sibling: 12  Assign: =
+!   !   !   Child: 0  Id: y [mem: Local  size: 11  loc: -4]
+!   !   !   Child: 1  Id: y [mem: Local  size: 11  loc: -4]
+!   !   Sibling: 13  Op: [
+!   !   !   Child: 0  Id: y [mem: Local  size: 11  loc: -4]
+!   !   !   Child: 1  Op: -
+!   !   !   !   Child: 0  Op: *
+!   !   !   !   !   Child: 0  Id: y [mem: Local  size: 11  loc: -4]
+!   !   !   !   Child: 1  Const: 1
+!   !   Sibling: 14  Op: *
+!   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   Sibling: 15  Op: *
+!   !   !   Child: 0  Call: main
+!   !   Sibling: 16  Op: +
+!   !   !   Child: 0  Op: ?
+!   !   !   !   Child: 0  Const: 'u'
+!   !   !   Child: 1  Op: ?
+!   !   !   !   Child: 0  Const: true
+!   !   Sibling: 17  Op: or
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Op: +
+!   !   !   !   !   Child: 0  Const: 66
+!   !   !   !   !   Child: 1  Op: *
+!   !   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   !   Child: 0  Id: y [mem: Local  size: 11  loc: -4]
+!   !   !   !   !   !   !   Child: 1  Op: -
+!   !   !   !   !   !   !   !   Child: 0  Const: 77
+!   !   !   !   !   !   !   !   Child: 1  Op: *
+!   !   !   !   !   !   !   !   !   Child: 0  Const: 11
+!   !   !   !   !   !   !   !   !   Child: 1  Const: 55
+!   !   !   !   !   !   Child: 1  Const: 77
+!   !   !   !   Child: 1  Const: 12
+!   !   !   Child: 1  Const: false
+!   !   Sibling: 18  Op: and
+!   !   !   Child: 0  Call: main
+!   !   !   Child: 1  Call: fred
+!   !   Sibling: 19  Op: +
+!   !   !   Child: 0  Op: +
+!   !   !   !   Child: 0  Const: true
+!   !   !   !   Child: 1  Const: false
+!   !   !   Child: 1  Const: 666
+!   !   Sibling: 20  Op: *
+!   !   !   Child: 0  Const: 919
+!   !   !   Child: 1  Call: bender
+!   !   Sibling: 21  Assign: =
+!   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   Child: 1  Call: bender
+!   !   Sibling: 22  Assign: =
+!   !   !   Child: 0  Id: w [mem: Global  size: 1  loc: 0]
+!   !   !   Child: 1  Call: main
+!   !   Sibling: 23  Op: ==
+!   !   !   Child: 0  Call: bender
+!   !   !   Child: 1  Call: bender
+!   !   Sibling: 24  Op: !=
+!   !   !   Child: 0  Call: bender
+!   !   !   Child: 1  Call: bender
+!   !   Sibling: 25  Op: -
+!   !   !   Child: 0  Call: bender
+!   !   !   Child: 1  Call: bender
+!   !   Sibling: 26  Call: bender
+!   !   !   Child: 0  Call: bender
+!   !   !   !   Child: 0  Const: 4
+!   !   Sibling: 27  Op: [
+!   !   !   Child: 0  Id: y [mem: Local  size: 11  loc: -4]
+!   !   !   Child: 1  Call: bender
+!   !   !   !   Child: 0  Const: 3
+!   !   Sibling: 28  Op: <
+!   !   !   Child: 0  Const: true
+!   !   !   Child: 1  Const: false
+!   !   Sibling: 29  Op: <
+!   !   !   Child: 0  Const: 'a'
+!   !   !   Child: 1  Const: 11
+!   !   Sibling: 30  Op: >=
+!   !   !   Child: 0  Const: 'a'
+!   !   !   Child: 1  Const: 'b'
+!   !   Sibling: 31  Op: +
+!   !   !   Child: 0  Const: 6
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 3
+!   !   Sibling: 32  Return
+!   !   Sibling: 33  Return
+!   !   !   Child: 0  Const: true
+!   !   Sibling: 34  Return
+!   !   !   Child: 0  Const: 'x'
+!   !   Sibling: 35  Return
+!   !   !   Child: 0  Call: bender
+Offset for end of global space: -3
+Number of warnings: 4
+Number of errors: 56

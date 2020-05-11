@@ -1,0 +1,9 @@
+ERROR(6): Syntax error, unexpected "while".
+ERROR(6): Syntax error, unexpected ';', expecting ')'.
+ERROR(7): Syntax error, unexpected "while", expecting ')'.
+ERROR(7): Syntax error, unexpected ';', expecting ')'.
+ERROR(8): Syntax error, unexpected identifier "dog", expecting ')'.
+ERROR(8): Syntax error, unexpected ',', expecting ';'.
+ERROR(8): Syntax error, unexpected ')', expecting ';'.
+ERROR(10): Syntax error, unexpected ';'.
+ERROR(11): Syntax error, unexpected ';', expecting ')'.

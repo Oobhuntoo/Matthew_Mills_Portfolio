@@ -1,0 +1,119 @@
+// c-S20
+int main()
+{
+        int i;
+        bool b;
+        char c;
+        int ia[3];
+        bool ba[3];
+        char ca[3];
+
+        i=666;
+        b=true;
+        c='X';
+
+        i+i;
+        i+b;
+        b+i;
+        b+b;
+        
+        i and i;
+        i and b;
+        b and i;
+        b and b;
+
+        i=i;
+        i=b;
+        b=i;
+        b=b;
+
+        i==i;
+        i==b;
+        b==i;
+        b==b;
+
+        i!=i;
+        i!=b;
+        b!=i;
+        b!=b;
+
+        ia+ia;
+        ia+ba;
+        ba+ia;
+        ba+ba;
+        
+        ia and ia;
+        ia and ba;
+        ba and ia;
+        ba and ba;
+        
+        ia=ia;
+        ia=ba;
+        ba=ia;
+        ba=ba;
+
+        ia==ia;
+        ia==ba;
+        ba==ia;
+        ba==ba;
+
+        b+i+i;
+        i+b+i;
+        i+i+b;
+
+        i or b or b;
+        b or i or b;
+        b or b or i;
+
+         not b;
+         not i;
+         not ba;
+         not ia;
+
+        -b;
+        -i;
+        -ba;
+        -ia;
+
+        (i>i) or (i>i);
+        (b>i) or (i>i);
+        (i>b) or (i>i);
+        (i>i) or (b>i);
+        (b>i) or (i>b);
+        (b or b) and (b or b);
+
+        if 1 then i=i;
+        else b=b;
+        
+        if ba then i=i;
+        else b=b;
+
+        if ia then i=i;
+        else b=b;
+        
+        if b then i=i;
+        else b=b;
+
+        if i then i=i;
+        else b=b;
+
+        while 1 do i=i;
+        while ba do i=i;
+        while ia do i=i;
+        while b do i=i;
+        while i do i=i;
+
+        main = 4;
+        i();
+
+        i[2] = 0;
+        3 + i[2];
+
+        ia[2] = 'a';
+        ia[2] = true;
+        ia[ia[1]];
+        ia[main];
+        ia[ia];
+        *ia;
+        *i;
+}

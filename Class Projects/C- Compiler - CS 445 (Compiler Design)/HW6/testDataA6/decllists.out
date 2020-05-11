@@ -1,0 +1,58 @@
+WARNING(3): Expecting to return type int but function 'fred' has no return statement.
+WARNING(3): The parameter 'a' seems not to be used.
+WARNING(5): The variable 'aa' seems not to be used.
+WARNING(3): The parameter 'b' seems not to be used.
+WARNING(5): The variable 'bb' seems not to be used.
+WARNING(3): The parameter 'c' seems not to be used.
+WARNING(5): The variable 'cc' seems not to be used.
+WARNING(3): The parameter 'd' seems not to be used.
+WARNING(5): The variable 'dd' seems not to be used.
+WARNING(3): The parameter 'e' seems not to be used.
+WARNING(5): The variable 'ee' seems not to be used.
+WARNING(3): The parameter 'f' seems not to be used.
+WARNING(5): The variable 'ff' seems not to be used.
+WARNING(3): The parameter 'g' seems not to be used.
+WARNING(5): The variable 'gg' seems not to be used.
+WARNING(3): The parameter 'h' seems not to be used.
+WARNING(5): The variable 'hh' seems not to be used.
+WARNING(3): The parameter 'i' seems not to be used.
+WARNING(5): The variable 'ii' seems not to be used.
+WARNING(3): The parameter 'j' seems not to be used.
+WARNING(3): The parameter 'k' seems not to be used.
+WARNING(3): The parameter 'l' seems not to be used.
+WARNING(3): The parameter 'm' seems not to be used.
+WARNING(3): The function 'fred' seems not to be used.
+WARNING(1): The variable 'x' seems not to be used.
+WARNING(1): The variable 'y' seems not to be used.
+WARNING(1): The variable 'z' seems not to be used.
+ERROR(LINKER): Procedure main is not declared.
+Var x of type int [mem: Global  size: 1  loc: 0]
+Sibling: 0  Var y of type int [mem: Global  size: 1  loc: -1]
+Sibling: 1  Var z of type int [mem: Global  size: 1  loc: -2]
+Sibling: 2  Func fred returns type int [mem: Global  loc: 0]
+!   Child: 0  Param a of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param b of type int [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param c of type int [mem: Parameter  size: 1  loc: -4]
+!   Sibling: 2  Param d of type int [mem: Parameter  size: 1  loc: -5]
+!   Sibling: 3  Param e of type int [mem: Parameter  size: 1  loc: -6]
+!   Sibling: 4  Param f of type char [mem: Parameter  size: 1  loc: -7]
+!   Sibling: 5  Param g of type char [mem: Parameter  size: 1  loc: -8]
+!   Sibling: 6  Param h of type char [mem: Parameter  size: 1  loc: -9]
+!   Sibling: 7  Param i of type char [mem: Parameter  size: 1  loc: -10]
+!   Sibling: 8  Param j of type bool [mem: Parameter  size: 1  loc: -11]
+!   Sibling: 9  Param k of type bool [mem: Parameter  size: 1  loc: -12]
+!   Sibling: 10  Param l is array of type int [mem: Parameter  size: 1  loc: -13]
+!   Sibling: 11  Param m is array of type int [mem: Parameter  size: 1  loc: -14]
+!   Child: 1  Compound
+!   !   Child: 0  Var ii of type int [mem: Local  size: 1  loc: -15]
+!   !   Sibling: 0  Var hh of type int [mem: Local  size: 1  loc: -16]
+!   !   Sibling: 1  Var gg of type int [mem: Local  size: 1  loc: -17]
+!   !   Sibling: 2  Var ff of type int [mem: Local  size: 1  loc: -18]
+!   !   Sibling: 3  Var ee of type int [mem: Local  size: 1  loc: -19]
+!   !   Sibling: 4  Var dd of type int [mem: Local  size: 1  loc: -20]
+!   !   Sibling: 5  Var cc of type int [mem: Local  size: 1  loc: -21]
+!   !   Sibling: 6  Var bb of type int [mem: Local  size: 1  loc: -22]
+!   !   Sibling: 7  Var aa of type int [mem: Local  size: 1  loc: -23]
+Offset for end of global space: -3
+Number of warnings: 27
+Number of errors: 1

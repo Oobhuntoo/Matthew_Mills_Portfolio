@@ -1,0 +1,11 @@
+main()
+{
+    int i;
+
+    i=0;
+    loop forever {
+       i=i+1;
+       output(i); outnl();
+       if i==10 then break;
+    }
+}    

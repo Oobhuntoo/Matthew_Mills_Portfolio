@@ -1,0 +1,71 @@
+WARNING(4): The parameter 'x' seems not to be used.
+WARNING(4): The parameter 'y' seems not to be used.
+WARNING(4): The parameter 'z' seems not to be used.
+ERROR(22): '=' requires operands of the same type but lhs is type char and rhs is type int.
+ERROR(27): '=' requires operands of the same type but lhs is type char and rhs is type int.
+WARNING(25): The variable 'tmp' seems not to be used.
+WARNING(9): The variable 'd' seems not to be used.
+WARNING(8): The parameter 'x' seems not to be used.
+WARNING(8): The parameter 'y' seems not to be used.
+WARNING(8): The parameter 'z' seems not to be used.
+WARNING(6): The variable 'bat' seems not to be used.
+WARNING(33): The variable 'cow' seems not to be used.
+WARNING(2): The variable 'ee' seems not to be used.
+WARNING(1): The variable 'h' seems not to be used.
+Var g of type bool [mem: Global  size: 1  loc: 0]
+Sibling: 0  Var h is array of type bool [mem: Global  size: 21  loc: -2]
+Sibling: 1  Var ee of type int [mem: Global  size: 1  loc: -22]
+Sibling: 2  Func ant returns type int [mem: Global  loc: 0]
+!   Child: 0  Param x of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param y of type int [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param z of type int [mem: Parameter  size: 1  loc: -4]
+!   Child: 1  Return
+!   !   Child: 0  Const: 666
+Sibling: 3  Var bat of type char [mem: Global  size: 1  loc: -23]
+Sibling: 4  Func main returns type char [mem: Global  loc: 0]
+!   Child: 0  Param x of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param y of type int [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param z is array of type int [mem: Parameter  size: 1  loc: -4]
+!   Child: 1  Compound
+!   !   Child: 0  Var c of type char [mem: Local  size: 1  loc: -5]
+!   !   Sibling: 0  Var d of type char [mem: Local  size: 1  loc: -6]
+!   !   Sibling: 1  Var ee of type char [mem: Local  size: 1  loc: -7]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: c [mem: Local  size: 1  loc: -5]
+!   !   !   Child: 1  Const: 'x'
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: g [mem: Global  size: 1  loc: 0]
+!   !   !   Child: 1  Const: true
+!   !   Sibling: 1  Call: ant
+!   !   !   Child: 0  Const: 111
+!   !   !   Sibling: 0  Const: 222
+!   !   !   Sibling: 1  Const: 333
+!   !   Sibling: 2  Compound
+!   !   !   Child: 0  Var ee of type char [mem: LocalStatic  size: 1  loc: -24]
+!   !   !   Sibling: 0  Var b is array of type bool [mem: Local  size: 11  loc: -9]
+!   !   !   Child: 1  Call: ant
+!   !   !   !   Child: 0  Const: 444
+!   !   !   !   Sibling: 0  Const: 555
+!   !   !   !   Sibling: 1  Const: 666
+!   !   !   Sibling: 0  Assign: =
+!   !   !   !   Child: 0  Id: ee [mem: LocalStatic  size: 1  loc: -24]
+!   !   !   !   Child: 1  Const: 'E'
+!   !   !   Sibling: 1  Assign: =
+!   !   !   !   Child: 0  Op: [
+!   !   !   !   !   Child: 0  Id: b [mem: Local  size: 11  loc: -9]
+!   !   !   !   !   Child: 1  Const: 7
+!   !   !   !   Child: 1  Const: false
+!   !   Sibling: 3  Assign: =
+!   !   !   Child: 0  Id: ee [mem: Local  size: 1  loc: -7]
+!   !   !   Child: 1  Const: 73
+!   !   Sibling: 4  Compound
+!   !   !   Child: 0  Var tmp is array of type int [mem: Local  size: 101  loc: -9]
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: ee [mem: Local  size: 1  loc: -7]
+!   !   !   !   Child: 1  Const: 107
+!   !   Sibling: 5  Return
+!   !   !   Child: 0  Const: 'B'
+Sibling: 5  Var cow of type bool [mem: Global  size: 1  loc: -25]
+Offset for end of global space: -26
+Number of warnings: 12
+Number of errors: 2

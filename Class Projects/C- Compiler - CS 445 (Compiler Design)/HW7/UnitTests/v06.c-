@@ -1,0 +1,7 @@
+main()
+{
+    loop i=20..50 do {
+       output(i); outnl();
+       if i==31 then break;
+    }
+}    

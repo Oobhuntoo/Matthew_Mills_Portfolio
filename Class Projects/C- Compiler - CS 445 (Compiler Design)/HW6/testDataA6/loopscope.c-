@@ -1,0 +1,14 @@
+main()
+{
+    int x;
+
+    loop y=1..10 do {
+        int y;
+        int x;
+
+        x = y;
+    }
+    x = y;
+    loop y=1..10 do x = y;
+}
+

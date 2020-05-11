@@ -1,0 +1,96 @@
+ERROR(7): Symbol 'v' is already declared at line 6.
+ERROR(8): Symbol 'x' is already declared at line 6.
+WARNING(12): Variable y may be uninitialized when used here.
+ERROR(13): Symbol 'w' is not declared.
+ERROR(13): Symbol 'u' is not declared.
+WARNING(6): The variable v seems not to be used.
+WARNING(6): The variable z seems not to be used.
+ERROR(16): Symbol 'bob' is already declared at line 1.
+ERROR(16): Symbol 'bob' is already declared at line 16.
+ERROR(17): Symbol 'bob' is already declared at line 16.
+ERROR(20): Symbol 'bob' is already declared at line 19.
+WARNING(19): The variable bob seems not to be used.
+ERROR(31): Symbol 'bob' is already declared at line 1.
+ERROR(33): Symbol 'bob' is already declared at line 1.
+ERROR(33): Symbol 'a' is already declared at line 33.
+WARNING(39): Variable dave may be uninitialized when used here.
+WARNING(33): The variable a seems not to be used.
+Var alice of type bool [line: 1]
+Sibling: 0  Var bob of type bool [line: 1]
+Sibling: 1  Var carol of type bool [line: 1]
+!   Child: 0  Const: true [type bool] [line: 1]
+Sibling: 2  Var x of type int [line: 2]
+Sibling: 3  Var q of type int [line: 2]
+Sibling: 4  Func main returns type void [line: 4]
+!   Child: 1  Compound [line: 5]
+!   !   Child: 0  Var v of type int [line: 6]
+!   !   Sibling: 0  Var x of type int [line: 6]
+!   !   Sibling: 1  Var y of type int [line: 6]
+!   !   Sibling: 2  Var z of type int [line: 6]
+!   !   Sibling: 3  Var v of type int [line: 7]
+!   !   Sibling: 4  Var x of type char [line: 8]
+!   !   Child: 1  Assign: = [type int] [line: 10]
+!   !   !   Child: 0  Id: q [type int] [line: 10]
+!   !   !   Child: 1  Const: 7 [type int] [line: 10]
+!   !   Sibling: 0  Assign: = [type int] [line: 11]
+!   !   !   Child: 0  Id: x [type int] [line: 11]
+!   !   !   Child: 1  Const: 3 [type int] [line: 11]
+!   !   Sibling: 1  Assign: = [type int] [line: 12]
+!   !   !   Child: 0  Id: x [type int] [line: 12]
+!   !   !   Child: 1  Id: y [type int] [line: 12]
+!   !   Sibling: 2  Assign: = [undefined type] [line: 13]
+!   !   !   Child: 0  Id: w [undefined type] [line: 13]
+!   !   !   Child: 1  Id: u [undefined type] [line: 13]
+Sibling: 5  Func bob returns type void [line: 16]
+!   Child: 0  Param bob of type int [line: 16]
+!   Sibling: 0  Param bob of type int [line: 16]
+!   Child: 1  Compound [line: 16]
+!   !   Child: 0  Var bob of type int [line: 17]
+!   !   !   Child: 0  Id: bob [type int] [line: 17]
+!   !   Child: 1  Loop [line: 19]
+!   !   !   Child: 0  Var bob of type int [line: 19]
+!   !   !   Child: 1  Range [line: 19]
+!   !   !   !   Child: 0  Const: 1 [type int] [line: 19]
+!   !   !   !   Child: 1  Const: 10 [type int] [line: 19]
+!   !   !   !   Child: 2  Const: 1 [type int] [line: 19]
+!   !   !   Child: 2  Compound [line: 19]
+!   !   !   !   Child: 0  Var bob of type int [line: 20]
+!   !   Sibling: 0  Assign: = [type int] [line: 23]
+!   !   !   Child: 0  Id: bob [type int] [line: 23]
+!   !   !   Child: 1  Const: 1 [type int] [line: 23]
+!   !   Sibling: 1  Compound [line: 24]
+!   !   !   Child: 0  Var bob of type int [line: 25]
+!   !   !   Child: 1  Assign: = [type int] [line: 26]
+!   !   !   !   Child: 0  Id: bob [type int] [line: 26]
+!   !   !   !   Child: 1  Const: 2 [type int] [line: 26]
+!   !   Sibling: 2  Assign: = [type int] [line: 28]
+!   !   !   Child: 0  Id: bob [type int] [line: 28]
+!   !   !   Child: 1  Id: bob [type int] [line: 28]
+Sibling: 6  Func bob returns type void [line: 31]
+Sibling: 7  Func bob returns type void [line: 33]
+!   Child: 0  Param a is array of type int [line: 33]
+!   Sibling: 0  Param a is array of type int [line: 33]
+!   Child: 1  Compound [line: 33]
+!   !   Child: 0  Var dave of type bool [line: 34]
+!   !   Sibling: 0  Var ella of type bool [line: 34]
+!   !   !   Child: 0  Op: or [type bool] [line: 34]
+!   !   !   !   Child: 0  Const: false [type bool] [line: 34]
+!   !   !   !   Child: 1  Const: true [type bool] [line: 34]
+!   !   Sibling: 1  Var z of type bool [line: 34]
+!   !   Child: 1  Assign: = [type bool] [line: 36]
+!   !   !   Child: 0  Id: z [type bool] [line: 36]
+!   !   !   Child: 1  Id: alice [type bool] [line: 36]
+!   !   Sibling: 0  Assign: = [type bool] [line: 37]
+!   !   !   Child: 0  Id: z [type bool] [line: 37]
+!   !   !   Child: 1  Id: bob [type bool] [line: 37]
+!   !   Sibling: 1  Assign: = [type bool] [line: 38]
+!   !   !   Child: 0  Id: z [type bool] [line: 38]
+!   !   !   Child: 1  Id: carol [type bool] [line: 38]
+!   !   Sibling: 2  Assign: = [type bool] [line: 39]
+!   !   !   Child: 0  Id: z [type bool] [line: 39]
+!   !   !   Child: 1  Id: dave [type bool] [line: 39]
+!   !   Sibling: 3  Assign: = [type bool] [line: 40]
+!   !   !   Child: 0  Id: z [type bool] [line: 40]
+!   !   !   Child: 1  Id: ella [type bool] [line: 40]
+Number of warnings: 6
+Number of errors: 11

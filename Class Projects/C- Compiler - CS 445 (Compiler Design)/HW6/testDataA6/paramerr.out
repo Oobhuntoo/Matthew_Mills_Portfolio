@@ -1,0 +1,170 @@
+WARNING(15): Expecting to return type int but function 'ant_no' has no return statement.
+WARNING(16): Expecting to return type bool but function 'bear_no' has no return statement.
+WARNING(17): Expecting to return type char but function 'cat_no' has no return statement.
+WARNING(19): The parameter 'aardvark' seems not to be used.
+WARNING(19): The parameter 'baboon' seems not to be used.
+WARNING(19): The parameter 'cow' seems not to be used.
+WARNING(21): The parameter 'asp' seems not to be used.
+WARNING(21): The parameter 'bull' seems not to be used.
+WARNING(21): The parameter 'crow' seems not to be used.
+WARNING(28): Variable 'a' may be uninitialized when used here.
+WARNING(28): Variable 'b' may be uninitialized when used here.
+WARNING(28): Variable 'c' may be uninitialized when used here.
+ERROR(29): Expecting array in parameter 1 of call to 'elk' declared on line 21.
+ERROR(29): Expecting array in parameter 2 of call to 'elk' declared on line 21.
+ERROR(29): Expecting array in parameter 3 of call to 'elk' declared on line 21.
+ERROR(30): Symbol 'fox' is not declared.
+WARNING(32): Variable 'aa' may be uninitialized when used here.
+ERROR(32): Not expecting array in parameter 1 of call to 'dog' declared on line 19.
+WARNING(32): Variable 'bb' may be uninitialized when used here.
+ERROR(32): Not expecting array in parameter 2 of call to 'dog' declared on line 19.
+WARNING(32): Variable 'cc' may be uninitialized when used here.
+ERROR(32): Not expecting array in parameter 3 of call to 'dog' declared on line 19.
+ERROR(34): Symbol 'fox' is not declared.
+ERROR(38): Expecting array in parameter 1 of call to 'elk' declared on line 21.
+ERROR(38): Expecting array in parameter 2 of call to 'elk' declared on line 21.
+ERROR(38): Expecting array in parameter 3 of call to 'elk' declared on line 21.
+ERROR(39): Symbol 'fox' is not declared.
+ERROR(41): '+' requires operands of type int but rhs is of type bool.
+ERROR(41): '-' requires operands of type int but lhs is of type bool.
+ERROR(41): '-' requires operands of type int but rhs is of type char.
+ERROR(41): Expecting type bool in parameter 2 of call to 'dog' declared on line 19 but got type int.
+ERROR(41): '*' requires operands of type int but rhs is of type char.
+ERROR(41): Expecting type char in parameter 3 of call to 'dog' declared on line 19 but got type int.
+ERROR(42): '+' requires operands of type int but rhs is of type bool.
+ERROR(42): Expecting array in parameter 1 of call to 'elk' declared on line 21.
+ERROR(42): '-' requires operands of type int but lhs is of type bool.
+ERROR(42): '-' requires operands of type int but rhs is of type char.
+ERROR(42): Expecting type bool in parameter 2 of call to 'elk' declared on line 21 but got type int.
+ERROR(42): Expecting array in parameter 2 of call to 'elk' declared on line 21.
+ERROR(42): '*' requires operands of type int but rhs is of type char.
+ERROR(42): Expecting type char in parameter 3 of call to 'elk' declared on line 21 but got type int.
+ERROR(42): Expecting array in parameter 3 of call to 'elk' declared on line 21.
+ERROR(44): Symbol 'emu' is not declared.
+ERROR(44): Symbol 'x' is not declared.
+ERROR(44): '+' requires operands of type int but rhs is of type bool.
+ERROR(44): Symbol 'parrot' is not declared.
+ERROR(44): Symbol 'x' is not declared.
+ERROR(45): Symbol 'emu' is not declared.
+ERROR(45): Symbol 'emu' is not declared.
+ERROR(45): Symbol 'x' is not declared.
+ERROR(45): '+' requires operands of type int but rhs is of type bool.
+ERROR(45): Symbol 'parrot' is not declared.
+ERROR(45): Symbol 'x' is not declared.
+ERROR(45): Symbol 'x' is not declared.
+ERROR(45): '*' requires operands of type int but rhs is of type bool.
+Func ant returns type int [mem: Global  loc: 0]
+!   Child: 1  Return
+!   !   Child: 0  Const: 666
+Sibling: 0  Func bear returns type bool [mem: Global  loc: 0]
+!   Child: 1  Return
+!   !   Child: 0  Const: true
+Sibling: 1  Func cat returns type char [mem: Global  loc: 0]
+!   Child: 1  Return
+!   !   Child: 0  Const: 'c'
+Sibling: 2  Func ant_no returns type int [mem: Global  loc: 0]
+Sibling: 3  Func bear_no returns type bool [mem: Global  loc: 0]
+Sibling: 4  Func cat_no returns type char [mem: Global  loc: 0]
+Sibling: 5  Func dog returns type void [mem: Global  loc: 0]
+!   Child: 0  Param aardvark of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param baboon of type bool [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param cow of type char [mem: Parameter  size: 1  loc: -4]
+Sibling: 6  Func elk returns type void [mem: Global  loc: 0]
+!   Child: 0  Param asp is array of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param bull is array of type bool [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param crow is array of type char [mem: Parameter  size: 1  loc: -4]
+Sibling: 7  Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var a of type int [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 0  Var b of type bool [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 1  Var c of type char [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 2  Var aa is array of type int [mem: Local  size: 4  loc: -6]
+!   !   Sibling: 3  Var bb is array of type bool [mem: Local  size: 6  loc: -10]
+!   !   Sibling: 4  Var cc is array of type char [mem: Local  size: 8  loc: -16]
+!   !   Child: 1  Call: dog
+!   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -2]
+!   !   !   Sibling: 0  Id: b [mem: Local  size: 1  loc: -3]
+!   !   !   Sibling: 1  Id: c [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 0  Call: elk
+!   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -2]
+!   !   !   Sibling: 0  Id: b [mem: Local  size: 1  loc: -3]
+!   !   !   Sibling: 1  Id: c [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 1  Call: fox
+!   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -2]
+!   !   !   Sibling: 0  Id: b [mem: Local  size: 1  loc: -3]
+!   !   !   Sibling: 1  Id: c [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 2  Call: dog
+!   !   !   Child: 0  Id: aa [mem: Local  size: 4  loc: -6]
+!   !   !   Sibling: 0  Id: bb [mem: Local  size: 6  loc: -10]
+!   !   !   Sibling: 1  Id: cc [mem: Local  size: 8  loc: -16]
+!   !   Sibling: 3  Call: elk
+!   !   !   Child: 0  Id: aa [mem: Local  size: 4  loc: -6]
+!   !   !   Sibling: 0  Id: bb [mem: Local  size: 6  loc: -10]
+!   !   !   Sibling: 1  Id: cc [mem: Local  size: 8  loc: -16]
+!   !   Sibling: 4  Call: fox
+!   !   !   Child: 0  Id: aa [mem: Local  size: 4  loc: -6]
+!   !   !   Sibling: 0  Id: bb [mem: Local  size: 6  loc: -10]
+!   !   !   Sibling: 1  Id: cc [mem: Local  size: 8  loc: -16]
+!   !   Sibling: 5  Call: dog
+!   !   !   Child: 0  Call: ant
+!   !   !   Sibling: 0  Call: bear
+!   !   !   Sibling: 1  Call: cat
+!   !   Sibling: 6  Call: dog
+!   !   !   Child: 0  Call: ant_no
+!   !   !   Sibling: 0  Call: bear_no
+!   !   !   Sibling: 1  Call: cat_no
+!   !   Sibling: 7  Call: elk
+!   !   !   Child: 0  Call: ant
+!   !   !   Sibling: 0  Call: bear
+!   !   !   Sibling: 1  Call: cat
+!   !   Sibling: 8  Call: fox
+!   !   !   Child: 0  Call: ant
+!   !   !   Sibling: 0  Call: bear
+!   !   !   Sibling: 1  Call: cat
+!   !   Sibling: 9  Call: dog
+!   !   !   Child: 0  Op: +
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -3]
+!   !   !   Sibling: 0  Op: -
+!   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Id: c [mem: Local  size: 1  loc: -4]
+!   !   !   Sibling: 1  Op: *
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: c [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 10  Call: elk
+!   !   !   Child: 0  Op: +
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -3]
+!   !   !   Sibling: 0  Op: -
+!   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Id: c [mem: Local  size: 1  loc: -4]
+!   !   !   Sibling: 1  Op: *
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: c [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 11  Call: emu
+!   !   !   Child: 0  Op: +
+!   !   !   !   Child: 0  Id: x [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -3]
+!   !   !   Sibling: 0  Id: parrot [mem: None  size: 1  loc: 0]
+!   !   !   Sibling: 1  Op: and
+!   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Id: x [mem: None  size: 1  loc: 0]
+!   !   Sibling: 12  Call: emu
+!   !   !   Child: 0  Const: false
+!   !   !   Sibling: 0  Op: and
+!   !   !   !   Child: 0  Const: true
+!   !   !   !   Child: 1  Call: emu
+!   !   !   !   !   Child: 0  Op: +
+!   !   !   !   !   !   Child: 0  Id: x [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   Sibling: 0  Id: parrot [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Sibling: 1  Op: and
+!   !   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   !   Child: 1  Id: x [mem: None  size: 1  loc: 0]
+!   !   !   Sibling: 1  Const: true
+!   !   !   Sibling: 2  Op: *
+!   !   !   !   Child: 0  Id: x [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -3]
+Offset for end of global space: 0
+Number of warnings: 15
+Number of errors: 40

@@ -1,0 +1,21 @@
+ERROR(6): Syntax error, unexpected '[', expecting ';'.
+Func main returns type void [mem: Local  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var x is array of type int [mem: Local  size: 4  loc: 0]
+!   !   Sibling: 0  Var y of type int [mem: Local  size: 1  loc: 0]
+!   !   Child: 1  Op: [
+!   !   !   Child: 0  Id: x [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Op: +
+!   !   !   !   Child: 0  Id: x [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Const: 3
+!   !   Sibling: 0  Op: [
+!   !   !   Child: 0  Id: x [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: x [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Const: 3
+!   !   Sibling: 1  Assign: =
+!   !   !   Child: 0  Id: x [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Id: y [mem: None  size: 1  loc: 0]
+Offset for end of global space: 0
+Number of warnings: 0
+Number of errors: 1

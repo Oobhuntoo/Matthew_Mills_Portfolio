@@ -1,0 +1,4 @@
+main()
+{
+   loop i=1..10 do output(i);
+}

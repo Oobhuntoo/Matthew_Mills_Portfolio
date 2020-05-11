@@ -1,0 +1,154 @@
+ERROR(17): Symbol 'fred' is not declared.
+WARNING(4): The function 'ant' seems not to be used.
+WARNING(36): The function 'max' seems not to be used.
+WARNING(2): The variable 'y' seems not to be used.
+WARNING(1): The variable 'zev' seems not to be used.
+ERROR(LINKER): Procedure main is not declared.
+Var zev is array of type char [mem: Global  size: 11  loc: -1]
+!   Child: 0  Const: "corgis"
+Sibling: 0  Var x of type int [mem: Global  size: 1  loc: -11]
+!   Child: 0  Const: 42
+Sibling: 1  Var y of type int [mem: Global  size: 1  loc: -12]
+!   Child: 0  Const: 666
+Sibling: 2  Func ant returns type int [mem: Global  loc: 0]
+!   Child: 0  Param bat of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param cat is array of type int [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param dog of type bool [mem: Parameter  size: 1  loc: -4]
+!   Sibling: 2  Param elk of type bool [mem: Parameter  size: 1  loc: -5]
+!   Sibling: 3  Param fox of type int [mem: Parameter  size: 1  loc: -6]
+!   Sibling: 4  Param gnu of type char [mem: Parameter  size: 1  loc: -7]
+!   Child: 1  Compound
+!   !   Child: 0  Var goat of type int [mem: Local  size: 1  loc: -8]
+!   !   Sibling: 0  Var hog is array of type int [mem: Local  size: 101  loc: -10]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: gnu [mem: Parameter  size: 1  loc: -7]
+!   !   !   Child: 1  Const: 'W'
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: goat [mem: Local  size: 1  loc: -8]
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Op: [
+!   !   !   !   !   Child: 0  Id: hog [mem: Local  size: 101  loc: -10]
+!   !   !   !   !   Child: 1  Const: 2
+!   !   !   !   Child: 1  Op: *
+!   !   !   !   !   Child: 0  Const: 3
+!   !   !   !   !   Child: 1  Op: *
+!   !   !   !   !   !   Child: 0  Id: cat [mem: Parameter  size: 1  loc: -3]
+!   !   Sibling: 1  If
+!   !   !   Child: 0  Op: or
+!   !   !   !   Child: 0  Op: and
+!   !   !   !   !   Child: 0  Id: dog [mem: Parameter  size: 1  loc: -4]
+!   !   !   !   !   Child: 1  Id: elk [mem: Parameter  size: 1  loc: -5]
+!   !   !   !   Child: 1  Op: >
+!   !   !   !   !   Child: 0  Id: bat [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   Child: 1  Op: [
+!   !   !   !   !   !   Child: 0  Id: cat [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   !   !   Child: 1  Const: 3
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: dog [mem: Parameter  size: 1  loc: -4]
+!   !   !   !   Child: 1  Op: not
+!   !   !   !   !   Child: 0  Id: dog [mem: Parameter  size: 1  loc: -4]
+!   !   !   Child: 2  Assign: ++
+!   !   !   !   Child: 0  Id: fox [mem: Parameter  size: 1  loc: -6]
+!   !   Sibling: 2  If
+!   !   !   Child: 0  Op: <=
+!   !   !   !   Child: 0  Id: bat [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: fox [mem: Parameter  size: 1  loc: -6]
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 1  While
+!   !   !   !   !   Child: 0  Id: dog [mem: Parameter  size: 1  loc: -4]
+!   !   !   !   !   Child: 1  Compound
+!   !   !   !   !   !   Child: 0  Var hog of type int [mem: LocalStatic  size: 1  loc: -13]
+!   !   !   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   !   !   Child: 0  Id: hog [mem: LocalStatic  size: 1  loc: -13]
+!   !   !   !   !   !   !   Child: 1  Id: fox [mem: Parameter  size: 1  loc: -6]
+!   !   !   !   !   !   Sibling: 0  Assign: =
+!   !   !   !   !   !   !   Child: 0  Id: dog [mem: Parameter  size: 1  loc: -4]
+!   !   !   !   !   !   !   Child: 1  Op: >
+!   !   !   !   !   !   !   !   Child: 0  Call: fred
+!   !   !   !   !   !   !   !   !   Child: 0  Assign: ++
+!   !   !   !   !   !   !   !   !   !   Child: 0  Id: fox [mem: Parameter  size: 1  loc: -6]
+!   !   !   !   !   !   !   !   !   Sibling: 0  Id: cat [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   !   !   !   !   Child: 1  Const: 666
+!   !   !   !   !   !   Sibling: 1  If
+!   !   !   !   !   !   !   Child: 0  Op: >
+!   !   !   !   !   !   !   !   Child: 0  Id: hog [mem: LocalStatic  size: 1  loc: -13]
+!   !   !   !   !   !   !   !   Child: 1  Id: bat [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   !   !   Child: 1  Break
+!   !   !   !   !   !   !   Child: 2  If
+!   !   !   !   !   !   !   !   Child: 0  Op: !=
+!   !   !   !   !   !   !   !   !   Child: 0  Id: fox [mem: Parameter  size: 1  loc: -6]
+!   !   !   !   !   !   !   !   !   Child: 1  Const: 0
+!   !   !   !   !   !   !   !   Child: 1  Assign: +=
+!   !   !   !   !   !   !   !   !   Child: 0  Id: fox [mem: Parameter  size: 1  loc: -6]
+!   !   !   !   !   !   !   !   !   Child: 1  Const: 7
+!   !   Sibling: 3  Loop
+!   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -110]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 2  Const: 3
+!   !   !   Child: 2  Compound
+!   !   !   !   Child: 1  If
+!   !   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   !   Child: 0  Id: x [mem: Global  size: 1  loc: -11]
+!   !   !   !   !   !   Child: 1  Const: 1
+!   !   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   !   Child: 0  Id: cat [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   !   !   !   Child: 1  Id: i [mem: Local  size: 1  loc: -110]
+!   !   !   !   !   !   Child: 1  Id: bat [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   Child: 2  Elsif
+!   !   !   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   !   !   Child: 0  Id: x [mem: Global  size: 1  loc: -11]
+!   !   !   !   !   !   !   Child: 1  Const: 2
+!   !   !   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   !   !   Child: 0  Id: cat [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   !   !   !   !   Child: 1  Id: i [mem: Local  size: 1  loc: -110]
+!   !   !   !   !   !   !   Child: 1  Op: %
+!   !   !   !   !   !   !   !   Child: 0  Id: bat [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   !   !   !   Child: 1  Const: 17
+!   !   !   !   !   !   Child: 2  Elsif
+!   !   !   !   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   !   !   !   Child: 0  Id: x [mem: Global  size: 1  loc: -11]
+!   !   !   !   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   !   !   !   Child: 0  Id: cat [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   !   !   !   !   !   Child: 1  Id: i [mem: Local  size: 1  loc: -110]
+!   !   !   !   !   !   !   !   Child: 1  Const: 78
+!   !   !   !   !   !   !   Child: 2  Assign: ++
+!   !   !   !   !   !   !   !   Child: 0  Id: x [mem: Global  size: 1  loc: -11]
+!   !   Sibling: 4  LoopForever
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Op: >
+!   !   !   !   !   Child: 0  Id: x [mem: Global  size: 1  loc: -11]
+!   !   !   !   !   Child: 1  Const: 333
+!   !   !   !   Child: 1  Break
+!   !   !   !   Child: 2  Assign: ++
+!   !   !   !   !   Child: 0  Id: x [mem: Global  size: 1  loc: -11]
+!   !   Sibling: 5  Return
+!   !   !   Child: 0  Op: /
+!   !   !   !   Child: 0  Op: +
+!   !   !   !   !   Child: 0  Id: fox [mem: Parameter  size: 1  loc: -6]
+!   !   !   !   !   Child: 1  Op: *
+!   !   !   !   !   !   Child: 0  Id: bat [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   !   Child: 1  Op: [
+!   !   !   !   !   !   !   Child: 0  Id: cat [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   !   !   !   Child: 1  Id: bat [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Op: -
+!   !   !   !   !   Child: 0  Id: fox [mem: Parameter  size: 1  loc: -6]
+Sibling: 3  Func max returns type int [mem: Global  loc: 0]
+!   Child: 0  Param a of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param b of type int [mem: Parameter  size: 1  loc: -3]
+!   Child: 1  If
+!   !   Child: 0  Op: >
+!   !   !   Child: 0  Id: a [mem: Parameter  size: 1  loc: -2]
+!   !   !   Child: 1  Id: b [mem: Parameter  size: 1  loc: -3]
+!   !   Child: 1  Return
+!   !   !   Child: 0  Id: a [mem: Parameter  size: 1  loc: -2]
+!   !   Child: 2  Return
+!   !   !   Child: 0  Id: b [mem: Parameter  size: 1  loc: -3]
+Offset for end of global space: -14
+Number of warnings: 4
+Number of errors: 2

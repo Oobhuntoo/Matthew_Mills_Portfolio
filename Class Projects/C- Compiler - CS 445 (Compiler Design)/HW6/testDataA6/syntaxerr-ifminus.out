@@ -1,0 +1,250 @@
+ERROR(4): Syntax error, unexpected numeric constant "111", expecting "or" or "then".
+ERROR(4): Syntax error, unexpected "else".
+ERROR(6): Syntax error, unexpected numeric constant "111", expecting "or" or "then".
+ERROR(6): Syntax error, unexpected "else".
+ERROR(8): Syntax error, unexpected numeric constant "111", expecting "or" or "then".
+ERROR(10): Syntax error, unexpected "else", expecting "or" or "then".
+ERROR(12): Syntax error, unexpected "else", expecting "or" or "then".
+ERROR(14): Syntax error, unexpected ';', expecting "or" or "then".
+ERROR(16): Syntax error, unexpected numeric constant "111", expecting ')'.
+ERROR(16): Syntax error, unexpected "else".
+ERROR(18): Syntax error, unexpected numeric constant "111", expecting ')'.
+ERROR(18): Syntax error, unexpected "else".
+ERROR(20): Syntax error, unexpected "else", expecting ')'.
+ERROR(22): Syntax error, unexpected "else", expecting ')'.
+ERROR(24): Syntax error, unexpected numeric constant "222", expecting ')'.
+ERROR(26): Syntax error, unexpected ')'.
+ERROR(26): Syntax error, unexpected numeric constant "111", expecting ')'.
+ERROR(26): Syntax error, unexpected "else".
+ERROR(28): Syntax error, unexpected ')'.
+ERROR(28): Syntax error, unexpected numeric constant "111", expecting ')'.
+ERROR(28): Syntax error, unexpected "else".
+ERROR(30): Syntax error, unexpected ')'.
+ERROR(30): Syntax error, unexpected "else", expecting ')'.
+ERROR(32): Syntax error, unexpected ')'.
+ERROR(32): Syntax error, unexpected "else", expecting ')'.
+ERROR(34): Syntax error, unexpected ')'.
+ERROR(34): Syntax error, unexpected numeric constant "222", expecting ')'.
+ERROR(36): Syntax error, unexpected ')'.
+ERROR(36): Syntax error, unexpected ';', expecting ')'.
+ERROR(38): Syntax error, unexpected ';', expecting ')'.
+ERROR(40): Syntax error, unexpected ';', expecting ')'.
+ERROR(42): Syntax error, unexpected "else".
+ERROR(44): Syntax error, unexpected "else".
+ERROR(46): Syntax error, unexpected ')', expecting "or" or "then".
+ERROR(46): Syntax error, unexpected numeric constant "111", expecting "or" or "then".
+ERROR(46): Syntax error, unexpected "else".
+ERROR(48): Syntax error, unexpected ')', expecting "or" or "then".
+ERROR(48): Syntax error, unexpected numeric constant "111", expecting "or" or "then".
+ERROR(48): Syntax error, unexpected "else".
+ERROR(50): Syntax error, unexpected ')', expecting "or" or "then".
+ERROR(50): Syntax error, unexpected "else", expecting "or" or "then".
+ERROR(52): Syntax error, unexpected ')', expecting "or" or "then".
+ERROR(52): Syntax error, unexpected "else", expecting "or" or "then".
+ERROR(54): Syntax error, unexpected ')', expecting "or" or "then".
+ERROR(54): Syntax error, unexpected numeric constant "222", expecting "or" or "then".
+ERROR(56): Syntax error, unexpected ')', expecting "or" or "then".
+ERROR(56): Syntax error, unexpected ';', expecting "or" or "then".
+ERROR(58): Syntax error, unexpected numeric constant "111", expecting "or" or "then".
+ERROR(58): Syntax error, unexpected "else".
+ERROR(60): Syntax error, unexpected numeric constant "111", expecting "or" or "then".
+ERROR(60): Syntax error, unexpected "else".
+ERROR(62): Syntax error, unexpected "else", expecting "or" or "then".
+ERROR(64): Syntax error, unexpected "else", expecting "or" or "then".
+ERROR(66): Syntax error, unexpected numeric constant "222", expecting "or" or "then".
+ERROR(68): Syntax error, unexpected ')'.
+ERROR(68): Syntax error, unexpected numeric constant "111", expecting "or" or "then".
+ERROR(68): Syntax error, unexpected "else".
+ERROR(70): Syntax error, unexpected ')'.
+ERROR(70): Syntax error, unexpected numeric constant "111", expecting "or" or "then".
+ERROR(70): Syntax error, unexpected "else".
+ERROR(72): Syntax error, unexpected ')'.
+ERROR(72): Syntax error, unexpected "else", expecting "or" or "then".
+ERROR(74): Syntax error, unexpected ')'.
+ERROR(74): Syntax error, unexpected "else", expecting "or" or "then".
+ERROR(76): Syntax error, unexpected ')'.
+ERROR(76): Syntax error, unexpected numeric constant "222", expecting "or" or "then".
+ERROR(78): Syntax error, unexpected ')'.
+ERROR(78): Syntax error, unexpected ';', expecting "or" or "then".
+ERROR(80): Syntax error, unexpected ';', expecting "or" or "then".
+ERROR(80): Syntax error, unexpected "else".
+ERROR(82): Syntax error, unexpected ';', expecting "or" or "then".
+ERROR(82): Syntax error, unexpected "else".
+ERROR(84): Syntax error, unexpected ';'.
+ERROR(86): Syntax error, unexpected numeric constant "111", expecting ';'.
+ERROR(86): Syntax error, unexpected "else".
+ERROR(88): Syntax error, unexpected numeric constant "111", expecting ';'.
+ERROR(88): Syntax error, unexpected "else".
+ERROR(90): Syntax error, unexpected "else", expecting ';'.
+ERROR(92): Syntax error, unexpected "else", expecting ';'.
+ERROR(94): Syntax error, unexpected numeric constant "111", expecting ')'.
+ERROR(94): Syntax error, unexpected "else".
+ERROR(96): Syntax error, unexpected numeric constant "111", expecting ')'.
+ERROR(96): Syntax error, unexpected "else".
+ERROR(98): Syntax error, unexpected "else", expecting ')'.
+ERROR(100): Syntax error, unexpected "else", expecting ')'.
+ERROR(102): Syntax error, unexpected ')'.
+ERROR(102): Syntax error, unexpected numeric constant "111", expecting ')'.
+ERROR(102): Syntax error, unexpected "else".
+ERROR(104): Syntax error, unexpected ')'.
+ERROR(104): Syntax error, unexpected numeric constant "111", expecting ')'.
+ERROR(104): Syntax error, unexpected "else".
+ERROR(106): Syntax error, unexpected ')'.
+ERROR(106): Syntax error, unexpected "else", expecting ')'.
+ERROR(108): Syntax error, unexpected ')'.
+ERROR(108): Syntax error, unexpected "else", expecting ')'.
+ERROR(110): Syntax error, unexpected ';', expecting ')'.
+ERROR(110): Syntax error, unexpected "else".
+ERROR(112): Syntax error, unexpected ';', expecting ')'.
+ERROR(112): Syntax error, unexpected "else".
+ERROR(114): Syntax error, unexpected "else".
+ERROR(116): Syntax error, unexpected "else".
+ERROR(118): Syntax error, unexpected ')', expecting ';'.
+ERROR(118): Syntax error, unexpected numeric constant "111", expecting ';'.
+ERROR(118): Syntax error, unexpected "else".
+ERROR(120): Syntax error, unexpected ')', expecting ';'.
+ERROR(120): Syntax error, unexpected numeric constant "111", expecting ';'.
+ERROR(120): Syntax error, unexpected "else".
+ERROR(122): Syntax error, unexpected ')', expecting ';'.
+ERROR(122): Syntax error, unexpected "else", expecting ';'.
+ERROR(124): Syntax error, unexpected ')', expecting ';'.
+ERROR(124): Syntax error, unexpected "else", expecting ';'.
+ERROR(126): Syntax error, unexpected numeric constant "111", expecting ';'.
+ERROR(126): Syntax error, unexpected "else".
+ERROR(128): Syntax error, unexpected numeric constant "111", expecting ';'.
+ERROR(128): Syntax error, unexpected "else".
+ERROR(130): Syntax error, unexpected "else", expecting ';'.
+ERROR(132): Syntax error, unexpected "else", expecting ';'.
+ERROR(134): Syntax error, unexpected ')'.
+ERROR(134): Syntax error, unexpected numeric constant "111", expecting ';'.
+ERROR(134): Syntax error, unexpected "else".
+ERROR(136): Syntax error, unexpected ')'.
+ERROR(136): Syntax error, unexpected numeric constant "111", expecting ';'.
+ERROR(136): Syntax error, unexpected "else".
+ERROR(138): Syntax error, unexpected ')'.
+ERROR(138): Syntax error, unexpected "else", expecting ';'.
+ERROR(140): Syntax error, unexpected ')'.
+ERROR(140): Syntax error, unexpected "else", expecting ';'.
+Func main returns type void [mem: Local  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 1  Const: 111
+!   !   Sibling: 0  Const: 222
+!   !   Sibling: 1  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 2  Const: 111
+!   !   Sibling: 3  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 4  Const: 111
+!   !   Sibling: 5  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 6  Const: 222
+!   !   Sibling: 7  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 8  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 9  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 10  Const: 222
+!   !   Sibling: 11  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 12  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 13  Const: 222
+!   !   Sibling: 14  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 15  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 16  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 17  Const: 222
+!   !   Sibling: 18  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 19  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 20  Const: 222
+!   !   Sibling: 21  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 22  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 23  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 24  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 25  Const: 222
+!   !   Sibling: 26  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 27  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 28  Const: 222
+!   !   Sibling: 29  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 30  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 31  Const: 111
+!   !   Sibling: 32  Const: 222
+!   !   Sibling: 33  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 34  Const: 111
+!   !   Sibling: 35  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 36  Const: 222
+!   !   Sibling: 37  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 38  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 39  Const: 222
+!   !   Sibling: 40  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 41  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 42  Const: 111
+!   !   Sibling: 43  Const: 222
+!   !   Sibling: 44  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 45  Const: 111
+!   !   Sibling: 46  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 47  Const: 222
+!   !   Sibling: 48  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 49  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 50  Const: 222
+!   !   Sibling: 51  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 52  Const: 111
+!   !   Sibling: 53  Const: 222
+!   !   Sibling: 54  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 55  Const: 111
+!   !   Sibling: 56  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 57  Const: 222
+!   !   Sibling: 58  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 59  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 60  Const: 222
+!   !   Sibling: 61  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 62  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 63  Const: 222
+!   !   Sibling: 64  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 65  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 66  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 67  Const: 111
+!   !   Sibling: 68  Const: 222
+!   !   Sibling: 69  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 70  Const: 111
+!   !   Sibling: 71  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 72  Const: 222
+!   !   Sibling: 73  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 74  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 75  Const: 222
+!   !   Sibling: 76  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 77  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 78  Const: 222
+!   !   Sibling: 79  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 80  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 81  Const: 222
+!   !   Sibling: 82  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 83  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 84  Const: 222
+!   !   Sibling: 85  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 86  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 87  Const: 222
+!   !   Sibling: 88  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 89  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 90  Const: 222
+!   !   Sibling: 91  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 92  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 93  Const: 111
+!   !   Sibling: 94  Const: 222
+!   !   Sibling: 95  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 96  Const: 111
+!   !   Sibling: 97  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 98  Const: 222
+!   !   Sibling: 99  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 100  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 101  Const: 111
+!   !   Sibling: 102  Const: 222
+!   !   Sibling: 103  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 104  Const: 111
+!   !   Sibling: 105  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 106  Const: 222
+!   !   Sibling: 107  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 108  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 109  Const: 111
+!   !   Sibling: 110  Const: 222
+!   !   Sibling: 111  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 112  Const: 111
+!   !   Sibling: 113  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 114  Const: 222
+!   !   Sibling: 115  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 116  Id: zz [mem: None  size: 1  loc: 0]
+Offset for end of global space: 0
+Number of warnings: 0
+Number of errors: 127

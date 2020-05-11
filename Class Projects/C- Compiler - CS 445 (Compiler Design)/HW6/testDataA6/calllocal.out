@@ -1,0 +1,73 @@
+Func scalar returns type void [mem: Global  loc: 0]
+!   Child: 0  Param a of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param b of type bool [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param c of type char [mem: Parameter  size: 1  loc: -4]
+!   Child: 1  Compound
+!   !   Child: 1  Call: output
+!   !   !   Child: 0  Id: a [mem: Parameter  size: 1  loc: -2]
+!   !   Sibling: 0  Call: outputb
+!   !   !   Child: 0  Id: b [mem: Parameter  size: 1  loc: -3]
+!   !   Sibling: 1  Call: outputc
+!   !   !   Child: 0  Id: c [mem: Parameter  size: 1  loc: -4]
+!   !   Sibling: 2  Call: outnl
+Sibling: 0  Func array returns type void [mem: Global  loc: 0]
+!   Child: 0  Param a is array of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param b is array of type bool [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param c is array of type char [mem: Parameter  size: 1  loc: -4]
+!   Child: 1  Compound
+!   !   Child: 1  Call: output
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: a [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 1
+!   !   Sibling: 0  Call: outputb
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: b [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 2
+!   !   Sibling: 1  Call: outputc
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: c [mem: Parameter  size: 1  loc: -4]
+!   !   !   !   Child: 1  Const: 3
+!   !   Sibling: 2  Call: outnl
+Sibling: 1  Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var x of type int [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 0  Var y of type bool [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 1  Var z of type char [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 2  Var XX is array of type int [mem: Local  size: 4  loc: -6]
+!   !   Sibling: 3  Var YY is array of type bool [mem: Local  size: 6  loc: -10]
+!   !   Sibling: 4  Var ZZ is array of type char [mem: Local  size: 8  loc: -16]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Const: 333
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Const: true
+!   !   Sibling: 1  Assign: =
+!   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Const: 'z'
+!   !   Sibling: 2  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: XX [mem: Local  size: 4  loc: -6]
+!   !   !   !   Child: 1  Const: 1
+!   !   !   Child: 1  Const: 444
+!   !   Sibling: 3  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: YY [mem: Local  size: 6  loc: -10]
+!   !   !   !   Child: 1  Const: 2
+!   !   !   Child: 1  Const: false
+!   !   Sibling: 4  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: ZZ [mem: Local  size: 8  loc: -16]
+!   !   !   !   Child: 1  Const: 3
+!   !   !   Child: 1  Const: 'a'
+!   !   Sibling: 5  Call: scalar
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Sibling: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   Sibling: 1  Id: z [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 6  Call: array
+!   !   !   Child: 0  Id: XX [mem: Local  size: 4  loc: -6]
+!   !   !   Sibling: 0  Id: YY [mem: Local  size: 6  loc: -10]
+!   !   !   Sibling: 1  Id: ZZ [mem: Local  size: 8  loc: -16]
+Offset for end of global space: 0
+Number of warnings: 0
+Number of errors: 0

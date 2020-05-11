@@ -1,0 +1,16 @@
+main()
+{
+    int i, sum;
+
+    i=sum=0;
+    while i<1000 do {
+        sum += ?6;
+        i++;
+    }
+    output(sum);  // about 2500
+    outnl();
+
+    outputb(?3 < 3);               // T
+    outnl();
+}
+    

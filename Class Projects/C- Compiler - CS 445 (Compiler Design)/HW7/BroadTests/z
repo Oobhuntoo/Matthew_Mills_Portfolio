@@ -1,0 +1,873 @@
+====================================
+FILE: aamain2.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   101 Apr 23 20:31 aamain2.c-
+-rw-------  1 meerkat  staff   232 Dec  1  2015 aamain2.expected
+-rw-------  1 meerkat  staff    20 Dec  1  2014 aamain2.in
+-rw-------  1 meerkat  staff    77 Apr 23 22:13 aamain2.out
+-rw-------  1 meerkat  staff  4616 Apr 23 22:13 aamain2.tm
+aamain2 (Output OK)
+====================================
+FILE: array.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    703 Apr 23 20:31 array.c-
+-rw-------  1 meerkat  staff    240 Dec  1  2015 array.expected
+-rw-------  1 meerkat  staff     85 Apr 23 22:13 array.out
+-rw-------  1 meerkat  staff  17028 Apr 23 22:13 array.tm
+array (Output OK)
+====================================
+FILE: array0.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    525 Apr 23 20:31 array0.c-
+-rw-------  1 meerkat  staff    253 Dec  1  2015 array0.expected
+-rw-------  1 meerkat  staff     98 Apr 23 22:13 array0.out
+-rw-------  1 meerkat  staff  13495 Apr 23 22:13 array0.tm
+array0 (Output OK)
+====================================
+FILE: array1.c-
+WARNING(1): The parameter 'y' seems not to be used.
+Number of warnings: 1
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   211 Apr 23 20:31 array1.c-
+-rw-------  1 meerkat  staff   205 Dec  1  2015 array1.expected
+-rw-------  1 meerkat  staff    50 Apr 23 22:13 array1.out
+-rw-------  1 meerkat  staff  6036 Apr 23 22:13 array1.tm
+array1 (Output OK)
+====================================
+FILE: array2.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   197 Apr 23 20:31 array2.c-
+-rw-------  1 meerkat  staff   208 Dec  1  2015 array2.expected
+-rw-------  1 meerkat  staff    53 Apr 23 22:13 array2.out
+-rw-------  1 meerkat  staff  5888 Apr 23 22:13 array2.tm
+array2 (Output OK)
+====================================
+FILE: arraysize.c-
+WARNING(12): The variable 'i' seems not to be used.
+WARNING(25): The variable 'h' seems not to be used.
+Number of warnings: 2
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    489 Apr 23 20:31 arraysize.c-
+-rw-------  1 meerkat  staff    267 Dec  1  2015 arraysize.expected
+-rw-------  1 meerkat  staff    112 Apr 23 22:13 arraysize.out
+-rw-------  1 meerkat  staff  12433 Apr 23 22:13 arraysize.tm
+arraysize (Output OK)
+====================================
+FILE: assign1.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   499 Apr 23 20:31 assign1.c-
+-rw-------  1 meerkat  staff   241 Dec  1  2015 assign1.expected
+-rw-------  1 meerkat  staff    86 Apr 23 22:13 assign1.out
+-rw-------  1 meerkat  staff  9756 Apr 23 22:13 assign1.tm
+assign1 (Output OK)
+====================================
+FILE: assign2.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    607 Apr 23 20:31 assign2.c-
+-rw-------  1 meerkat  staff    241 Dec  1  2015 assign2.expected
+-rw-------  1 meerkat  staff     86 Apr 23 22:13 assign2.out
+-rw-------  1 meerkat  staff  16661 Apr 23 22:13 assign2.tm
+assign2 (Output OK)
+====================================
+FILE: assign3.c-
+WARNING(7): Variable 'x' may be uninitialized when used here.
+WARNING(9): Variable 'y' may be uninitialized when used here.
+Number of warnings: 2
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    628 Apr 23 20:31 assign3.c-
+-rw-------  1 meerkat  staff    253 Dec  1  2015 assign3.expected
+-rw-------  1 meerkat  staff     98 Apr 23 22:13 assign3.out
+-rw-------  1 meerkat  staff  18227 Apr 23 22:13 assign3.tm
+assign3 (Output OK)
+====================================
+FILE: assign4.c-
+WARNING(7): Variable 'x' may be uninitialized when used here.
+WARNING(9): Variable 'y' may be uninitialized when used here.
+Number of warnings: 2
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    532 Apr 23 20:31 assign4.c-
+-rw-------  1 meerkat  staff    253 Dec  1  2015 assign4.expected
+-rw-------  1 meerkat  staff     98 Apr 23 22:13 assign4.out
+-rw-------  1 meerkat  staff  11669 Apr 23 22:13 assign4.tm
+assign4 (Output OK)
+====================================
+FILE: assign5.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    578 Apr 23 20:31 assign5.c-
+-rw-------  1 meerkat  staff    305 Dec  1  2015 assign5.expected
+-rw-------  1 meerkat  staff    150 Apr 23 22:13 assign5.out
+-rw-------  1 meerkat  staff  16044 Apr 23 22:13 assign5.tm
+assign5 (Output OK)
+====================================
+FILE: assign6.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   1609 Apr 23 20:31 assign6.c-
+-rw-------  1 meerkat  staff    344 Dec  1  2015 assign6.expected
+-rw-------  1 meerkat  staff    189 Apr 23 22:13 assign6.out
+-rw-------  1 meerkat  staff  33035 Apr 23 22:13 assign6.tm
+assign6 (Output OK)
+====================================
+FILE: break2.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   318 Apr 23 20:31 break2.c-
+-rw-------  1 meerkat  staff   230 Dec  1  2015 break2.expected
+-rw-------  1 meerkat  staff    75 Apr 23 22:13 break2.out
+-rw-------  1 meerkat  staff  5955 Apr 23 22:13 break2.tm
+break2 (Output OK)
+====================================
+FILE: call.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   1271 Apr 23 20:35 call.c-
+-rw-------  1 meerkat  staff    277 Dec  1  2015 call.expected
+-rw-------  1 meerkat  staff    131 Apr 23 22:13 call.out
+-rw-------  1 meerkat  staff  28302 Apr 23 22:13 call.tm
+call.out ztmp82330.txt differ: char 1, line 1
+call (Output DIFF)
+									      |	ERROR(105): Expecting type int in parameter 1 of call to 'output' defined on 
+Loading file: call.tm							      |	ERROR(106): Expecting type int in parameter 1 of call to 'output' defined on 
+111 									      <
+0 1 2 3 4 5 6 333 8 9 							      <
+T 									      <
+12321 									      <
+110889 									      <
+443556 									      <
+603729 									      <
+24975 									      <
+333 									      <
+6360 									      <
+443556 									      <
+Status: Halted								      <
+Bye.									      <
+====================================
+FILE: call2.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   227 Apr 23 20:31 call2.c-
+-rw-------  1 meerkat  staff   203 Dec  1  2015 call2.expected
+-rw-------  1 meerkat  staff    48 Apr 23 22:13 call2.out
+-rw-------  1 meerkat  staff  5809 Apr 23 22:13 call2.tm
+call2 (Output OK)
+====================================
+FILE: call5.c-
+WARNING(16): Expecting to return type int but function 'fox' has no return statement.
+Number of warnings: 1
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   354 Apr 23 20:31 call5.c-
+-rw-------  1 meerkat  staff   315 Dec  1  2015 call5.expected
+-rw-------  1 meerkat  staff    74 Apr 23 22:13 call5.out
+-rw-------  1 meerkat  staff  9929 Apr 23 22:13 call5.tm
+call5.out ztmp82330.txt differ: char 1, line 1
+call5 (Output DIFF)
+									      >	WARNING(16): Expecting to return type int but function 'fox' has no return st
+
+Loading file: call5.tm								Loading file: call5.tm
+1279 111 222 666 1332 0 2220 							1279 111 222 666 1332 0 2220 
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: charout.c-
+WARNING(2): The variable 'c' seems not to be used.
+Number of warnings: 1
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   267 Apr 23 20:31 charout.c-
+-rw-------  1 meerkat  staff  1100 Dec  1  2015 charout.expected
+-rw-------  1 meerkat  staff    15 Dec  1  2014 charout.in
+-rw-------  1 meerkat  staff   945 Apr 23 22:13 charout.out
+-rw-------  1 meerkat  staff  5849 Apr 23 22:13 charout.tm
+charout (Output OK)
+====================================
+FILE: comb.c-
+WARNING(20): The variable 'xx' seems not to be used.
+Number of warnings: 1
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   503 Apr 23 20:31 comb.c-
+-rw-------  1 meerkat  staff   599 Dec  1  2015 comb.expected
+-rw-------  1 meerkat  staff    17 Dec  1  2014 comb.in
+-rw-------  1 meerkat  staff   444 Apr 23 22:13 comb.out
+-rw-------  1 meerkat  staff  8571 Apr 23 22:13 comb.tm
+comb (Output OK)
+====================================
+FILE: combslow.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   623 Apr 23 20:50 combslow.c-
+-rw-------  1 meerkat  staff   551 Dec  1  2015 combslow.expected
+-rw-------  1 meerkat  staff    24 Dec  1  2014 combslow.in
+-rw-------  1 meerkat  staff   396 Apr 23 22:13 combslow.out
+-rw-------  1 meerkat  staff  9315 Apr 23 22:13 combslow.tm
+combslow (Output OK)
+====================================
+FILE: compare.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    424 Apr 23 20:31 compare.c-
+-rw-------  1 meerkat  staff    237 Dec  1  2015 compare.expected
+-rw-------  1 meerkat  staff     82 Apr 23 22:13 compare.out
+-rw-------  1 meerkat  staff  12440 Apr 23 22:13 compare.tm
+compare (Output OK)
+====================================
+FILE: control2.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   310 Apr 23 20:31 control2.c-
+-rw-------  1 meerkat  staff   289 Dec  1  2015 control2.expected
+-rw-------  1 meerkat  staff   134 Apr 23 22:13 control2.out
+-rw-------  1 meerkat  staff  7895 Apr 23 22:13 control2.tm
+control2 (Output OK)
+====================================
+FILE: e.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   233 Apr 23 20:31 e.c-
+-rw-------  1 meerkat  staff   225 Dec  1  2015 e.expected
+-rw-------  1 meerkat  staff    70 Apr 23 22:13 e.out
+-rw-------  1 meerkat  staff  8423 Apr 23 22:13 e.tm
+e (Output OK)
+====================================
+FILE: examplearray3.c-
+WARNING(2): The variable 'q' seems not to be used.
+WARNING(7): The variable 'q' seems not to be used.
+WARNING(12): The variable 'q' seems not to be used.
+Number of warnings: 3
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   183 Apr 23 20:31 examplearray3.c-
+-rw-------  1 meerkat  staff   211 Dec  1  2015 examplearray3.expected
+-rw-------  1 meerkat  staff    56 Apr 23 22:13 examplearray3.out
+-rw-------  1 meerkat  staff  5614 Apr 23 22:13 examplearray3.tm
+examplearray3 (Output OK)
+====================================
+FILE: exp3.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    880 Apr 23 20:52 exp3.c-
+-rw-------  1 meerkat  staff    239 Dec  1  2015 exp3.expected
+-rw-------  1 meerkat  staff     84 Apr 23 22:13 exp3.out
+-rw-------  1 meerkat  staff  11317 Apr 23 22:13 exp3.tm
+exp3 (Output OK)
+====================================
+FILE: factor.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    825 Apr 23 21:51 factor.c-
+-rw-------  1 meerkat  staff    335 Dec  1  2015 factor.expected
+-rw-------  1 meerkat  staff     39 Dec  1  2014 factor.in
+-rw-------  1 meerkat  staff    180 Apr 23 22:13 factor.out
+-rw-------  1 meerkat  staff  11988 Apr 23 22:13 factor.tm
+factor (Output OK)
+====================================
+FILE: factorial.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   317 Apr 23 20:31 factorial.c-
+-rw-------  1 meerkat  staff   263 Dec  1  2015 factorial.expected
+-rw-------  1 meerkat  staff    17 Dec  1  2014 factorial.in
+-rw-------  1 meerkat  staff   108 Apr 23 22:13 factorial.out
+-rw-------  1 meerkat  staff  6111 Apr 23 22:13 factorial.tm
+factorial (Output OK)
+====================================
+FILE: factorial2.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   320 Apr 23 20:31 factorial2.c-
+-rw-------  1 meerkat  staff   264 Dec  1  2015 factorial2.expected
+-rw-------  1 meerkat  staff    17 Dec  1  2014 factorial2.in
+-rw-------  1 meerkat  staff   109 Apr 23 22:13 factorial2.out
+-rw-------  1 meerkat  staff  6140 Apr 23 22:13 factorial2.tm
+factorial2 (Output OK)
+====================================
+FILE: factorialr.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   245 Apr 23 20:31 factorialr.c-
+-rw-------  1 meerkat  staff   228 Dec  1  2015 factorialr.expected
+-rw-------  1 meerkat  staff    17 Dec  1  2014 factorialr.in
+-rw-------  1 meerkat  staff    73 Apr 23 22:13 factorialr.out
+-rw-------  1 meerkat  staff  6019 Apr 23 22:13 factorialr.tm
+factorialr (Output OK)
+====================================
+FILE: fractal.c-
+WARNING(140): Variable 'JuliaVals' may be uninitialized when used here.
+Number of warnings: 1
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   3498 Apr 23 22:03 fractal.c-
+-rw-------  1 meerkat  staff   6814 Dec  1  2015 fractal.expected
+-rw-------  1 meerkat  staff     26 Apr 23 22:04 fractal.in
+-rw-------  1 meerkat  staff   6659 Apr 23 22:13 fractal.out
+-rw-------  1 meerkat  staff  27798 Apr 23 22:13 fractal.tm
+fractal.out ztmp82330.txt differ: char 27, line 3
+fractal (Output DIFF)
+
+Loading file: fractal.tm							Loading file: fractal.tm
+              . . . . . . . . . : : : : : : : : : : : : : : : . . . . . . . . |	0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 1 1 1
+            . . . . . . . : : : : : : : : : : : : : : : : : : : : . . . . . . |	0 0 0 0 0 0 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 1
+            . . . . . : : : : : : : : : : : : ; ; ; ; # - - ; ; : : : . . . . |	0 0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 F 4 4 3 3 2 2 2 1 1 1 1
+          . . . . : : : : : : : : : : : : ; ; ; ; - - I W + - ; ; ; : : : . . |	0 0 0 0 0 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 4 4 6 9 5 4 3 3 3 2 2 2 1 1
+        . . . . : : : : : : : : : : : : ; ; ; ; ; - - I @ @ O - ; ; ; : : : . |	0 0 0 0 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 4 4 6 T T 7 4 3 3 3 2 2 2 1
+        . . . : : : : : : : : : : : : ; ; ; ; ; - - I O @ @ I + - ; ; ; : : : |	0 0 0 0 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 4 4 6 7 T T 6 5 4 3 3 3 2 2 2
+      . . . : : : : : : : : : : : ; ; ; ; ; ; - - + @ @ @ @ @ I - - ; ; ; : : |	0 0 0 1 1 1 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 5 T T T T T 6 4 4 3 3 3 2 2
+      . . : : : : : : : : : : : ; ; ; ; ; - - + + I # @ @ @ @ I + - - - ; : : |	0 0 0 1 1 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 4 4 5 5 6 F T T T T 6 5 4 4 4 3 2 2
+    . . : : : : : : : : : : : ; ; ; ; ; - + I I I V # @ @ @ @ V I + + + - ; : |	0 0 1 1 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 4 5 6 6 6 8 F T T T T 8 6 5 5 5 4 3 2
+    . : : : : : : : : : : : ; ; ; - - - + @ @ W @ @ @ @ @ @ @ @ @ V O V I - ; |	0 0 1 2 2 2 2 2 2 2 2 2 2 2 3 3 3 4 4 4 5 T T 9 T T T T T T T T T 8 7 8 6 4 3
+    . : : : : : : : : : : ; ; - - - - + I W @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ - ; |	0 0 1 2 2 2 2 2 2 2 2 2 2 3 3 4 4 4 4 5 6 9 T T T T T T T T T T T T T T T 4 3
+    : : : : : : : : : ; ; - - - - - + + O # @ @ @ @ @ @ @ @ @ @ @ @ @ @ O - ; |	0 0 2 2 2 2 2 2 2 2 2 3 3 4 4 4 4 4 5 5 7 F T T T T T T T T T T T T T T 7 4 3
+  . : : : : : : : ; ; + + + - - + + I O @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ O + - |	0 1 2 2 2 2 2 2 2 3 3 5 5 5 4 4 5 5 6 7 T T T T T T T T T T T T T T T T 7 5 4
+  : : : : : ; ; ; - + # O I O O I I O V @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ - |	0 2 2 2 2 2 3 3 3 4 5 F 7 6 7 7 6 6 7 8 T T T T T T T T T T T T T T T T T T 4
+  : : : ; ; ; ; - - + W @ # # @ @ V V @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ V - |	0 2 2 2 3 3 3 3 4 4 5 9 T F F T T 8 8 T T T T T T T T T T T T T T T T T T 8 4
+  : ; ; ; ; ; - - - I V @ @ @ @ @ @ # @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ I - |	0 2 3 3 3 3 3 4 4 4 6 8 T T T T T T F T T T T T T T T T T T T T T T T T T 6 4
+  ; ; ; ; ; - - - I O @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ I - |	0 3 3 3 3 3 4 4 4 6 7 T T T T T T T T T T T T T T T T T T T T T T T T T T 6 4
+  ; ; ; ; - + + I @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ # + - |	0 3 3 3 3 4 5 5 6 T T T T T T T T T T T T T T T T T T T T T T T T T T T F 5 4
+. - + I I I I O W @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ I - - |	1 4 5 6 6 6 6 7 9 T T T T T T T T T T T T T T T T T T T T T T T T T T T 6 4 4
+: I O W # # # # @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ W I - - |	2 6 7 9 F F F F T T T T T T T T T T T T T T T T T T T T T T T T T T T 9 6 4 4
+  - - ; + + + I O # @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ O + - |	0 4 4 3 5 5 5 6 7 F T T T T T T T T T T T T T T T T T T T T T T T T T T 7 5 4
+  ; ; ; ; - - + I @ V @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ + - |	0 3 3 3 3 4 4 5 6 T 8 T T T T T T T T T T T T T T T T T T T T T T T T T T 5 4
+  : ; ; ; ; - - - + I W @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ I - |	0 2 3 3 3 3 4 4 4 5 6 9 T T T T T T T T T T T T T T T T T T T T T T T T T 6 4
+  : : ; ; ; ; - - - I O @ @ @ @ @ @ W @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ I - |	0 2 2 3 3 3 3 4 4 4 6 7 T T T T T T 9 T T T T T T T T T T T T T T T T T T 6 4
+  : : : ; ; ; ; - - + @ V V W # V O O # @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ - |	0 2 2 2 3 3 3 3 4 4 5 T 8 8 9 F 8 7 7 F T T T T T T T T T T T T T T T T T T 4
+  . : : : : : ; ; ; + @ I + I I I I I O @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ V @ - |	0 1 2 2 2 2 2 3 3 3 5 T 6 5 6 6 6 6 6 7 T T T T T T T T T T T T T T T T 8 T 4
+  . : : : : : : : : ; - - - - - - + + I @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ I + - |	0 1 2 2 2 2 2 2 2 2 3 4 4 4 4 4 4 5 5 6 T T T T T T T T T T T T T T T T 6 5 4
+    : : : : : : : : : : ; - - - - - + + O W @ @ @ @ @ @ @ @ @ @ @ @ @ @ V - ; |	0 0 2 2 2 2 2 2 2 2 2 2 3 4 4 4 4 4 5 5 7 9 T T T T T T T T T T T T T T 8 4 3
+    . : : : : : : : : : : ; ; ; - - - + I @ @ @ @ @ @ @ @ @ @ @ @ # @ @ @ - ; |	0 0 1 2 2 2 2 2 2 2 2 2 2 3 3 3 4 4 4 5 6 T T T T T T T T T T T T F T T T 4 3
+    . . : : : : : : : : : : ; ; ; ; - - + @ @ V W @ @ @ @ @ @ @ @ O I O I ; : |	0 0 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 3 4 4 5 T T 8 9 T T T T T T T T 7 6 7 6 3 2
+      . : : : : : : : : : : : : ; ; ; ; - - + + I O @ @ @ @ @ O I + + - ; ; : |	0 0 0 1 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 4 4 5 5 6 7 T T T T T 7 6 5 5 4 3 3 2
+      . . : : : : : : : : : : : : ; ; ; ; ; - - + I W @ @ @ @ I - - - ; ; : : |	0 0 0 1 1 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 4 4 5 6 9 T T T T 6 4 4 4 3 3 2 2
+        . . : : : : : : : : : : : : ; ; ; ; ; - - + O # @ @ V + - - ; ; ; : : |	0 0 0 0 1 1 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 4 4 5 7 F T T 8 5 4 4 3 3 3 2 2
+        . . . : : : : : : : : : : : : ; ; ; ; ; - - + O # # I - ; ; ; ; : : : |	0 0 0 0 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 4 4 5 7 F F 6 4 3 3 3 3 2 2 2
+          . . . : : : : : : : : : : : : ; ; ; ; ; - - I @ O @ ; ; ; ; : : : . |	0 0 0 0 0 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 4 4 6 T 7 T 3 3 3 3 2 2 2 1
+          . . . . . : : : : : : : : : : : : ; ; ; ; - O I + - ; ; : : : . . . |	0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 4 7 6 5 4 3 3 2 2 2 1 1 1
+            . . . . . : : : : : : : : : : : : : ; ; ; - - ; ; : : : : . . . . |	0 0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 4 4 3 3 2 2 2 2 1 1 1 1
+              . . . . . . . : : : : : : : : : : : : : : : : : : : . . . . . . |	0 0 0 0 0 0 0 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 1
+
+              . . . . . . . . . . . . . . . . . . . . . . : : : : : : : : : : |	0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2
+            . . . . . . . . . . . . . . . . . . . . . . : : : ; ; ; ; ; ; ; ; |	0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 3 3 3 3 3 3 3 3
+            . . . . . . . . . . . . . . . . . . . . . : : ; ; - T + - ; ; ; ; |	0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 3 3 4 T 5 4 3 3 3 3
+          . . . . . . . . . . . . . . . . . . . . : : : ; ; - I T + - - ; ; ; |	0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 3 3 4 6 T 5 4 4 3 3 3
+        . . . . . . . . . . . . . . . . . . . . : : : ; ; ; + V W I - - - ; ; |	0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 3 3 3 5 8 9 6 4 4 4 3 3
+        . . . . . . . . . . . . . . . . . . . : : : : ; ; ; - O T O I + - - - |	0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 3 3 3 4 7 T 7 6 5 4 4 4
+      . . . . . . . . . . . . . . . . . . . : : : : ; ; ; - - + F T W V + + + |	0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 3 3 3 4 4 5 F T 9 8 5 5 5
+      . . . . . . . . . . . . . . . . . . : : : : : ; ; ; - - + I V T O I I + |	0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 3 3 3 4 4 5 6 8 T 7 6 6 5
+    . . . . . . . . . . . . . . . . . . : : : : : : ; ; ; - - + I O T F O I I |	0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 3 3 3 4 4 5 6 7 T F 7 6 6
+    . . . . . . . . . . . . . . . . . : : : : : : : ; ; - - - + I O F T W W T |	0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 3 3 4 4 4 5 6 7 F T 9 9 T
+    . . . . . . . . . . . . . . . . : : : : : : : ; ; ; - - + + O W T T T T W |	0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 3 3 3 4 4 5 5 7 9 T T T T 9
+    . . . . . . . . . . . . . . . : : : : : : : : ; ; - - + + I V T W V V O O |	0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 3 3 4 4 5 5 6 8 T 9 8 8 7 7
+  . . . . . . . . . . . . . . . : : : : : : : : : ; ; - I I I O W T O O I I I |	0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 3 3 4 6 6 6 7 9 T 7 7 6 6 6
+  . . . . . . . . . . . . . . : : : : : : : : : : ; ; I F V V V T F O I + + + |	0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 6 F 8 8 8 T F 7 6 5 5 5
+  . . . . . . . . . . . . . : : : : : : : : : : ; ; - + O F T T F T I + + + - |	0 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 4 5 7 F T T F T 6 5 5 5 4
+  . . . . . . . . . . . . : : : : : : : : : : : ; ; - + I V T F O O + + + - - |	0 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 3 3 4 5 6 8 T F 7 7 5 5 5 4 4
+  . . . . . . . . . . . . : : : : : : : : : : ; ; ; - + I O T W O I + + - - - |	0 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 4 5 6 7 T 9 7 6 5 5 4 4 4
+  . . . . . . . . . . . : : : : : : : : : : : ; ; - - + I T T W I I + - - - - |	0 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 3 3 4 4 5 6 T T 9 6 6 5 4 4 4 4
+. . . . . . . . . . . : : : : : : : : : : : ; ; - - - + I V T T I + - - - - ; |	1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 3 3 4 4 4 5 6 8 T T 6 5 4 4 4 4 3
+. . . . . . . . . . . : : : : : : : : : : ; ; ; - - - + I W T T O + - - - ; ; |	1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 4 4 4 5 6 9 T T 7 5 4 4 4 3 3
+  . . . . . . . . . : : : : : : : : : : ; ; ; - - - - + I F T T O + - - - ; ; |	0 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 3 3 3 4 4 4 4 5 6 F T T 7 5 4 4 4 3 3
+  . . . . . . . . . : : : : : : : : ; ; ; ; - - - - + I I V T W O + - - ; ; : |	0 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 3 3 3 3 4 4 4 4 5 6 6 8 T 9 7 5 4 4 3 3 2
+  . . . . . . . . : : : : : : : : ; ; ; ; - - - - + + I O V T O I + - - ; ; : |	0 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 3 3 3 3 4 4 4 4 5 5 6 7 8 T 7 6 5 4 4 3 3 2
+  . . . . . . . . : : : : : : ; ; ; ; ; ; - - - + + + I V F T V I + - ; ; : : |	0 1 1 1 1 1 1 1 1 2 2 2 2 2 2 3 3 3 3 3 3 4 4 4 5 5 5 6 8 F T 8 6 5 4 3 3 2 2
+  . . . . . . . . : : : : : ; ; ; ; ; ; - - + + + + I V T T F T T I - ; ; : : |	0 1 1 1 1 1 1 1 1 2 2 2 2 2 3 3 3 3 3 3 4 4 5 5 5 5 6 8 T T F T T 6 4 3 3 2 2
+  . . . . . . . : : : : ; ; ; ; ; ; ; - - + + + + I O F T V O I O I ; ; : : : |	0 1 1 1 1 1 1 1 2 2 2 2 3 3 3 3 3 3 3 4 4 5 5 5 5 6 7 F T 8 7 6 7 6 3 3 2 2 2
+  . . . . . . . : : : ; ; ; ; ; ; ; - - I O I I I O V T F O I + + - ; ; : : : |	0 1 1 1 1 1 1 1 2 2 2 3 3 3 3 3 3 3 4 4 6 7 6 6 6 7 8 T F 7 6 5 5 4 3 3 2 2 2
+    . . . . . . : : : ; ; ; ; - - - + + O T V V T V W T F I + + - - ; ; : : : |	0 0 1 1 1 1 1 1 2 2 2 3 3 3 3 4 4 4 5 5 7 T 8 8 T 8 9 T F 6 5 5 4 4 3 3 2 2 2
+    . . . . . . : : ; - - - - - + + + O V T T T T T T V O + + - - ; ; ; : : : |	0 0 1 1 1 1 1 1 2 2 3 4 4 4 4 4 5 5 5 7 8 T T T T T T 8 7 5 5 4 4 3 3 3 2 2 2
+    . . . . . . : : - O I + + I I I O F T V W V V F F O I + - - - ; ; ; : : : |	0 0 1 1 1 1 1 1 2 2 4 7 6 5 5 6 6 6 7 F T 8 9 8 8 F F 7 6 5 4 4 4 3 3 3 2 2 2
+      . . . . . : : - W T T T O O V V T V O I I I O T V I + - - ; ; ; : : : : |	0 0 0 1 1 1 1 1 2 2 4 9 T T T 7 7 8 8 T 8 7 6 6 6 7 T 8 6 5 4 4 3 3 3 2 2 2 2
+      . . . . . . : ; + + I O T T F T O I + + + I O T F O + - - ; ; ; : : : : |	0 0 0 1 1 1 1 1 1 2 3 5 5 6 7 T T F T 7 6 5 5 5 6 7 T F 7 5 4 4 3 3 3 2 2 2 2
+        . . . . . : ; ; - - I T O I W I + + + + + + O W T V - - ; ; ; : : : : |	0 0 0 0 1 1 1 1 1 2 3 3 4 4 6 T 7 6 9 6 5 5 5 5 5 5 7 9 T 8 4 4 3 3 3 2 2 2 2
+        . . . . . : : ; ; - + F + + - - - ; - - - - + I W O + ; ; ; : : : : . |	0 0 0 0 1 1 1 1 1 2 2 3 3 4 5 F 5 5 4 4 4 3 4 4 4 4 5 6 9 7 5 3 3 3 2 2 2 2 1
+          . . . . . : : ; ; O I - - ; ; ; ; ; ; - - - + V T T ; ; ; : : : . . |	0 0 0 0 0 1 1 1 1 1 2 2 3 3 7 6 4 4 3 3 3 3 3 3 4 4 4 5 8 T T 3 3 3 2 2 2 1 1
+          . . . . . : : : : ; ; ; ; ; ; ; ; ; ; ; ; - + O + - ; ; : : . . . . |	0 0 0 0 0 1 1 1 1 1 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 5 7 5 4 3 3 2 2 1 1 1 1
+            . . . . . : : : : : : : : : ; ; ; ; ; ; ; - T - ; : : : . . . . . |	0 0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 T 4 3 2 2 2 1 1 1 1 1
+              . . . . . : : : : : : : : : : : : ; ; ; ; ; : : : : . . . . . . |	0 0 0 0 0 0 0 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 2 2 2 2 1 1 1 1 1 1
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: gcd.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   313 Apr 23 20:31 gcd.c-
+-rw-------  1 meerkat  staff   495 Dec  1  2015 gcd.expected
+-rw-------  1 meerkat  staff    74 Dec  1  2014 gcd.in
+-rw-------  1 meerkat  staff   340 Apr 23 22:13 gcd.out
+-rw-------  1 meerkat  staff  6560 Apr 23 22:13 gcd.tm
+gcd (Output OK)
+====================================
+FILE: gcdsm.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   156 Apr 23 20:31 gcdsm.c-
+-rw-------  1 meerkat  staff   500 Dec  1  2015 gcdsm.expected
+-rw-------  1 meerkat  staff    74 Dec  1  2014 gcdsm.in
+-rw-------  1 meerkat  staff   345 Apr 23 22:13 gcdsm.out
+-rw-------  1 meerkat  staff  6150 Apr 23 22:13 gcdsm.tm
+gcdsm (Output OK)
+====================================
+FILE: global.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   102 Apr 23 20:31 global.c-
+-rw-------  1 meerkat  staff   206 Dec  1  2015 global.expected
+-rw-------  1 meerkat  staff    51 Apr 23 22:13 global.out
+-rw-------  1 meerkat  staff  3939 Apr 23 22:13 global.tm
+global (Output OK)
+====================================
+FILE: globalArray.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   115 Apr 23 20:31 globalArray.c-
+-rw-------  1 meerkat  staff   211 Dec  1  2015 globalArray.expected
+-rw-------  1 meerkat  staff    56 Apr 23 22:13 globalArray.out
+-rw-------  1 meerkat  staff  4977 Apr 23 22:13 globalArray.tm
+globalArray (Output OK)
+====================================
+FILE: if.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   145 Apr 23 20:31 if.c-
+-rw-------  1 meerkat  staff   204 Dec  1  2015 if.expected
+-rw-------  1 meerkat  staff    49 Apr 23 22:13 if.out
+-rw-------  1 meerkat  staff  4918 Apr 23 22:13 if.tm
+if (Output OK)
+====================================
+FILE: inc.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    423 Apr 23 20:31 inc.c-
+-rw-------  1 meerkat  staff    245 Dec  1  2015 inc.expected
+-rw-------  1 meerkat  staff     90 Apr 23 22:13 inc.out
+-rw-------  1 meerkat  staff  10617 Apr 23 22:13 inc.tm
+inc (Output OK)
+====================================
+FILE: init.c-
+WARNING(31): Variable 'x' may be uninitialized when used here.
+WARNING(46): Variable 'y' may be uninitialized when used here.
+Number of warnings: 2
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    737 Apr 23 22:08 init.c-
+-rw-------  1 meerkat  staff    255 Dec  1  2015 init.expected
+-rw-------  1 meerkat  staff    100 Apr 23 22:13 init.out
+-rw-------  1 meerkat  staff  15258 Apr 23 22:13 init.tm
+init (Output OK)
+====================================
+FILE: io.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    617 Apr 23 21:51 io.c-
+-rw-------  1 meerkat  staff    313 Dec  1  2015 io.expected
+-rw-------  1 meerkat  staff     28 Dec  1  2014 io.in
+-rw-------  1 meerkat  staff    158 Apr 23 22:13 io.out
+-rw-------  1 meerkat  staff  12402 Apr 23 22:13 io.tm
+io (Output OK)
+====================================
+FILE: local.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   103 Apr 23 20:31 local.c-
+-rw-------  1 meerkat  staff   205 Dec  1  2015 local.expected
+-rw-------  1 meerkat  staff    50 Apr 23 22:13 local.out
+-rw-------  1 meerkat  staff  3939 Apr 23 22:13 local.tm
+local (Output OK)
+====================================
+FILE: localArray.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   128 Apr 23 20:31 localArray.c-
+-rw-------  1 meerkat  staff   210 Dec  1  2015 localArray.expected
+-rw-------  1 meerkat  staff    55 Apr 23 22:13 localArray.out
+-rw-------  1 meerkat  staff  4990 Apr 23 22:13 localArray.tm
+localArray (Output OK)
+====================================
+FILE: logic.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   266 Apr 23 21:51 logic.c-
+-rw-------  1 meerkat  staff   217 Dec  1  2015 logic.expected
+-rw-------  1 meerkat  staff    62 Apr 23 22:13 logic.out
+-rw-------  1 meerkat  staff  7703 Apr 23 22:13 logic.tm
+logic (Output OK)
+====================================
+FILE: logic2.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   319 Apr 23 21:47 logic2.c-
+-rw-------  1 meerkat  staff   225 Dec  1  2015 logic2.expected
+-rw-------  1 meerkat  staff    70 Apr 23 22:13 logic2.out
+-rw-------  1 meerkat  staff  9258 Apr 23 22:13 logic2.tm
+logic2 (Output OK)
+====================================
+FILE: main2.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   101 Apr 23 20:31 main2.c-
+-rw-------  1 meerkat  staff   230 Dec  1  2015 main2.expected
+-rw-------  1 meerkat  staff    20 Dec  1  2014 main2.in
+-rw-------  1 meerkat  staff    75 Apr 23 22:13 main2.out
+-rw-------  1 meerkat  staff  4614 Apr 23 22:13 main2.tm
+main2 (Output OK)
+====================================
+FILE: mastermind.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   3993 Apr 23 21:46 mastermind.c-
+-rw-------  1 meerkat  staff   1381 Dec  1  2015 mastermind.expected
+-rw-------  1 meerkat  staff    252 Dec  1  2014 mastermind.in
+-rw-------  1 meerkat  staff   1226 Apr 23 22:13 mastermind.out
+-rw-------  1 meerkat  staff  25715 Apr 23 22:13 mastermind.tm
+mastermind (Output OK)
+====================================
+FILE: miller.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   1606 Apr 23 20:31 miller.c-
+-rw-------  1 meerkat  staff    297 Dec  1  2015 miller.expected
+-rw-------  1 meerkat  staff    142 Apr 23 22:13 miller.out
+-rw-------  1 meerkat  staff  34480 Apr 23 22:13 miller.tm
+miller (Output OK)
+====================================
+FILE: mod.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    489 Apr 23 20:31 mod.c-
+-rw-------  1 meerkat  staff    251 Dec  1  2015 mod.expected
+-rw-------  1 meerkat  staff     96 Apr 23 22:13 mod.out
+-rw-------  1 meerkat  staff  15752 Apr 23 22:13 mod.tm
+mod (Output OK)
+====================================
+FILE: nest.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   1335 Apr 23 20:31 nest.c-
+-rw-------  1 meerkat  staff    318 Dec  1  2015 nest.expected
+-rw-------  1 meerkat  staff    163 Apr 23 22:13 nest.out
+-rw-------  1 meerkat  staff  21153 Apr 23 22:13 nest.tm
+nest (Output OK)
+====================================
+FILE: op1.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   1058 Apr 23 21:43 op1.c-
+-rw-------  1 meerkat  staff    296 Dec  1  2015 op1.expected
+-rw-------  1 meerkat  staff    141 Apr 23 22:13 op1.out
+-rw-------  1 meerkat  staff  25309 Apr 23 22:13 op1.tm
+op1 (Output OK)
+====================================
+FILE: ops.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   2931 Apr 23 21:42 ops.c-
+-rw-------  1 meerkat  staff    363 Dec  1  2015 ops.expected
+-rw-------  1 meerkat  staff    208 Apr 23 22:13 ops.out
+-rw-------  1 meerkat  staff  45200 Apr 23 22:13 ops.tm
+ops (Output OK)
+====================================
+FILE: permlist.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    795 Apr 23 20:31 permlist.c-
+-rw-------  1 meerkat  staff   1053 Dec  1  2015 permlist.expected
+-rw-------  1 meerkat  staff     19 Dec  1  2014 permlist.in
+-rw-------  1 meerkat  staff    898 Apr 23 22:13 permlist.out
+-rw-------  1 meerkat  staff  13764 Apr 23 22:13 permlist.tm
+permlist (Output OK)
+====================================
+FILE: pi.c-
+WARNING(4): The variable 'k' seems not to be used.
+Number of warnings: 1
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   1058 Apr 23 20:31 pi.c-
+-rw-------  1 meerkat  staff    499 Dec  1  2015 pi.expected
+-rw-------  1 meerkat  staff     17 Dec  1  2014 pi.in
+-rw-------  1 meerkat  staff    344 Apr 23 22:13 pi.out
+-rw-------  1 meerkat  staff  14798 Apr 23 22:13 pi.tm
+pi (Output OK)
+====================================
+FILE: poker.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   2992 Apr 23 21:41 poker.c-
+-rw-------  1 meerkat  staff    334 Dec  1  2015 poker.expected
+-rw-------  1 meerkat  staff     19 Dec  1  2014 poker.in
+-rw-------  1 meerkat  staff    179 Apr 23 22:13 poker.out
+-rw-------  1 meerkat  staff  47928 Apr 23 22:13 poker.tm
+poker (Output OK)
+====================================
+FILE: polynum.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    787 Apr 23 20:31 polynum.c-
+-rw-------  1 meerkat  staff    201 Dec  1  2015 polynum.expected
+-rw-------  1 meerkat  staff     46 Apr 23 22:13 polynum.out
+-rw-------  1 meerkat  staff  10400 Apr 23 22:13 polynum.tm
+polynum (Output OK)
+====================================
+FILE: proc.c-
+WARNING(8): The variable 'b' seems not to be used.
+WARNING(9): The variable 'y' seems not to be used.
+Number of warnings: 2
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    741 Apr 23 21:33 proc.c-
+-rw-------  1 meerkat  staff    227 Dec  1  2015 proc.expected
+-rw-------  1 meerkat  staff     72 Apr 23 22:13 proc.out
+-rw-------  1 meerkat  staff  16364 Apr 23 22:13 proc.tm
+proc (Output OK)
+====================================
+FILE: ptriangle.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   592 Apr 23 21:33 ptriangle.c-
+-rw-------  1 meerkat  staff   375 Dec  1  2015 ptriangle.expected
+-rw-------  1 meerkat  staff    22 Dec  1  2014 ptriangle.in
+-rw-------  1 meerkat  staff   220 Apr 23 22:13 ptriangle.out
+-rw-------  1 meerkat  staff  9316 Apr 23 22:13 ptriangle.tm
+ptriangle (Output OK)
+====================================
+FILE: queens.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   1096 Apr 23 21:34 queens.c-
+-rw-------  1 meerkat  staff    858 Dec  1  2015 queens.expected
+-rw-------  1 meerkat  staff     22 Dec  1  2014 queens.in
+-rw-------  1 meerkat  staff    703 Apr 23 22:13 queens.out
+-rw-------  1 meerkat  staff  15679 Apr 23 22:13 queens.tm
+queens (Output OK)
+====================================
+FILE: return.c-
+WARNING(1): Expecting to return type int but function 'null' has no return statement.
+Number of warnings: 1
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   112 Apr 23 20:31 return.c-
+-rw-------  1 meerkat  staff   288 Dec  1  2015 return.expected
+-rw-------  1 meerkat  staff    47 Apr 23 22:13 return.out
+-rw-------  1 meerkat  staff  4783 Apr 23 22:13 return.tm
+return.out ztmp82330.txt differ: char 1, line 1
+return (Output DIFF)
+									      >	WARNING(1): Expecting to return type int but function 'null' has no return st
+
+Loading file: return.tm								Loading file: return.tm
+0 Status: Halted								0 Status: Halted
+Bye.										Bye.
+====================================
+FILE: righttri.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   757 Apr 23 21:30 righttri.c-
+-rw-------  1 meerkat  staff   363 Dec  1  2015 righttri.expected
+-rw-------  1 meerkat  staff    16 Dec  1  2014 righttri.in
+-rw-------  1 meerkat  staff   208 Apr 23 22:13 righttri.out
+-rw-------  1 meerkat  staff  9709 Apr 23 22:13 righttri.tm
+righttri (Output OK)
+====================================
+FILE: scope2.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    638 Apr 23 20:31 scope2.c-
+-rw-------  1 meerkat  staff    264 Dec  1  2015 scope2.expected
+-rw-------  1 meerkat  staff    109 Apr 23 22:13 scope2.out
+-rw-------  1 meerkat  staff  12691 Apr 23 22:13 scope2.tm
+scope2 (Output OK)
+====================================
+FILE: sieve.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   438 Apr 23 21:28 sieve.c-
+-rw-------  1 meerkat  staff   400 Dec  1  2015 sieve.expected
+-rw-------  1 meerkat  staff    17 Dec  1  2014 sieve.in
+-rw-------  1 meerkat  staff   245 Apr 23 22:13 sieve.out
+-rw-------  1 meerkat  staff  9097 Apr 23 22:13 sieve.tm
+sieve (Output OK)
+====================================
+FILE: sort.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    628 Apr 23 21:29 sort.c-
+-rw-------  1 meerkat  staff    348 Dec  1  2015 sort.expected
+-rw-------  1 meerkat  staff     44 Dec  1  2014 sort.in
+-rw-------  1 meerkat  staff    193 Apr 23 22:13 sort.out
+-rw-------  1 meerkat  staff  11338 Apr 23 22:13 sort.tm
+sort (Output OK)
+====================================
+FILE: sudoku.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   5888 Apr 23 21:27 sudoku.c-
+-rw-------  1 meerkat  staff    368 Dec  1  2015 sudoku.expected
+-rw-------  1 meerkat  staff    177 Dec  1  2014 sudoku.in
+-rw-------  1 meerkat  staff    213 Apr 23 22:13 sudoku.out
+-rw-------  1 meerkat  staff  45590 Apr 23 22:13 sudoku.tm
+sudoku (Output OK)
+====================================
+FILE: tictactoe.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rwx------  1 meerkat  staff   10512 Apr 23 21:19 tictactoe.c-
+-rw-------  1 meerkat  staff     361 Dec  1  2015 tictactoe.expected
+-rw-------  1 meerkat  staff      22 Dec  1  2014 tictactoe.in
+-rw-------  1 meerkat  staff     206 Apr 23 22:13 tictactoe.out
+-rw-------  1 meerkat  staff  112027 Apr 23 22:13 tictactoe.tm
+tictactoe (Output OK)
+====================================
+FILE: tiny.c-
+WARNING(1): The parameter 'garion' seems not to be used.
+Number of warnings: 1
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   145 Apr 23 20:31 tiny.c-
+-rw-------  1 meerkat  staff   202 Dec  1  2015 tiny.expected
+-rw-------  1 meerkat  staff    47 Apr 23 22:13 tiny.out
+-rw-------  1 meerkat  staff  4607 Apr 23 22:13 tiny.tm
+tiny (Output OK)
+====================================
+FILE: tiny3.c-
+WARNING(4): The variable 'w' seems not to be used.
+WARNING(10): The variable 'p' seems not to be used.
+Number of warnings: 2
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   246 Apr 23 20:31 tiny3.c-
+-rw-------  1 meerkat  staff   203 Dec  1  2015 tiny3.expected
+-rw-------  1 meerkat  staff    48 Apr 23 22:13 tiny3.out
+-rw-------  1 meerkat  staff  5601 Apr 23 22:13 tiny3.tm
+tiny3 (Output OK)
+====================================
+FILE: unary.c-
+WARNING(35): Variable 'a' may be uninitialized when used here.
+WARNING(36): Variable 'b' may be uninitialized when used here.
+Number of warnings: 2
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    689 Apr 23 20:53 unary.c-
+-rw-------  1 meerkat  staff    232 Dec  1  2015 unary.expected
+-rw-------  1 meerkat  staff     77 Apr 23 22:13 unary.out
+-rw-------  1 meerkat  staff  10931 Apr 23 22:13 unary.tm
+unary (Output OK)
+====================================
+FILE: var.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    529 Apr 23 20:31 var.c-
+-rw-------  1 meerkat  staff    260 Dec  1  2015 var.expected
+-rw-------  1 meerkat  staff    105 Apr 23 22:13 var.out
+-rw-------  1 meerkat  staff  14363 Apr 23 22:13 var.tm
+var (Output OK)
+====================================
+FILE: var2.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   423 Apr 23 20:31 var2.c-
+-rw-------  1 meerkat  staff   238 Dec  1  2015 var2.expected
+-rw-------  1 meerkat  staff    83 Apr 23 22:13 var2.out
+-rw-------  1 meerkat  staff  9882 Apr 23 22:13 var2.tm
+var2 (Output OK)
+====================================
+FILE: vararray.c-
+WARNING(15): Variable 'y' may be uninitialized when used here.
+Number of warnings: 1
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    447 Apr 23 20:31 vararray.c-
+-rw-------  1 meerkat  staff    253 Dec  1  2015 vararray.expected
+-rw-------  1 meerkat  staff     98 Apr 23 22:13 vararray.out
+-rw-------  1 meerkat  staff  11915 Apr 23 22:13 vararray.tm
+vararray (Output OK)
+====================================
+FILE: varnovoid.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    527 Apr 23 20:31 varnovoid.c-
+-rw-------  1 meerkat  staff    266 Dec  1  2015 varnovoid.expected
+-rw-------  1 meerkat  staff    111 Apr 23 22:13 varnovoid.out
+-rw-------  1 meerkat  staff  14369 Apr 23 22:13 varnovoid.tm
+varnovoid (Output OK)
+====================================
+FILE: walsh.c-
+WARNING(88): Variable 'f' may be uninitialized when used here.
+Number of warnings: 1
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   1449 Apr 23 21:21 walsh.c-
+-rw-------  1 meerkat  staff    674 Dec  1  2015 walsh.expected
+-rw-------  1 meerkat  staff     92 Dec  1  2014 walsh.in
+-rw-------  1 meerkat  staff    519 Apr 23 22:13 walsh.out
+-rw-------  1 meerkat  staff  22033 Apr 23 22:13 walsh.tm
+walsh (Output OK)
+====================================
+FILE: while.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   144 Apr 23 20:31 while.c-
+-rw-------  1 meerkat  staff   224 Dec  1  2015 while.expected
+-rw-------  1 meerkat  staff    69 Apr 23 22:13 while.out
+-rw-------  1 meerkat  staff  5109 Apr 23 22:13 while.tm
+while (Output OK)

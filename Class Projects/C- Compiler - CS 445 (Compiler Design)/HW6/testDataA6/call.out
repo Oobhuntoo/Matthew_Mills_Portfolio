@@ -1,0 +1,238 @@
+WARNING(2): Expecting to return type int but function 'showInt' has no return statement.
+WARNING(8): Expecting to return type int but function 'showIntArray' has no return statement.
+WARNING(19): Expecting to return type int but function 'showBool' has no return statement.
+WARNING(30): The function 'magic' seems not to be used.
+Func showInt returns type int [mem: Global  loc: 0]
+!   Child: 0  Param x of type int [mem: Parameter  size: 1  loc: -2]
+!   Child: 1  Compound
+!   !   Child: 1  Call: output
+!   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   Sibling: 0  Call: outnl
+Sibling: 0  Func showIntArray returns type int [mem: Global  loc: 0]
+!   Child: 0  Param x is array of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param size of type int [mem: Parameter  size: 1  loc: -3]
+!   Child: 1  Compound
+!   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -4]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: i [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Const: 0
+!   !   Sibling: 0  While
+!   !   !   Child: 0  Op: <
+!   !   !   !   Child: 0  Id: i [mem: Local  size: 1  loc: -4]
+!   !   !   !   Child: 1  Id: size [mem: Parameter  size: 1  loc: -3]
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 1  Call: output
+!   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   !   Child: 1  Id: i [mem: Local  size: 1  loc: -4]
+!   !   !   !   Sibling: 0  Assign: =
+!   !   !   !   !   Child: 0  Id: i [mem: Local  size: 1  loc: -4]
+!   !   !   !   !   Child: 1  Op: +
+!   !   !   !   !   !   Child: 0  Id: i [mem: Local  size: 1  loc: -4]
+!   !   !   !   !   !   Child: 1  Const: 1
+!   !   Sibling: 1  Call: outnl
+Sibling: 1  Func showBool returns type int [mem: Global  loc: 0]
+!   Child: 0  Param x of type bool [mem: Parameter  size: 1  loc: -2]
+!   Child: 1  Compound
+!   !   Child: 1  Call: outputb
+!   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   Sibling: 0  Call: outnl
+Sibling: 2  Func truth returns type bool [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 1  Return
+!   !   !   Child: 0  Const: true
+Sibling: 3  Func magic returns type int [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 1  Return
+!   !   !   Child: 0  Const: 666
+Sibling: 4  Func sqr returns type int [mem: Global  loc: 0]
+!   Child: 0  Param x of type int [mem: Parameter  size: 1  loc: -2]
+!   Child: 1  Compound
+!   !   Child: 1  Return
+!   !   !   Child: 0  Op: *
+!   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: x [mem: Parameter  size: 1  loc: -2]
+Sibling: 5  Func add returns type int [mem: Global  loc: 0]
+!   Child: 0  Param x of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param y of type int [mem: Parameter  size: 1  loc: -3]
+!   Child: 1  Compound
+!   !   Child: 1  Return
+!   !   !   Child: 0  Op: +
+!   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: y [mem: Parameter  size: 1  loc: -3]
+Sibling: 6  Func mul returns type int [mem: Global  loc: 0]
+!   Child: 0  Param x of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param y of type int [mem: Parameter  size: 1  loc: -3]
+!   Child: 1  Compound
+!   !   Child: 1  Return
+!   !   !   Child: 0  Op: *
+!   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: y [mem: Parameter  size: 1  loc: -3]
+Sibling: 7  Var g of type int [mem: Global  size: 1  loc: 0]
+Sibling: 8  Func caller returns type void [mem: Global  loc: 0]
+!   Child: 0  Param x of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param y is array of type int [mem: Parameter  size: 1  loc: -3]
+!   Child: 1  Compound
+!   !   Child: 0  Var z of type int [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 0  Var a of type int [mem: Local  size: 1  loc: -5]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -5]
+!   !   !   Child: 1  Const: 666
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: g [mem: Global  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 777
+!   !   Sibling: 1  Assign: =
+!   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Call: sqr
+!   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   Sibling: 2  Call: output
+!   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 3  Call: outnl
+!   !   Sibling: 4  Assign: =
+!   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Call: sqr
+!   !   !   !   Child: 0  Op: [
+!   !   !   !   !   Child: 0  Id: y [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   !   Child: 1  Const: 7
+!   !   Sibling: 5  Call: output
+!   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 6  Call: outnl
+!   !   Sibling: 7  Assign: =
+!   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Call: sqr
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -5]
+!   !   Sibling: 8  Call: output
+!   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 9  Call: outnl
+!   !   Sibling: 10  Assign: =
+!   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Call: sqr
+!   !   !   !   Child: 0  Id: g [mem: Global  size: 1  loc: 0]
+!   !   Sibling: 11  Call: output
+!   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 12  Call: outnl
+Sibling: 9  Func swap returns type void [mem: Global  loc: 0]
+!   Child: 0  Param x is array of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param z1 of type int [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param z2 of type int [mem: Parameter  size: 1  loc: -4]
+!   Child: 1  Compound
+!   !   Child: 0  Var tmp of type int [mem: Local  size: 1  loc: -5]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: tmp [mem: Local  size: 1  loc: -5]
+!   !   !   Child: 1  Op: [
+!   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: z1 [mem: Parameter  size: 1  loc: -3]
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: z1 [mem: Parameter  size: 1  loc: -3]
+!   !   !   Child: 1  Op: [
+!   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: z2 [mem: Parameter  size: 1  loc: -4]
+!   !   Sibling: 1  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: z2 [mem: Parameter  size: 1  loc: -4]
+!   !   !   Child: 1  Id: tmp [mem: Local  size: 1  loc: -5]
+Sibling: 10  Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var p of type int [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 0  Var q of type int [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 1  Var r is array of type int [mem: Local  size: 11  loc: -5]
+!   !   Sibling: 2  Var s is array of type int [mem: Local  size: 11  loc: -16]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: p [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Const: 0
+!   !   Sibling: 0  While
+!   !   !   Child: 0  Op: <
+!   !   !   !   Child: 0  Id: p [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 10
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   Child: 0  Id: r [mem: Local  size: 11  loc: -5]
+!   !   !   !   !   !   Child: 1  Id: p [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   Child: 1  Id: p [mem: Local  size: 1  loc: -2]
+!   !   !   !   Sibling: 0  Assign: ++
+!   !   !   !   !   Child: 0  Id: p [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 1  Assign: =
+!   !   !   Child: 0  Id: p [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Const: 111
+!   !   Sibling: 2  Assign: =
+!   !   !   Child: 0  Id: q [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Const: 222
+!   !   Sibling: 3  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: r [mem: Local  size: 11  loc: -5]
+!   !   !   !   Child: 1  Const: 7
+!   !   !   Child: 1  Const: 333
+!   !   Sibling: 4  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: s [mem: Local  size: 11  loc: -16]
+!   !   !   !   Child: 1  Const: 7
+!   !   !   Child: 1  Const: 444
+!   !   Sibling: 5  Call: showInt
+!   !   !   Child: 0  Id: p [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 6  Call: showIntArray
+!   !   !   Child: 0  Id: r [mem: Local  size: 11  loc: -5]
+!   !   !   Sibling: 0  Const: 10
+!   !   Sibling: 7  Call: showBool
+!   !   !   Child: 0  Call: truth
+!   !   Sibling: 8  Call: output
+!   !   !   Child: 0  Call: showInt
+!   !   !   !   Child: 0  Id: p [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 9  Call: output
+!   !   !   Child: 0  Call: showBool
+!   !   !   !   Child: 0  Call: truth
+!   !   Sibling: 10  Call: caller
+!   !   !   Child: 0  Id: p [mem: Local  size: 1  loc: -2]
+!   !   !   Sibling: 0  Id: r [mem: Local  size: 11  loc: -5]
+!   !   Sibling: 11  Call: output
+!   !   !   Child: 0  Call: add
+!   !   !   !   Child: 0  Call: add
+!   !   !   !   !   Child: 0  Id: p [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   Sibling: 0  Id: q [mem: Local  size: 1  loc: -3]
+!   !   !   !   Sibling: 0  Call: mul
+!   !   !   !   !   Child: 0  Id: p [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   Sibling: 0  Id: q [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 12  Call: outnl
+!   !   Sibling: 13  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: r [mem: Local  size: 11  loc: -5]
+!   !   !   !   Child: 1  Const: 9
+!   !   !   Child: 1  Const: 555
+!   !   Sibling: 14  Call: swap
+!   !   !   Child: 0  Id: r [mem: Local  size: 11  loc: -5]
+!   !   !   Sibling: 0  Const: 7
+!   !   !   Sibling: 1  Const: 9
+!   !   Sibling: 15  Call: output
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: r [mem: Local  size: 11  loc: -5]
+!   !   !   !   Child: 1  Const: 9
+!   !   Sibling: 16  Call: outnl
+!   !   Sibling: 17  Call: output
+!   !   !   Child: 0  Op: *
+!   !   !   !   Child: 0  Const: 2
+!   !   !   !   Child: 1  Call: add
+!   !   !   !   !   Child: 0  Op: *
+!   !   !   !   !   !   Child: 0  Call: add
+!   !   !   !   !   !   !   Child: 0  Op: *
+!   !   !   !   !   !   !   !   Child: 0  Const: 3
+!   !   !   !   !   !   !   !   Child: 1  Const: 4
+!   !   !   !   !   !   !   Sibling: 0  Op: *
+!   !   !   !   !   !   !   !   Child: 0  Const: 5
+!   !   !   !   !   !   !   !   Child: 1  Const: 6
+!   !   !   !   !   !   Child: 1  Const: 7
+!   !   !   !   !   Sibling: 0  Op: *
+!   !   !   !   !   !   Child: 0  Call: add
+!   !   !   !   !   !   !   Child: 0  Op: *
+!   !   !   !   !   !   !   !   Child: 0  Const: 9
+!   !   !   !   !   !   !   !   Child: 1  Const: 10
+!   !   !   !   !   !   !   Sibling: 0  Op: *
+!   !   !   !   !   !   !   !   Child: 0  Const: 11
+!   !   !   !   !   !   !   !   Child: 1  Const: 12
+!   !   !   !   !   !   Child: 1  Const: 13
+!   !   Sibling: 18  Call: outnl
+Offset for end of global space: -1
+Number of warnings: 4
+Number of errors: 0

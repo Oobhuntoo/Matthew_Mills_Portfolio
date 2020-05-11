@@ -1,0 +1,101 @@
+WARNING(10): The variable 'y' seems not to be used.
+ERROR(12): Symbol 'lyra' is already declared at line 11.
+ERROR(15): Symbol 'asha' is not declared.
+ERROR(15): Symbol 'bree' is not declared.
+ERROR(15): Symbol 'cloe' is not declared.
+WARNING(15): The variable 'lyra' seems not to be used.
+ERROR(18): Symbol 'y' is not declared.
+ERROR(19): Symbol 'y' is not declared.
+WARNING(20): The variable 'y' seems not to be used.
+WARNING(20): The variable 'z' seems not to be used.
+WARNING(3): Expecting to return type int but function 'dog' has no return statement.
+WARNING(3): The parameter 'c' seems not to be used.
+WARNING(3): The parameter 'd' seems not to be used.
+WARNING(3): The function 'dog' seems not to be used.
+ERROR(LINKER): Procedure main is not declared.
+Var iorek of type int [mem: Global  size: 1  loc: 0]
+Sibling: 0  Func dog returns type int [mem: Global  loc: 0]
+!   Child: 0  Param b of type bool [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param c of type char [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param d of type char [mem: Parameter  size: 1  loc: -4]
+!   Child: 1  Compound
+!   !   Child: 0  Var x of type int [mem: Local  size: 1  loc: -5]
+!   !   !   Child: 0  Const: 666
+!   !   Sibling: 0  Var w of type int [mem: Local  size: 1  loc: -6]
+!   !   !   Child: 0  Const: 777
+!   !   Sibling: 1  Var z of type int [mem: Local  size: 1  loc: -7]
+!   !   Child: 1  LoopForever
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -5]
+!   !   !   !   Child: 1  Const: 7301
+!   !   Sibling: 0  Loop
+!   !   !   Child: 0  Var y of type int [mem: Local  size: 1  loc: -8]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: 103
+!   !   !   !   Child: 1  Const: 107
+!   !   !   !   Child: 2  Const: 1
+!   !   !   Child: 2  Assign: =
+!   !   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -7]
+!   !   !   !   Child: 1  Id: y [mem: Local  size: 1  loc: -8]
+!   !   Sibling: 1  Loop
+!   !   !   Child: 0  Var y of type int [mem: Local  size: 1  loc: -8]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: 217
+!   !   !   !   Child: 1  Const: 13
+!   !   !   !   Child: 2  Op: -
+!   !   !   !   !   Child: 0  Const: 63
+!   !   !   Child: 2  Assign: =
+!   !   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -7]
+!   !   !   !   Child: 1  Id: x [mem: Local  size: 1  loc: -5]
+!   !   Sibling: 2  Loop
+!   !   !   Child: 0  Var lyra of type int [mem: Local  size: 1  loc: -8]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Op: *
+!   !   !   !   !   Child: 0  Const: 3
+!   !   !   !   !   Child: 1  Id: x [mem: Local  size: 1  loc: -5]
+!   !   !   !   Child: 1  Op: +
+!   !   !   !   !   Child: 0  Id: w [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   Child: 1  Const: 13
+!   !   !   !   Child: 2  Op: *
+!   !   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -5]
+!   !   !   !   !   Child: 1  Id: w [mem: Local  size: 1  loc: -6]
+!   !   !   Child: 2  Compound
+!   !   !   !   Child: 0  Var lyra of type int [mem: Local  size: 1  loc: 0]
+!   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   Child: 0  Id: lyra [mem: Local  size: 1  loc: -8]
+!   !   !   !   !   Child: 1  Id: iorek [mem: Global  size: 1  loc: 0]
+!   !   Sibling: 3  Loop
+!   !   !   Child: 0  Var lyra of type int [mem: Local  size: 1  loc: -8]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Id: asha [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Id: bree [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 2  Id: cloe [mem: None  size: 1  loc: 0]
+!   !   Sibling: 4  While
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -5]
+!   !   !   !   Child: 1  Op: +
+!   !   !   !   !   Child: 0  Id: y [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Child: 1  Id: z [mem: Local  size: 1  loc: -7]
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -5]
+!   !   !   !   Child: 1  Const: 6031
+!   !   Sibling: 5  While
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -5]
+!   !   !   !   Child: 1  Op: +
+!   !   !   !   !   Child: 0  Id: y [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Child: 1  Id: z [mem: Local  size: 1  loc: -7]
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 0  Var x of type int [mem: Local  size: 1  loc: -8]
+!   !   !   !   Sibling: 0  Var y of type int [mem: Local  size: 1  loc: -9]
+!   !   !   !   Sibling: 1  Var z of type int [mem: Local  size: 1  loc: -10]
+!   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -8]
+!   !   !   !   !   Child: 1  Const: 6031
+!   !   Sibling: 6  While
+!   !   !   Child: 0  Id: b [mem: Parameter  size: 1  loc: -2]
+!   !   !   Child: 1  While
+!   !   !   !   Child: 0  Id: b [mem: Parameter  size: 1  loc: -2]
+Offset for end of global space: -1
+Number of warnings: 8
+Number of errors: 7

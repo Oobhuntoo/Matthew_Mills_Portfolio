@@ -1,0 +1,154 @@
+ERROR(4): Symbol 'y' is not declared.
+ERROR(5): Symbol 'x' is not declared.
+ERROR(6): Symbol 'x' is not declared.
+ERROR(6): Symbol 'y' is not declared.
+ERROR(7): Symbol 'y' is not declared.
+ERROR(7): Symbol 'x' is not declared.
+ERROR(8): Symbol 'x' is not declared.
+ERROR(8): Symbol 'y' is not declared.
+ERROR(9): Symbol 'x' is not declared.
+ERROR(9): Symbol 'array' is not declared.
+ERROR(14): Symbol 'dog' is not declared.
+ERROR(15): Symbol 'dog' is not declared.
+ERROR(16): Symbol 'dog' is not declared.
+ERROR(16): Symbol 'dog' is not declared.
+ERROR(16): Symbol 'dog' is not declared.
+ERROR(18): Symbol 'mouse' is not declared.
+ERROR(25): Symbol 'mouse' is not declared.
+ERROR(27): Symbol 'mouse' is not declared.
+ERROR(29): Symbol 'mouse' is not declared.
+ERROR(31): Symbol 'mouse' is not declared.
+ERROR(36): Symbol 'mouse' is not declared.
+ERROR(36): Symbol 'mouse' is not declared.
+ERROR(37): Symbol 'mouse' is not declared.
+ERROR(37): Symbol 'mouse' is not declared.
+ERROR(38): Symbol 'mouse' is not declared.
+ERROR(38): Symbol 'mouse' is not declared.
+ERROR(39): Symbol 'mouse' is not declared.
+ERROR(39): Symbol 'mouse' is not declared.
+ERROR(41): Symbol 'mouse' is not declared.
+ERROR(42): Symbol 'mouse' is not declared.
+WARNING(34): Expecting to return type int but function 'dog' has no return statement.
+WARNING(12): The function 'cat' seems not to be used.
+WARNING(34): The function 'dog' seems not to be used.
+Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 1  Op: *
+!   !   !   Child: 0  Id: y [mem: None  size: 1  loc: 0]
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: x [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 3
+!   !   Sibling: 1  Op: or
+!   !   !   Child: 0  Const: false
+!   !   !   Child: 1  Op: and
+!   !   !   !   Child: 0  Const: true
+!   !   !   !   Child: 1  Op: <
+!   !   !   !   !   Child: 0  Id: x [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Child: 1  Op: +
+!   !   !   !   !   !   Child: 0  Const: 222
+!   !   !   !   !   !   Child: 1  Op: *
+!   !   !   !   !   !   !   Child: 0  Id: y [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   !   Child: 1  Const: 444
+!   !   Sibling: 2  Op: or
+!   !   !   Child: 0  Op: and
+!   !   !   !   Child: 0  Op: >
+!   !   !   !   !   Child: 0  Op: +
+!   !   !   !   !   !   Child: 0  Op: *
+!   !   !   !   !   !   !   Child: 0  Const: 444
+!   !   !   !   !   !   !   Child: 1  Id: y [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Const: 222
+!   !   !   !   !   Child: 1  Id: x [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Const: true
+!   !   !   Child: 1  Const: false
+!   !   Sibling: 3  Op: and
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Op: *
+!   !   !   !   !   Child: 0  Const: 444
+!   !   !   !   !   Child: 1  Op: +
+!   !   !   !   !   !   Child: 0  Id: x [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Const: 222
+!   !   !   !   Child: 1  Const: 111
+!   !   !   Child: 1  Op: or
+!   !   !   !   Child: 0  Id: y [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Const: false
+!   !   Sibling: 4  Assign: =
+!   !   !   Child: 0  Id: x [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Op: or
+!   !   !   !   Child: 0  Const: true
+!   !   !   !   Child: 1  Op: and
+!   !   !   !   !   Child: 0  Op: not
+!   !   !   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   !   !   Child: 0  Op: -
+!   !   !   !   !   !   !   !   Child: 0  Op: +
+!   !   !   !   !   !   !   !   !   Child: 0  Op: %
+!   !   !   !   !   !   !   !   !   !   Child: 0  Op: /
+!   !   !   !   !   !   !   !   !   !   !   Child: 0  Op: *
+!   !   !   !   !   !   !   !   !   !   !   !   Child: 0  Op: -
+!   !   !   !   !   !   !   !   !   !   !   !   !   Child: 0  Op: ?
+!   !   !   !   !   !   !   !   !   !   !   !   !   !   Child: 0  Op: *
+!   !   !   !   !   !   !   !   !   !   !   !   !   !   !   Child: 0  Id: array [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   !   !   !   !   !   !   Child: 1  Op: -
+!   !   !   !   !   !   !   !   !   !   !   !   !   Child: 0  Op: -
+!   !   !   !   !   !   !   !   !   !   !   !   !   !   Child: 0  Const: 42
+!   !   !   !   !   !   !   !   !   !   !   Child: 1  Const: 13
+!   !   !   !   !   !   !   !   !   !   Child: 1  Const: 5
+!   !   !   !   !   !   !   !   !   Child: 1  Const: 31
+!   !   !   !   !   !   !   !   Child: 1  Const: 331
+!   !   !   !   !   !   !   Child: 1  Const: 12
+!   !   !   !   !   Child: 1  Op: <
+!   !   !   !   !   !   Child: 0  Const: 7
+!   !   !   !   !   !   Child: 1  Const: 9
+Sibling: 0  Func cat returns type int [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 1  Call: dog
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: dog [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 3
+!   !   Sibling: 1  Assign: =
+!   !   !   Child: 0  Id: dog [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Op: *
+!   !   !   !   Child: 0  Id: dog [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Id: dog [mem: None  size: 1  loc: 0]
+!   !   Sibling: 2  Assign: =
+!   !   !   Child: 0  Id: mouse [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 7
+!   !   Sibling: 3  Compound
+!   !   !   Child: 0  Var mouse of type int [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: mouse [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 8
+!   !   Sibling: 4  Assign: =
+!   !   !   Child: 0  Id: mouse [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 9
+!   !   Sibling: 5  Compound
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: mouse [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Const: 10
+!   !   Sibling: 6  Assign: =
+!   !   !   Child: 0  Id: mouse [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 11
+!   !   Sibling: 7  Return
+!   !   !   Child: 0  Id: mouse [mem: None  size: 1  loc: 0]
+Sibling: 1  Func dog returns type int [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 1  Op: and
+!   !   !   Child: 0  Id: mouse [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Id: mouse [mem: None  size: 1  loc: 0]
+!   !   Sibling: 0  Op: >
+!   !   !   Child: 0  Id: mouse [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Id: mouse [mem: None  size: 1  loc: 0]
+!   !   Sibling: 1  Op: ==
+!   !   !   Child: 0  Id: mouse [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Id: mouse [mem: None  size: 1  loc: 0]
+!   !   Sibling: 2  Assign: +=
+!   !   !   Child: 0  Id: mouse [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Id: mouse [mem: None  size: 1  loc: 0]
+!   !   Sibling: 3  If
+!   !   !   Child: 0  Id: mouse [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 666
+!   !   Sibling: 4  While
+!   !   !   Child: 0  Id: mouse [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 666
+Offset for end of global space: 0
+Number of warnings: 3
+Number of errors: 30

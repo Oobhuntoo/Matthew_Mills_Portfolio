@@ -1,0 +1,17 @@
+ERROR(5): Syntax error, unexpected "while".
+ERROR(6): Syntax error, unexpected ';'.
+ERROR(8): Syntax error, unexpected "while".
+ERROR(9): Syntax error, unexpected ';'.
+ERROR(11): Syntax error, unexpected "while".
+ERROR(12): Syntax error, unexpected ';'.
+Func main returns type void [mem: Local  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 1  Op: -
+!   !   !   Child: 0  Const: 111
+!   !   Sibling: 0  Op: not
+!   !   !   Child: 0  Const: true
+!   !   Sibling: 1  Op: *
+!   !   !   Child: 0  Id: x [mem: None  size: 1  loc: 0]
+Offset for end of global space: 0
+Number of warnings: 0
+Number of errors: 6

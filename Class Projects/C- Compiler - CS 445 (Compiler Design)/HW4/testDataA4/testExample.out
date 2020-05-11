@@ -1,0 +1,8 @@
+ERROR(17): Symbol 'fred' is not declared.
+WARNING(4): The variable 'ant' seems not to be used.
+WARNING(36): The variable 'max' seems not to be used.
+WARNING(2): The variable 'y' seems not to be used.
+WARNING(1): The variable 'zev' seems not to be used.
+ERROR(LINKER): Procedure main is not declared.
+Number of warnings: 4
+Number of errors: 2

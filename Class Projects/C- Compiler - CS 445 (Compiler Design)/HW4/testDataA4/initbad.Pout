@@ -1,0 +1,27 @@
+ERROR(1): Variable 'a' is of type int but is being initialized with an expression of type char.
+ERROR(2): Variable 'b' is of type bool but is being initialized with an expression of type int.
+ERROR(3): Variable 'c' is of type char but is being initialized with an expression of type bool.
+ERROR(8): Initializer for variable 'aa' is not a constant expression.
+ERROR(9): Initializer for variable 'bb' is not a constant expression.
+ERROR(10): Initializer for variable 'cc' is not a constant expression.
+WARNING(8): The variable 'aa' seems not to be used.
+WARNING(9): The variable 'bb' seems not to be used.
+WARNING(10): The variable 'cc' seems not to be used.
+WARNING(4): The variable 's' seems not to be used.
+Var a of type int [line: 1]
+!   Child: 0  Const: 'a' [type char] [line: 1]
+Sibling: 0  Var b of type bool [line: 2]
+!   Child: 0  Const: 3 [type int] [line: 2]
+Sibling: 1  Var c of type char [line: 3]
+!   Child: 0  Const: true [type bool] [line: 3]
+Sibling: 2  Var s is array of type char [line: 4]
+Sibling: 3  Func main returns type void [line: 6]
+!   Child: 1  Compound [line: 7]
+!   !   Child: 0  Var aa of type int [line: 8]
+!   !   !   Child: 0  Id: a [type int] [line: 8]
+!   !   Sibling: 0  Var bb of type bool [line: 9]
+!   !   !   Child: 0  Id: b [type bool] [line: 9]
+!   !   Sibling: 1  Var cc of type char [line: 10]
+!   !   !   Child: 0  Id: c [type char] [line: 10]
+Number of warnings: 4
+Number of errors: 6

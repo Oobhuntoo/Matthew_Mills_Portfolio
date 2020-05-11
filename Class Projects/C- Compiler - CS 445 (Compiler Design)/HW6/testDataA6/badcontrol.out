@@ -1,0 +1,157 @@
+ERROR(6): '=' requires operands of the same type but lhs is type int and rhs is type bool.
+ERROR(7): '=' requires operands of the same type but lhs is type int and rhs is type bool.
+ERROR(9): Expecting Boolean test condition in if statement but got type int.
+ERROR(11): Expecting Boolean test condition in if statement but got type int.
+ERROR(14): Expecting Boolean test condition in if statement but got type int.
+ERROR(14): Expecting Boolean test condition in if statement but got type int.
+ERROR(17): Expecting Boolean test condition in if statement but got type int.
+ERROR(18): Expecting Boolean test condition in if statement but got type int.
+ERROR(19): Expecting Boolean test condition in elsif statement but got type int.
+ERROR(20): Expecting Boolean test condition in if statement but got type int.
+ERROR(21): Expecting Boolean test condition in elsif statement but got type int.
+ERROR(23): Expecting Boolean test condition in while statement but got type int.
+ERROR(25): Expecting Boolean test condition in while statement but got type void.
+ERROR(33): Expecting Boolean test condition in while statement but got type int.
+ERROR(36): Expecting Boolean test condition in while statement but got type int.
+ERROR(44): Cannot have a break statement outside of loop.
+WARNING(48): The variable 'i' seems not to be used.
+ERROR(50): Expecting integer in range for loop statement but got type bool.
+WARNING(50): The variable 'i' seems not to be used.
+ERROR(52): Expecting integer in range for loop statement but got type void.
+ERROR(52): Symbol 'zog' is not declared.
+WARNING(52): The variable 'i' seems not to be used.
+ERROR(54): '=' requires operands of the same type but lhs is type char and rhs is type int.
+ERROR(56): Expecting integer in range for loop statement but got type bool.
+WARNING(56): The variable 'i' seems not to be used.
+ERROR(58): Expecting integer in range for loop statement but got type void.
+WARNING(58): The variable 'i' seems not to be used.
+ERROR(60): Symbol 'zog' is not declared.
+WARNING(60): The variable 'i' seems not to be used.
+ERROR(62): Symbol 'zog' is not declared.
+WARNING(62): The variable 'i' seems not to be used.
+Func nothin returns type void [mem: Global  loc: 0]
+Sibling: 0  Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var x of type int [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 0  Var y of type int [mem: Local  size: 1  loc: -3]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Const: true
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Const: false
+!   !   Sibling: 1  If
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Const: 111
+!   !   Sibling: 2  If
+!   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Const: 222
+!   !   !   Child: 2  Const: 333
+!   !   Sibling: 3  If
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 444
+!   !   !   !   Child: 2  Const: 555
+!   !   Sibling: 4  If
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 444
+!   !   !   !   Child: 2  Elsif
+!   !   !   !   !   Child: 0  Const: 555
+!   !   !   !   !   Child: 1  Const: 556
+!   !   !   !   !   Child: 2  If
+!   !   !   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   !   Child: 1  Const: 557
+!   !   !   !   !   !   Child: 2  Elsif
+!   !   !   !   !   !   !   Child: 0  Const: 559
+!   !   !   !   !   !   !   Child: 1  Id: x [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 5  While
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Const: 666
+!   !   Sibling: 6  While
+!   !   !   Child: 0  Call: nothin
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 1  Const: 777
+!   !   !   !   Sibling: 0  Break
+!   !   !   !   Sibling: 1  Const: 888
+!   !   !   !   Sibling: 2  Break
+!   !   !   !   Sibling: 3  Const: 999
+!   !   Sibling: 7  While
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 1  Const: 111
+!   !   !   !   Sibling: 0  Break
+!   !   !   !   Sibling: 1  While
+!   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   Child: 1  Compound
+!   !   !   !   !   !   Child: 1  Const: 222
+!   !   !   !   !   !   Sibling: 0  Break
+!   !   !   !   !   !   Sibling: 1  Const: 333
+!   !   !   !   Sibling: 2  Break
+!   !   !   !   Sibling: 3  Const: 444
+!   !   Sibling: 8  Break
+!   !   Sibling: 9  LoopForever
+!   !   !   Child: 1  Break
+!   !   Sibling: 10  Loop
+!   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 2  Const: 1
+!   !   !   Child: 2  Break
+!   !   Sibling: 11  Loop
+!   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: true
+!   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 2  Const: 1
+!   !   Sibling: 12  Loop
+!   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Call: nothin
+!   !   !   !   Child: 1  Id: zog [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 2  Const: 1
+!   !   Sibling: 13  Loop
+!   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 2  Const: 99
+!   !   !   Child: 2  Compound
+!   !   !   !   Child: 0  Var c of type char [mem: Local  size: 1  loc: -5]
+!   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   Child: 0  Id: c [mem: Local  size: 1  loc: -5]
+!   !   !   !   !   Child: 1  Id: i [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 14  Loop
+!   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 2  Const: true
+!   !   !   Child: 2  Break
+!   !   Sibling: 15  Loop
+!   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 2  Call: nothin
+!   !   !   Child: 2  Break
+!   !   Sibling: 16  Loop
+!   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 2  Id: zog [mem: None  size: 1  loc: 0]
+!   !   !   Child: 2  Break
+!   !   Sibling: 17  Loop
+!   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 2  Call: zog
+!   !   !   Child: 2  Break
+Offset for end of global space: 0
+Number of warnings: 7
+Number of errors: 24

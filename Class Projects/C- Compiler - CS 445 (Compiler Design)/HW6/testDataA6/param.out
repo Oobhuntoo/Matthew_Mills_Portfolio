@@ -1,0 +1,154 @@
+ERROR(4): Too many parameters passed for function 'D_Artagnan' declared on line 1.
+ERROR(5): Too many parameters passed for function 'D_Artagnan' declared on line 1.
+ERROR(5): '+' requires operands of type int but lhs is of type bool.
+WARNING(3): Expecting to return type int but function 'Athos' has no return statement.
+ERROR(10): Not expecting array in parameter 2 of call to 'Athos' declared on line 3.
+ERROR(10): Too few parameters passed for function 'Athos' declared on line 3.
+ERROR(12): Too many parameters passed for function 'Athos' declared on line 3.
+ERROR(12): 'and' requires operands of type bool but lhs is of type int.
+ERROR(12): 'and' requires operands of type bool but rhs is of type int.
+WARNING(9): Expecting to return type char but function 'Aramis' has no return statement.
+WARNING(21): Variable 'a' may be uninitialized when used here.
+WARNING(21): Variable 'b' may be uninitialized when used here.
+WARNING(21): Variable 'c' may be uninitialized when used here.
+ERROR(23): Too few parameters passed for function 'Athos' declared on line 3.
+ERROR(24): Too many parameters passed for function 'Athos' declared on line 3.
+ERROR(25): Expecting type int in parameter 1 of call to 'Athos' declared on line 3 but got type void.
+ERROR(25): Symbol 'thx1138' is not declared.
+ERROR(25): Expecting type char in parameter 3 of call to 'Athos' declared on line 3 but got type int.
+WARNING(16): The parameter 'aa' seems not to be used.
+WARNING(16): The parameter 'bb' seems not to be used.
+WARNING(16): The parameter 'cc' seems not to be used.
+ERROR(LINKER): Procedure main is not declared.
+Func D_Artagnan returns type void [mem: Global  loc: 0]
+Sibling: 0  Func Athos returns type int [mem: Global  loc: 0]
+!   Child: 0  Param a of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param b of type bool [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param c of type char [mem: Parameter  size: 1  loc: -4]
+!   Child: 1  Compound
+!   !   Child: 1  Call: D_Artagnan
+!   !   !   Child: 0  Const: 666
+!   !   Sibling: 0  Call: D_Artagnan
+!   !   !   Child: 0  Const: 666
+!   !   !   Sibling: 0  Op: +
+!   !   !   !   Child: 0  Const: true
+!   !   !   !   Child: 1  Const: 6
+!   !   Sibling: 1  Call: Athos
+!   !   !   Child: 0  Id: a [mem: Parameter  size: 1  loc: -2]
+!   !   !   Sibling: 0  Id: b [mem: Parameter  size: 1  loc: -3]
+!   !   !   Sibling: 1  Id: c [mem: Parameter  size: 1  loc: -4]
+Sibling: 1  Func Aramis returns type char [mem: Global  loc: 0]
+!   Child: 0  Param aa is array of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param ab is array of type bool [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param ac is array of type char [mem: Parameter  size: 1  loc: -4]
+!   Child: 1  Compound
+!   !   Child: 1  Call: Athos
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: aa [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 1
+!   !   !   Sibling: 0  Id: ab [mem: Parameter  size: 1  loc: -3]
+!   !   Sibling: 0  Call: Athos
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: aa [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 1
+!   !   !   Sibling: 0  Op: [
+!   !   !   !   Child: 0  Id: ab [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 2
+!   !   !   Sibling: 1  Op: [
+!   !   !   !   Child: 0  Id: ac [mem: Parameter  size: 1  loc: -4]
+!   !   !   !   Child: 1  Const: 3
+!   !   Sibling: 1  Call: Athos
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: aa [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 1
+!   !   !   Sibling: 0  Op: [
+!   !   !   !   Child: 0  Id: ab [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 2
+!   !   !   Sibling: 1  Op: [
+!   !   !   !   Child: 0  Id: ac [mem: Parameter  size: 1  loc: -4]
+!   !   !   !   Child: 1  Const: 3
+!   !   !   Sibling: 2  Op: and
+!   !   !   !   Child: 0  Const: 5
+!   !   !   !   Child: 1  Const: 6
+Sibling: 2  Func Porthos returns type bool [mem: Global  loc: 0]
+!   Child: 0  Param bb of type bool [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param cc of type char [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param aa of type int [mem: Parameter  size: 1  loc: -4]
+!   Child: 1  Compound
+!   !   Child: 0  Var a is array of type int [mem: Local  size: 2  loc: -6]
+!   !   Sibling: 0  Var b is array of type bool [mem: Local  size: 3  loc: -8]
+!   !   Sibling: 1  Var c is array of type char [mem: Local  size: 4  loc: -11]
+!   !   Child: 1  Call: Athos
+!   !   !   Child: 0  Call: Athos
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Sibling: 0  Const: true
+!   !   !   !   Sibling: 1  Const: 'x'
+!   !   !   Sibling: 0  Call: Porthos
+!   !   !   !   Child: 0  Const: true
+!   !   !   !   Sibling: 0  Const: 'w'
+!   !   !   !   Sibling: 1  Const: 78
+!   !   !   Sibling: 1  Call: Aramis
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 2  loc: -6]
+!   !   !   !   Sibling: 0  Id: b [mem: Local  size: 3  loc: -8]
+!   !   !   !   Sibling: 1  Id: c [mem: Local  size: 4  loc: -11]
+!   !   Sibling: 0  Call: Athos
+!   !   !   Child: 0  Op: *
+!   !   !   !   Child: 0  Call: Athos
+!   !   !   !   !   Child: 0  Const: 1
+!   !   !   !   !   Sibling: 0  Const: true
+!   !   !   !   !   Sibling: 1  Const: 'x'
+!   !   !   !   Child: 1  Const: 6
+!   !   !   Sibling: 0  Op: and
+!   !   !   !   Child: 0  Call: Porthos
+!   !   !   !   !   Child: 0  Const: true
+!   !   !   !   !   Sibling: 0  Const: 'w'
+!   !   !   !   !   Sibling: 1  Const: 78
+!   !   !   !   Child: 1  Const: true
+!   !   !   Sibling: 1  Call: Aramis
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 2  loc: -6]
+!   !   !   !   Sibling: 0  Id: b [mem: Local  size: 3  loc: -8]
+!   !   !   !   Sibling: 1  Id: c [mem: Local  size: 4  loc: -11]
+!   !   Sibling: 1  Call: Athos
+!   !   !   Child: 0  Call: Athos
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Sibling: 0  Const: true
+!   !   !   !   Sibling: 1  Const: 'x'
+!   !   !   Sibling: 0  Call: Porthos
+!   !   !   !   Child: 0  Const: true
+!   !   !   !   Sibling: 0  Const: 'w'
+!   !   !   !   Sibling: 1  Const: 78
+!   !   Sibling: 2  Call: Athos
+!   !   !   Child: 0  Call: Athos
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Sibling: 0  Const: true
+!   !   !   !   Sibling: 1  Const: 'x'
+!   !   !   Sibling: 0  Call: Porthos
+!   !   !   !   Child: 0  Const: true
+!   !   !   !   Sibling: 0  Const: 'w'
+!   !   !   !   Sibling: 1  Const: 78
+!   !   !   Sibling: 1  Call: Aramis
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 2  loc: -6]
+!   !   !   !   Sibling: 0  Id: b [mem: Local  size: 3  loc: -8]
+!   !   !   !   Sibling: 1  Id: c [mem: Local  size: 4  loc: -11]
+!   !   !   Sibling: 2  Const: true
+!   !   !   Sibling: 3  Const: 34
+!   !   !   Sibling: 4  Id: a [mem: Local  size: 2  loc: -6]
+!   !   !   Sibling: 5  Call: D_Artagnan
+!   !   Sibling: 3  Call: Athos
+!   !   !   Child: 0  Call: D_Artagnan
+!   !   !   Sibling: 0  Id: thx1138 [mem: None  size: 1  loc: 0]
+!   !   !   Sibling: 1  Assign: =
+!   !   !   !   Child: 0  Op: [
+!   !   !   !   !   Child: 0  Id: a [mem: Local  size: 2  loc: -6]
+!   !   !   !   !   Child: 1  Const: 0
+!   !   !   !   Child: 1  Op: [
+!   !   !   !   !   Child: 0  Id: a [mem: Local  size: 2  loc: -6]
+!   !   !   !   !   Child: 1  Const: 0
+!   !   Sibling: 4  Return
+!   !   !   Child: 0  Call: Porthos
+!   !   !   !   Child: 0  Const: true
+!   !   !   !   Sibling: 0  Const: 'e'
+!   !   !   !   Sibling: 1  Const: 90
+Offset for end of global space: 0
+Number of warnings: 8
+Number of errors: 14

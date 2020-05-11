@@ -1,0 +1,374 @@
+WARNING(9): Variable 'x' may be uninitialized when used here.
+WARNING(10): Variable 'b' may be uninitialized when used here.
+ERROR(12): '=' requires operands of the same type but lhs is type bool and rhs is type int.
+Func main returns type int [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var x of type int [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 0  Var y of type int [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 1  Var z of type int [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 2  Var a of type bool [mem: Local  size: 1  loc: -5]
+!   !   Sibling: 3  Var b of type bool [mem: Local  size: 1  loc: -6]
+!   !   Sibling: 4  Var c of type bool [mem: Local  size: 1  loc: -7]
+!   !   Sibling: 5  Var d of type bool [mem: Local  size: 1  loc: -8]
+!   !   Sibling: 6  Var e of type bool [mem: Local  size: 1  loc: -9]
+!   !   Child: 1  If
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 2
+!   !   Sibling: 0  While
+!   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   Sibling: 1  Assign: =
+!   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -5]
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   Child: 0  Id: c [mem: Local  size: 1  loc: -7]
+!   !   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   !   Child: 0  Id: d [mem: Local  size: 1  loc: -8]
+!   !   !   !   !   !   Child: 1  Const: 3
+!   !   Sibling: 2  If
+!   !   !   Child: 0  Const: false
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: e [mem: Local  size: 1  loc: -9]
+!   !   !   !   Child: 1  Const: true
+!   !   Sibling: 3  Assign: =
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Const: 1184
+!   !   Sibling: 4  Assign: =
+!   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Const: 1210
+!   !   Sibling: 5  If
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 1
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   !   !   Child: 1  Const: 1
+!   !   Sibling: 6  If
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 2
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   !   !   Child: 1  Const: 1
+!   !   !   Child: 2  Assign: =
+!   !   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   !   !   Child: 1  Const: 2
+!   !   Sibling: 7  If
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 3
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Op: >
+!   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   Child: 1  Const: 4
+!   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   !   !   !   Child: 1  Const: 3
+!   !   Sibling: 8  If
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 5
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Op: >
+!   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   Child: 1  Const: 6
+!   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   !   !   !   Child: 1  Const: 4
+!   !   !   !   Child: 2  Assign: =
+!   !   !   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   !   !   !   Child: 1  Const: 5
+!   !   Sibling: 9  If
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 7
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Op: >
+!   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   Child: 1  Const: 8
+!   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   !   !   !   Child: 1  Const: 6
+!   !   !   !   Child: 2  Assign: =
+!   !   !   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   !   !   !   Child: 1  Const: 7
+!   !   !   Child: 2  Assign: =
+!   !   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   !   !   Child: 1  Const: 8
+!   !   Sibling: 10  If
+!   !   !   Child: 0  Op: <
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 9
+!   !   !   Child: 1  While
+!   !   !   !   Child: 0  Op: >
+!   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 1  Const: 9
+!   !   Sibling: 11  While
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 10
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Op: <
+!   !   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   Child: 1  Const: 3
+!   !   Sibling: 12  While
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 10
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Op: <
+!   !   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   Child: 1  Const: 3
+!   !   !   !   Child: 2  Const: 9
+!   !   Sibling: 13  If
+!   !   !   Child: 0  Op: <
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 9
+!   !   !   Child: 1  While
+!   !   !   !   Child: 0  Op: >
+!   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 1  If
+!   !   !   !   !   Child: 0  Op: <
+!   !   !   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   !   Child: 2  Const: 9
+!   !   Sibling: 14  While
+!   !   !   Child: 0  Op: <
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 11
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Op: <
+!   !   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   Child: 1  Const: 12
+!   !   !   !   Child: 1  While
+!   !   !   !   !   Child: 0  Op: >
+!   !   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   !   Child: 1  Const: 13
+!   !   !   !   !   Child: 1  Const: 10
+!   !   Sibling: 15  If
+!   !   !   Child: 0  Op: <
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 13
+!   !   !   Child: 1  While
+!   !   !   !   Child: 0  Op: >
+!   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   Child: 1  Const: 14
+!   !   !   !   Child: 1  Const: 20
+!   !   !   Child: 2  Const: 21
+!   !   Sibling: 16  While
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 15
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Op: <
+!   !   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   Child: 1  Const: 16
+!   !   !   !   Child: 1  Const: 22
+!   !   !   !   Child: 2  Const: 23
+!   !   Sibling: 17  While
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 15
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Op: <
+!   !   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   Child: 1  Const: 16
+!   !   !   !   Child: 1  While
+!   !   !   !   !   Child: 0  Op: <
+!   !   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   !   Child: 1  Const: 9
+!   !   !   !   Child: 2  Const: 23
+!   !   Sibling: 18  While
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 15
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Op: <
+!   !   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   Child: 1  Const: 16
+!   !   !   !   Child: 1  While
+!   !   !   !   !   Child: 0  Op: <
+!   !   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   !   Child: 1  Const: 9
+!   !   !   !   Child: 2  While
+!   !   !   !   !   Child: 0  Op: >
+!   !   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   !   Child: 1  Const: 23
+!   !   Sibling: 19  While
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 15
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Op: <
+!   !   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   Child: 1  Const: 16
+!   !   !   !   Child: 1  While
+!   !   !   !   !   Child: 0  Op: <
+!   !   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   !   Child: 1  If
+!   !   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   !   Child: 1  Const: 34
+!   !   !   !   !   !   Child: 2  Const: 34
+!   !   !   !   Child: 2  While
+!   !   !   !   !   Child: 0  Op: >
+!   !   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   !   Child: 1  Const: 23
+!   !   Sibling: 20  While
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 15
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Op: <
+!   !   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   Child: 1  Const: 16
+!   !   !   !   Child: 1  Compound
+!   !   !   !   !   Child: 1  While
+!   !   !   !   !   !   Child: 0  Op: <
+!   !   !   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   !   !   Child: 1  If
+!   !   !   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   !   !   Child: 1  Const: 34
+!   !   !   !   Child: 2  While
+!   !   !   !   !   Child: 0  Op: >
+!   !   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   !   Child: 1  Const: 23
+!   !   Sibling: 21  While
+!   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   Child: 1  While
+!   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   Child: 1  If
+!   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   Child: 1  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   Child: 2  Id: y [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 22  While
+!   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   Child: 1  While
+!   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   Child: 1  If
+!   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   Child: 1  Id: x [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 23  If
+!   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   Child: 1  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 2  Id: z [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 24  While
+!   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   Child: 1  While
+!   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   Child: 1  If
+!   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   Child: 1  Id: x [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 25  While
+!   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   Child: 1  While
+!   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   Child: 1  If
+!   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   Child: 1  Id: x [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 26  If
+!   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   Child: 1  Id: y [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 27  While
+!   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Id: c [mem: Local  size: 1  loc: -7]
+!   !   !   !   Child: 1  While
+!   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   Child: 1  If
+!   !   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   !   Child: 1  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   !   Child: 2  Id: y [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 28  While
+!   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Id: c [mem: Local  size: 1  loc: -7]
+!   !   !   !   Child: 1  While
+!   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   Child: 1  If
+!   !   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   !   Child: 1  Id: x [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 29  If
+!   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   Child: 1  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 2  Id: z [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 30  If
+!   !   !   Child: 0  Id: c [mem: Local  size: 1  loc: -7]
+!   !   !   Child: 1  While
+!   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   Child: 1  While
+!   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   Child: 1  If
+!   !   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   !   Child: 1  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   !   Child: 2  Id: y [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 31  If
+!   !   !   Child: 0  Id: c [mem: Local  size: 1  loc: -7]
+!   !   !   Child: 1  While
+!   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   Child: 1  While
+!   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   Child: 1  If
+!   !   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   !   Child: 1  Id: x [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 32  If
+!   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   Child: 1  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 2  Id: z [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 33  If
+!   !   !   Child: 0  Id: c [mem: Local  size: 1  loc: -7]
+!   !   !   Child: 1  While
+!   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   Child: 1  While
+!   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   Child: 1  If
+!   !   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   !   Child: 1  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   !   Child: 2  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 2  Id: z [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 34  While
+!   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -5]
+!   !   !   Child: 1  While
+!   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   Child: 1  While
+!   !   !   !   !   Child: 0  Id: c [mem: Local  size: 1  loc: -7]
+!   !   !   !   !   Child: 1  While
+!   !   !   !   !   !   Child: 0  Id: d [mem: Local  size: 1  loc: -8]
+!   !   !   !   !   !   Child: 1  Id: e [mem: Local  size: 1  loc: -9]
+!   !   Sibling: 35  If
+!   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -5]
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   Child: 1  If
+!   !   !   !   !   Child: 0  Id: c [mem: Local  size: 1  loc: -7]
+!   !   !   !   !   Child: 1  If
+!   !   !   !   !   !   Child: 0  Id: d [mem: Local  size: 1  loc: -8]
+!   !   !   !   !   !   Child: 1  Id: e [mem: Local  size: 1  loc: -9]
+!   !   Sibling: 36  If
+!   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -5]
+!   !   !   Child: 2  If
+!   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -6]
+!   !   !   !   Child: 2  If
+!   !   !   !   !   Child: 0  Id: c [mem: Local  size: 1  loc: -7]
+!   !   !   !   !   Child: 2  If
+!   !   !   !   !   !   Child: 0  Id: d [mem: Local  size: 1  loc: -8]
+!   !   !   !   !   !   Child: 2  Id: e [mem: Local  size: 1  loc: -9]
+!   !   Sibling: 37  Return
+!   !   !   Child: 0  Op: *
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: y [mem: Local  size: 1  loc: -3]
+Offset for end of global space: 0
+Number of warnings: 2
+Number of errors: 1

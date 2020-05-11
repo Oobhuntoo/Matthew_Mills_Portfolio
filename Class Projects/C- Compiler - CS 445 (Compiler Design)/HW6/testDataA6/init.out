@@ -1,0 +1,97 @@
+ERROR(2): Symbol 's' is not declared.
+ERROR(2): Initializer for variable 's' is not a constant expression.
+ERROR(2): Variable 't' is of type int but is being initialized with an expression of type char.
+ERROR(2): Variable 'u' is of type int but is being initialized with an expression of type char.
+WARNING(9): Variable 'x' may be uninitialized when used here.
+ERROR(9): Initializer for variable 'lenx' is not a constant expression.
+WARNING(18): Variable 't' may be uninitialized when used here.
+WARNING(10): The variable 'ba' seems not to be used.
+WARNING(10): The variable 'bb' seems not to be used.
+WARNING(10): The variable 'bc' seems not to be used.
+WARNING(11): The variable 'ca' seems not to be used.
+WARNING(9): The variable 'k' seems not to be used.
+WARNING(9): The variable 'lenx' seems not to be used.
+WARNING(7): The variable 'y' seems not to be used.
+WARNING(2): The variable 's' seems not to be used.
+WARNING(2): The variable 't' seems not to be used.
+WARNING(2): The variable 'u' seems not to be used.
+Var s of type int [mem: Global  size: 1  loc: 0]
+!   Child: 0  Id: s [mem: None  size: 1  loc: 0]
+Sibling: 0  Var t of type int [mem: Global  size: 1  loc: -1]
+!   Child: 0  Const: '"'
+Sibling: 1  Var u of type int [mem: Global  size: 1  loc: -2]
+!   Child: 0  Const: '''
+Sibling: 2  Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 0  Const: 666
+!   !   Sibling: 0  Var a of type int [mem: LocalStatic  size: 1  loc: -3]
+!   !   !   Child: 0  Const: 666
+!   !   Sibling: 1  Var y of type char [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 0  Const: 'a'
+!   !   Sibling: 2  Var b is array of type char [mem: Local  size: 11  loc: -5]
+!   !   !   Child: 0  Const: 'x'
+!   !   Sibling: 3  Var x is array of type int [mem: Local  size: 11  loc: -16]
+!   !   Sibling: 4  Var k of type int [mem: Local  size: 1  loc: -26]
+!   !   !   Child: 0  Op: +
+!   !   !   !   Child: 0  Op: *
+!   !   !   !   !   Child: 0  Const: 4
+!   !   !   !   !   Child: 1  Const: 5
+!   !   !   !   Child: 1  Const: 3
+!   !   Sibling: 5  Var lenx of type int [mem: Local  size: 1  loc: -27]
+!   !   !   Child: 0  Op: *
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 11  loc: -16]
+!   !   Sibling: 6  Var ba of type bool [mem: Local  size: 1  loc: -28]
+!   !   !   Child: 0  Const: true
+!   !   Sibling: 7  Var bb of type bool [mem: Local  size: 1  loc: -29]
+!   !   !   Child: 0  Op: and
+!   !   !   !   Child: 0  Const: true
+!   !   !   !   Child: 1  Op: not
+!   !   !   !   !   Child: 0  Const: false
+!   !   Sibling: 8  Var bc of type bool [mem: Local  size: 1  loc: -30]
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Const: 5
+!   !   !   !   Child: 1  Const: 4
+!   !   Sibling: 9  Var ca of type char [mem: Local  size: 1  loc: -31]
+!   !   !   Child: 0  Const: 'a'
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 11  loc: -16]
+!   !   !   !   Child: 1  Const: 1
+!   !   !   Child: 1  Const: 111
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: a [mem: LocalStatic  size: 1  loc: -3]
+!   !   !   Child: 1  Op: *
+!   !   !   !   Child: 0  Id: b [mem: Local  size: 11  loc: -5]
+!   !   Sibling: 1  While
+!   !   !   Child: 0  Op: <
+!   !   !   !   Child: 0  Id: i [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 10
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 0  Var y is array of type int [mem: Local  size: 21  loc: -33]
+!   !   !   !   Sibling: 0  Var t of type bool [mem: Local  size: 1  loc: -53]
+!   !   !   !   Child: 1  If
+!   !   !   !   !   Child: 0  Id: t [mem: Local  size: 1  loc: -53]
+!   !   !   !   !   Child: 1  Break
+!   !   !   !   Sibling: 0  If
+!   !   !   !   !   Child: 0  Id: t [mem: Local  size: 1  loc: -53]
+!   !   !   !   !   Child: 1  Break
+!   !   !   !   !   Child: 2  Return
+!   !   !   !   Sibling: 1  Assign: =
+!   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   Child: 0  Id: y [mem: Local  size: 21  loc: -33]
+!   !   !   !   !   !   Child: 1  Const: 2
+!   !   !   !   !   Child: 1  Const: 222
+!   !   Sibling: 2  Compound
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 0  Var z is array of type int [mem: Local  size: 31  loc: -33]
+!   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   Child: 0  Id: z [mem: Local  size: 31  loc: -33]
+!   !   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   !   Child: 1  Const: 333
+!   !   Sibling: 3  Call: output
+!   !   !   Child: 0  Const: 666
+Offset for end of global space: -4
+Number of warnings: 12
+Number of errors: 5

@@ -1,0 +1,6 @@
+ERROR(1): Syntax error, unexpected numeric constant "45234", expecting identifier.
+ERROR(2): Empty character ''
+WARNING(2): character is 4 characters long and not a single character: ''dogs''.  First char used.
+ERROR(3): Syntax error, unexpected Boolean constant "true", expecting identifier.
+Number of warnings: 1
+Number of errors: 3

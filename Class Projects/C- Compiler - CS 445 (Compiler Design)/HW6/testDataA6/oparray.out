@@ -1,0 +1,138 @@
+ERROR(11): Cannot use function 'main' as a variable.
+WARNING(13): Variable 'xa' may be uninitialized when used here.
+WARNING(14): Variable 'ca' may be uninitialized when used here.
+WARNING(15): Variable 'ba' may be uninitialized when used here.
+ERROR(16): '=' requires operands of the same type but lhs is type int and rhs is type char.
+ERROR(17): '=' requires operands of the same type but lhs is type int and rhs is type bool.
+WARNING(20): Variable 'x' may be uninitialized when used here.
+WARNING(21): Variable 'c' may be uninitialized when used here.
+WARNING(22): Variable 'b' may be uninitialized when used here.
+ERROR(23): '=' requires operands of the same type but lhs is type int and rhs is type char.
+ERROR(24): '=' requires operands of the same type but lhs is type int and rhs is type bool.
+ERROR(29): '=' requires operands of the same type but lhs is type int and rhs is type char.
+ERROR(30): '=' requires operands of the same type but lhs is type int and rhs is type bool.
+ERROR(32): The operation '>' does not work with arrays.
+ERROR(33): The operation '<' does not work with arrays.
+ERROR(34): The operation '>=' does not work with arrays.
+ERROR(35): The operation '<=' does not work with arrays.
+ERROR(39): The operation '>' does not work with arrays.
+ERROR(40): The operation '>' does not work with arrays.
+ERROR(42): The operation '?' does not work with arrays.
+ERROR(45): The operation '*' only works with arrays.
+ERROR(46): Cannot index nonarray 'x'.
+ERROR(47): Cannot index nonarray 'x'.
+ERROR(47): The operation '*' only works with arrays.
+ERROR(49): The operation '*' only works with arrays.
+WARNING(9): The variable 'y' seems not to be used.
+WARNING(9): The variable 'ya' seems not to be used.
+Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var x of type int [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 0  Var c of type char [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 1  Var b of type bool [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 2  Var xa is array of type int [mem: Local  size: 6  loc: -6]
+!   !   Sibling: 3  Var ca is array of type char [mem: Local  size: 7  loc: -12]
+!   !   Sibling: 4  Var ba is array of type bool [mem: Local  size: 8  loc: -19]
+!   !   Sibling: 5  Var y of type int [mem: Local  size: 1  loc: -26]
+!   !   Sibling: 6  Var ya is array of type int [mem: Local  size: 11  loc: -28]
+!   !   Child: 1  Op: [
+!   !   !   Child: 0  Id: main [mem: Local  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 3
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   !   Child: 1  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   Sibling: 1  Assign: =
+!   !   !   Child: 0  Id: ca [mem: Local  size: 7  loc: -12]
+!   !   !   Child: 1  Id: ca [mem: Local  size: 7  loc: -12]
+!   !   Sibling: 2  Assign: =
+!   !   !   Child: 0  Id: ba [mem: Local  size: 8  loc: -19]
+!   !   !   Child: 1  Id: ba [mem: Local  size: 8  loc: -19]
+!   !   Sibling: 3  Assign: =
+!   !   !   Child: 0  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   !   Child: 1  Id: ca [mem: Local  size: 7  loc: -12]
+!   !   Sibling: 4  Assign: =
+!   !   !   Child: 0  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   !   Child: 1  Id: ba [mem: Local  size: 8  loc: -19]
+!   !   Sibling: 5  Assign: =
+!   !   !   Child: 0  Id: ca [mem: Local  size: 7  loc: -12]
+!   !   !   Child: 1  Const: 'z'
+!   !   Sibling: 6  Assign: =
+!   !   !   Child: 0  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   !   Child: 1  Id: x [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 7  Assign: =
+!   !   !   Child: 0  Id: ca [mem: Local  size: 7  loc: -12]
+!   !   !   Child: 1  Id: c [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 8  Assign: =
+!   !   !   Child: 0  Id: ba [mem: Local  size: 8  loc: -19]
+!   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 9  Assign: =
+!   !   !   Child: 0  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   !   Child: 1  Id: c [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 10  Assign: =
+!   !   !   Child: 0  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 11  Assign: =
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   Sibling: 12  Assign: =
+!   !   !   Child: 0  Id: c [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Id: ca [mem: Local  size: 7  loc: -12]
+!   !   Sibling: 13  Assign: =
+!   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Id: ba [mem: Local  size: 8  loc: -19]
+!   !   Sibling: 14  Assign: =
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Id: ca [mem: Local  size: 7  loc: -12]
+!   !   Sibling: 15  Assign: =
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Id: ba [mem: Local  size: 8  loc: -19]
+!   !   Sibling: 16  Op: >
+!   !   !   Child: 0  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   !   Child: 1  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   Sibling: 17  Op: <
+!   !   !   Child: 0  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   !   Child: 1  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   Sibling: 18  Op: >=
+!   !   !   Child: 0  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   !   Child: 1  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   Sibling: 19  Op: <=
+!   !   !   Child: 0  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   !   Child: 1  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   Sibling: 20  Op: ==
+!   !   !   Child: 0  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   !   Child: 1  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   Sibling: 21  Op: !=
+!   !   !   Child: 0  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   !   Child: 1  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   Sibling: 22  Op: >
+!   !   !   Child: 0  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   !   Child: 1  Id: x [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 23  Op: >
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   Sibling: 24  Op: ?
+!   !   !   Child: 0  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   Sibling: 25  Op: *
+!   !   !   Child: 0  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   Sibling: 26  Op: *
+!   !   !   Child: 0  Id: ba [mem: Local  size: 8  loc: -19]
+!   !   Sibling: 27  Op: *
+!   !   !   Child: 0  Op: *
+!   !   !   !   Child: 0  Id: ba [mem: Local  size: 8  loc: -19]
+!   !   Sibling: 28  Op: [
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Const: 2
+!   !   Sibling: 29  Op: *
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 2
+!   !   Sibling: 30  Op: [
+!   !   !   Child: 0  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   !   Child: 1  Const: 2
+!   !   Sibling: 31  Op: *
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: xa [mem: Local  size: 6  loc: -6]
+!   !   !   !   Child: 1  Const: 2
+Offset for end of global space: 0
+Number of warnings: 8
+Number of errors: 19

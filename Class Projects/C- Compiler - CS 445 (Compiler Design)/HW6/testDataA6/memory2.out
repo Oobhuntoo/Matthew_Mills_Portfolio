@@ -1,0 +1,42 @@
+WARNING(8): The parameter 'b' seems not to be used.
+WARNING(23): Variable 'i' may be uninitialized when used here.
+WARNING(23): Variable 'b' may be uninitialized when used here.
+WARNING(20): The variable 'ab' seems not to be used.
+WARNING(19): The variable 'ai' seems not to be used.
+Var u of type int [mem: Global  size: 1  loc: 0]
+Sibling: 0  Var v is array of type bool [mem: Global  size: 5  loc: -2]
+Sibling: 1  Func polgara returns type int [mem: Global  loc: 0]
+!   Child: 0  Param a of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param b of type bool [mem: Parameter  size: 1  loc: -3]
+!   Child: 1  Compound
+!   !   Child: 0  Var x of type int [mem: Local  size: 1  loc: -4]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Id: a [mem: Parameter  size: 1  loc: -2]
+!   !   Sibling: 0  Return
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -4]
+Sibling: 2  Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 0  Var b of type bool [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 1  Var ai is array of type int [mem: Local  size: 4  loc: -5]
+!   !   Sibling: 2  Var ab is array of type bool [mem: Local  size: 3  loc: -9]
+!   !   Sibling: 3  Var z of type int [mem: Local  size: 1  loc: -11]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -11]
+!   !   !   Child: 1  Call: polgara
+!   !   !   !   Child: 0  Op: +
+!   !   !   !   !   Child: 0  Id: i [mem: Local  size: 1  loc: -2]
+!   !   !   !   !   Child: 1  Const: 43
+!   !   !   !   Sibling: 0  Id: b [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: u [mem: Global  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 666
+!   !   Sibling: 1  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: v [mem: Global  size: 5  loc: -2]
+!   !   !   !   Child: 1  Const: 3
+!   !   !   Child: 1  Const: true
+Offset for end of global space: -6
+Number of warnings: 5
+Number of errors: 0

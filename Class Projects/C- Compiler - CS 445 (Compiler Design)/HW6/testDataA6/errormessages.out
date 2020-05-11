@@ -1,0 +1,34 @@
+ERROR(5): Function 'cat' at line 5 is expecting to return type char but got type int.
+ERROR(7): Function 'dog' at line 7 is expecting to return type int but return has no return value.
+ERROR(10): Variable 'c' is of type char but is being initialized with an expression of type int.
+ERROR(13): Expecting Boolean test condition in while statement but got type char.
+ERROR(14): Unary '-' requires an operand of type int but was given type char.
+ERROR(15): Unary '--' requires an operand of type int but was given type char.
+ERROR(17): Symbol 'emu' is not declared.
+ERROR(17): Symbol 'fox' is not declared.
+WARNING(9): Expecting to return type int but function 'main' has no return statement.
+WARNING(11): The variable 'i' seems not to be used.
+WARNING(5): The function 'cat' seems not to be used.
+WARNING(7): The function 'dog' seems not to be used.
+Func cat returns type char [mem: Global  loc: 0]
+!   Child: 1  Return
+!   !   Child: 0  Const: 42
+Sibling: 0  Func dog returns type int [mem: Global  loc: 0]
+!   Child: 1  Return
+Sibling: 1  Func main returns type int [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var c of type char [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 0  Const: 666
+!   !   Sibling: 0  Var i of type int [mem: Local  size: 1  loc: -3]
+!   !   Child: 1  While
+!   !   !   Child: 0  Const: 'x'
+!   !   Sibling: 0  Op: -
+!   !   !   Child: 0  Id: c [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 1  Assign: --
+!   !   !   Child: 0  Id: c [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 2  Op: +
+!   !   !   Child: 0  Call: emu
+!   !   !   Child: 1  Id: fox [mem: None  size: 1  loc: 0]
+Offset for end of global space: 0
+Number of warnings: 4
+Number of errors: 8

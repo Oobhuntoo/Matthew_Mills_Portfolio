@@ -1,0 +1,45 @@
+Func comp returns type int [mem: Global  loc: 0]
+!   Child: 0  Param x of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param y of type int [mem: Parameter  size: 1  loc: -3]
+!   Child: 1  If
+!   !   Child: 0  Op: >
+!   !   !   Child: 0  Op: +
+!   !   !   !   Child: 0  Const: 777
+!   !   !   !   Child: 1  Op: *
+!   !   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   Child: 1  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   Child: 1  Op: +
+!   !   !   !   Child: 0  Const: 666
+!   !   !   !   Child: 1  Op: *
+!   !   !   !   !   Child: 0  Id: y [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   !   Child: 1  Id: y [mem: Parameter  size: 1  loc: -3]
+!   !   Child: 1  Return
+!   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   Child: 2  Return
+!   !   !   Child: 0  Id: y [mem: Parameter  size: 1  loc: -3]
+Sibling: 0  Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 1  Call: output
+!   !   !   Child: 0  Call: comp
+!   !   !   !   Child: 0  Const: 2
+!   !   !   !   Sibling: 0  Const: 2
+!   !   Sibling: 0  Call: output
+!   !   !   Child: 0  Call: comp
+!   !   !   !   Child: 0  Const: 2
+!   !   !   !   Sibling: 0  Const: 10
+!   !   Sibling: 1  Call: output
+!   !   !   Child: 0  Call: comp
+!   !   !   !   Child: 0  Const: 2
+!   !   !   !   Sibling: 0  Const: 20
+!   !   Sibling: 2  Call: output
+!   !   !   Child: 0  Call: comp
+!   !   !   !   Child: 0  Const: 10
+!   !   !   !   Sibling: 0  Const: 2
+!   !   Sibling: 3  Call: output
+!   !   !   Child: 0  Call: comp
+!   !   !   !   Child: 0  Const: 20
+!   !   !   !   Sibling: 0  Const: 2
+!   !   Sibling: 4  Call: outnl
+Offset for end of global space: 0
+Number of warnings: 0
+Number of errors: 0

@@ -1,0 +1,9 @@
+expand |
+#sed -e 's/while *(\([^\)]*\)) /while \1 do /g' \
+#-e 's/if *(\([^\)]*\))/if \1 then /g' \
+sed -e 's/while *(/while /g' \
+-e 's/if *(/if /g' \
+-e 's/) {/ do {/g' \
+-e 's/C-[SF][0-9][0-9]/C-S20/' \
+-e 's/|/or/g' -e 's/&/and/g' -e 's/ ! / not /g' \
+-e 's/void //'

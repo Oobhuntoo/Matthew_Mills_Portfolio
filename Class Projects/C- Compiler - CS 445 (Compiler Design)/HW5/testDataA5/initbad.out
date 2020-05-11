@@ -1,0 +1,12 @@
+ERROR(1): Variable 'a' is of type int but is being initialized with an expression of type char.
+ERROR(2): Variable 'b' is of type bool but is being initialized with an expression of type int.
+ERROR(3): Variable 'c' is of type char but is being initialized with an expression of type bool.
+ERROR(8): Initializer for variable 'aa' is not a constant expression.
+ERROR(9): Initializer for variable 'bb' is not a constant expression.
+ERROR(10): Initializer for variable 'cc' is not a constant expression.
+WARNING(8): The variable 'aa' seems not to be used.
+WARNING(9): The variable 'bb' seems not to be used.
+WARNING(10): The variable 'cc' seems not to be used.
+WARNING(4): The variable 's' seems not to be used.
+Number of warnings: 4
+Number of errors: 6

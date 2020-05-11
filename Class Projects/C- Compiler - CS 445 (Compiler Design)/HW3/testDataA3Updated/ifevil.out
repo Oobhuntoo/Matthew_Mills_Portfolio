@@ -1,0 +1,35 @@
+WARNING(5): Variable hog may be uninitialized when used here.
+WARNING(5): Variable bat may be uninitialized when used here.
+WARNING(6): Variable fox may be uninitialized when used here.
+ERROR(LINKER): Procedure main is not declared.
+Func ant returns type int [line: 1]
+!   Child: 1  Compound [line: 2]
+!   !   Child: 0  Var bat of type int [line: 3]
+!   !   Sibling: 0  Var hog of type int [line: 3]
+!   !   Sibling: 1  Var fox of type int [line: 3]
+!   !   Child: 1  If [line: 5]
+!   !   !   Child: 0  Id: hog [type int] [line: 5]
+!   !   !   Child: 1  Id: bat [type int] [line: 5]
+!   !   !   Child: 2  Id: fox [type int] [line: 6]
+!   !   Sibling: 0  If [line: 8]
+!   !   !   Child: 0  Id: hog [type int] [line: 8]
+!   !   !   Child: 1  If [line: 9]
+!   !   !   !   Child: 0  Id: fox [type int] [line: 9]
+!   !   !   !   Child: 1  Id: fox [type int] [line: 9]
+!   !   !   !   Child: 2  Id: fox [type int] [line: 10]
+!   !   Sibling: 1  If [line: 12]
+!   !   !   Child: 0  Id: hog [type int] [line: 12]
+!   !   !   Child: 1  Id: bat [type int] [line: 12]
+!   !   !   Child: 2  If [line: 14]
+!   !   !   !   Child: 0  Id: fox [type int] [line: 14]
+!   !   !   !   Child: 1  Id: fox [type int] [line: 14]
+!   !   Sibling: 2  If [line: 16]
+!   !   !   Child: 0  Id: hog [type int] [line: 16]
+!   !   !   Child: 1  Id: bat [type int] [line: 16]
+!   !   !   Child: 2  If [line: 18]
+!   !   !   !   Child: 0  Id: fox [type int] [line: 18]
+!   !   !   !   Child: 1  If [line: 19]
+!   !   !   !   !   Child: 0  Id: bat [type int] [line: 19]
+!   !   !   !   !   Child: 1  Id: hog [type int] [line: 19]
+Number of warnings: 3
+Number of errors: 1

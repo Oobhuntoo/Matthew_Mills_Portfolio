@@ -1,0 +1,4 @@
+ERROR(14): Symbol 'outputs' is not declared.
+WARNING(9): The variable 's' seems not to be used.
+Number of warnings: 1
+Number of errors: 1

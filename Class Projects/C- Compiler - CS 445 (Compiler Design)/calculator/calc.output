@@ -1,0 +1,346 @@
+Grammar
+
+    0 $accept: statementlist $end
+
+    1 statementlist: statement '\n'
+    2              | statement '\n' statementlist
+
+    3 statement: ID '=' statement
+    4          | expression
+    5          | QUIT
+
+    6 expression: expression '+' term
+    7           | expression '-' term
+    8           | term
+
+    9 term: term '*' varornum
+   10     | term '/' varornum
+   11     | varornum
+
+   12 varornum: NUMBER
+   13         | ID
+   14         | '(' expression ')'
+   15         | '-' varornum
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+'\n' (10) 1 2
+'(' (40) 14
+')' (41) 14
+'*' (42) 9
+'+' (43) 6
+'-' (45) 7 15
+'/' (47) 10
+'=' (61) 3
+error (256)
+NUMBER (258) 12
+ID (259) 3 13
+QUIT (260) 5
+
+
+Nonterminals, with rules where they appear
+
+$accept (14)
+    on left: 0
+statementlist (15)
+    on left: 1 2, on right: 0 2
+statement (16)
+    on left: 3 4 5, on right: 1 2 3
+expression (17)
+    on left: 6 7 8, on right: 4 6 7 14
+term (18)
+    on left: 9 10 11, on right: 6 7 8 9 10
+varornum (19)
+    on left: 12 13 14 15, on right: 9 10 11 15
+
+
+State 0
+
+    0 $accept: . statementlist $end
+
+    NUMBER  shift, and go to state 1
+    ID      shift, and go to state 2
+    QUIT    shift, and go to state 3
+    '-'     shift, and go to state 4
+    '('     shift, and go to state 5
+
+    statementlist  go to state 6
+    statement      go to state 7
+    expression     go to state 8
+    term           go to state 9
+    varornum       go to state 10
+
+
+State 1
+
+   12 varornum: NUMBER .
+
+    $default  reduce using rule 12 (varornum)
+
+
+State 2
+
+    3 statement: ID . '=' statement
+   13 varornum: ID .
+
+    '='  shift, and go to state 11
+
+    $default  reduce using rule 13 (varornum)
+
+
+State 3
+
+    5 statement: QUIT .
+
+    $default  reduce using rule 5 (statement)
+
+
+State 4
+
+   15 varornum: '-' . varornum
+
+    NUMBER  shift, and go to state 1
+    ID      shift, and go to state 12
+    '-'     shift, and go to state 4
+    '('     shift, and go to state 5
+
+    varornum  go to state 13
+
+
+State 5
+
+   14 varornum: '(' . expression ')'
+
+    NUMBER  shift, and go to state 1
+    ID      shift, and go to state 12
+    '-'     shift, and go to state 4
+    '('     shift, and go to state 5
+
+    expression  go to state 14
+    term        go to state 9
+    varornum    go to state 10
+
+
+State 6
+
+    0 $accept: statementlist . $end
+
+    $end  shift, and go to state 15
+
+
+State 7
+
+    1 statementlist: statement . '\n'
+    2              | statement . '\n' statementlist
+
+    '\n'  shift, and go to state 16
+
+
+State 8
+
+    4 statement: expression .
+    6 expression: expression . '+' term
+    7           | expression . '-' term
+
+    '+'  shift, and go to state 17
+    '-'  shift, and go to state 18
+
+    $default  reduce using rule 4 (statement)
+
+
+State 9
+
+    8 expression: term .
+    9 term: term . '*' varornum
+   10     | term . '/' varornum
+
+    '*'  shift, and go to state 19
+    '/'  shift, and go to state 20
+
+    $default  reduce using rule 8 (expression)
+
+
+State 10
+
+   11 term: varornum .
+
+    $default  reduce using rule 11 (term)
+
+
+State 11
+
+    3 statement: ID '=' . statement
+
+    NUMBER  shift, and go to state 1
+    ID      shift, and go to state 2
+    QUIT    shift, and go to state 3
+    '-'     shift, and go to state 4
+    '('     shift, and go to state 5
+
+    statement   go to state 21
+    expression  go to state 8
+    term        go to state 9
+    varornum    go to state 10
+
+
+State 12
+
+   13 varornum: ID .
+
+    $default  reduce using rule 13 (varornum)
+
+
+State 13
+
+   15 varornum: '-' varornum .
+
+    $default  reduce using rule 15 (varornum)
+
+
+State 14
+
+    6 expression: expression . '+' term
+    7           | expression . '-' term
+   14 varornum: '(' expression . ')'
+
+    '+'  shift, and go to state 17
+    '-'  shift, and go to state 18
+    ')'  shift, and go to state 22
+
+
+State 15
+
+    0 $accept: statementlist $end .
+
+    $default  accept
+
+
+State 16
+
+    1 statementlist: statement '\n' .
+    2              | statement '\n' . statementlist
+
+    NUMBER  shift, and go to state 1
+    ID      shift, and go to state 2
+    QUIT    shift, and go to state 3
+    '-'     shift, and go to state 4
+    '('     shift, and go to state 5
+
+    $default  reduce using rule 1 (statementlist)
+
+    statementlist  go to state 23
+    statement      go to state 7
+    expression     go to state 8
+    term           go to state 9
+    varornum       go to state 10
+
+
+State 17
+
+    6 expression: expression '+' . term
+
+    NUMBER  shift, and go to state 1
+    ID      shift, and go to state 12
+    '-'     shift, and go to state 4
+    '('     shift, and go to state 5
+
+    term      go to state 24
+    varornum  go to state 10
+
+
+State 18
+
+    7 expression: expression '-' . term
+
+    NUMBER  shift, and go to state 1
+    ID      shift, and go to state 12
+    '-'     shift, and go to state 4
+    '('     shift, and go to state 5
+
+    term      go to state 25
+    varornum  go to state 10
+
+
+State 19
+
+    9 term: term '*' . varornum
+
+    NUMBER  shift, and go to state 1
+    ID      shift, and go to state 12
+    '-'     shift, and go to state 4
+    '('     shift, and go to state 5
+
+    varornum  go to state 26
+
+
+State 20
+
+   10 term: term '/' . varornum
+
+    NUMBER  shift, and go to state 1
+    ID      shift, and go to state 12
+    '-'     shift, and go to state 4
+    '('     shift, and go to state 5
+
+    varornum  go to state 27
+
+
+State 21
+
+    3 statement: ID '=' statement .
+
+    $default  reduce using rule 3 (statement)
+
+
+State 22
+
+   14 varornum: '(' expression ')' .
+
+    $default  reduce using rule 14 (varornum)
+
+
+State 23
+
+    2 statementlist: statement '\n' statementlist .
+
+    $default  reduce using rule 2 (statementlist)
+
+
+State 24
+
+    6 expression: expression '+' term .
+    9 term: term . '*' varornum
+   10     | term . '/' varornum
+
+    '*'  shift, and go to state 19
+    '/'  shift, and go to state 20
+
+    $default  reduce using rule 6 (expression)
+
+
+State 25
+
+    7 expression: expression '-' term .
+    9 term: term . '*' varornum
+   10     | term . '/' varornum
+
+    '*'  shift, and go to state 19
+    '/'  shift, and go to state 20
+
+    $default  reduce using rule 7 (expression)
+
+
+State 26
+
+    9 term: term '*' varornum .
+
+    $default  reduce using rule 9 (term)
+
+
+State 27
+
+   10 term: term '/' varornum .
+
+    $default  reduce using rule 10 (term)

@@ -1,0 +1,5 @@
+WARNING(8): Variable 'y' may be uninitialized when used here.
+WARNING(18): Variable 'i' may be uninitialized when used here.
+WARNING(24): Variable 'y' may be uninitialized when used here.
+Number of warnings: 3
+Number of errors: 0

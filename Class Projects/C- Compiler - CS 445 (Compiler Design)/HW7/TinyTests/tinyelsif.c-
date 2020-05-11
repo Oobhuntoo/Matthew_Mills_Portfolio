@@ -1,0 +1,12 @@
+main()
+{
+        loop x=0..7 do {
+            output(x);
+            if x<=1 then outputc('A');
+            elsif x<=2 then outputc('B');
+            elsif x<=3 then outputc('C');
+            elsif x<=4 then outputc('D');
+            else outputc('E');
+            outnl();
+            }
+}        

@@ -1,0 +1,600 @@
+====================================
+FILE: tinyArray.c-
+WARNING(5): The variable 'b' seems not to be used.
+WARNING(6): The variable 'c' seems not to be used.
+WARNING(1): The variable 'a' seems not to be used.
+WARNING(6): The variable 'c-1' seems not to be used.
+Number of warnings: 4
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   101 Apr 21 23:41 tinyArray.c-
+-rw-------  1 meerkat  staff   202 Apr 23 22:18 tinyArray.expected
+-rw-------  1 meerkat  staff    48 Apr 23 22:18 tinyArray.out
+-rw-------  1 meerkat  staff  3206 Apr 23 22:18 tinyArray.tm
+tinyArray.out ztmp85436.txt differ: char 28, line 2
+tinyArray (Output DIFF)
+Loading file: tinyArray.tm							Loading file: tinyArray.tm
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyAssignBool.c-
+WARNING(33): Variable 'zx' may be uninitialized when used here.
+WARNING(33): Variable 'zy' may be uninitialized when used here.
+Number of warnings: 2
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    462 Apr 21 23:41 tinyAssignBool.c-
+-rw-------  1 meerkat  staff    225 Apr 23 22:18 tinyAssignBool.expected
+-rw-------  1 meerkat  staff     71 Apr 23 22:18 tinyAssignBool.out
+-rw-------  1 meerkat  staff  10245 Apr 23 22:18 tinyAssignBool.tm
+tinyAssignBool.out ztmp85436.txt differ: char 51, line 4
+tinyAssignBool (Output DIFF)
+Loading file: tinyAssignBool.tm							Loading file: tinyAssignBool.tm
+T T T T 									T T T T 
+T T T T 									T T T T 
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyAssignChar.c-
+WARNING(32): Variable 'zx' may be uninitialized when used here.
+WARNING(32): Variable 'zy' may be uninitialized when used here.
+Number of warnings: 2
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    453 Apr 21 23:41 tinyAssignChar.c-
+-rw-------  1 meerkat  staff    217 Apr 23 22:18 tinyAssignChar.expected
+-rw-------  1 meerkat  staff     63 Apr 23 22:18 tinyAssignChar.out
+-rw-------  1 meerkat  staff  10234 Apr 23 22:18 tinyAssignChar.tm
+tinyAssignChar.out ztmp85436.txt differ: char 43, line 4
+tinyAssignChar (Output DIFF)
+Loading file: tinyAssignChar.tm							Loading file: tinyAssignChar.tm
+abcd										abcd
+effh										effh
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyAssignInt.c-
+WARNING(32): Variable 'zx' may be uninitialized when used here.
+WARNING(32): Variable 'zy' may be uninitialized when used here.
+Number of warnings: 2
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    440 Apr 21 23:41 tinyAssignInt.c-
+-rw-------  1 meerkat  staff    240 Apr 23 22:18 tinyAssignInt.expected
+-rw-------  1 meerkat  staff     86 Apr 23 22:18 tinyAssignInt.out
+-rw-------  1 meerkat  staff  10221 Apr 23 22:18 tinyAssignInt.tm
+tinyAssignInt.out ztmp85436.txt differ: char 66, line 4
+tinyAssignInt (Output DIFF)
+Loading file: tinyAssignInt.tm							Loading file: tinyAssignInt.tm
+111 222 333 444 								111 222 333 444 
+555 666 777 888 								555 666 777 888 
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyBreak.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    93 Apr 21 23:41 tinyBreak.c-
+-rw-------  1 meerkat  staff   202 Apr 23 22:18 tinyBreak.expected
+-rw-------  1 meerkat  staff    48 Apr 23 22:18 tinyBreak.out
+-rw-------  1 meerkat  staff  3326 Apr 23 22:18 tinyBreak.tm
+tinyBreak.out ztmp85436.txt differ: char 28, line 2
+tinyBreak (Output DIFF)
+Loading file: tinyBreak.tm							Loading file: tinyBreak.tm
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyBreak2.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   237 Apr 21 23:41 tinyBreak2.c-
+-rw-------  1 meerkat  staff   228 Apr 23 22:18 tinyBreak2.expected
+-rw-------  1 meerkat  staff    74 Apr 23 22:18 tinyBreak2.out
+-rw-------  1 meerkat  staff  5530 Apr 23 22:18 tinyBreak2.tm
+tinyBreak2.out ztmp85436.txt differ: char 54, line 7
+tinyBreak2 (Output DIFF)
+Loading file: tinyBreak2.tm							Loading file: tinyBreak2.tm
+1 										1 
+2 										2 
+3 										3 
+4 										4 
+5 6 7 8 9 9 									5 6 7 8 9 9 
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyCall.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    859 Apr 22 00:17 tinyCall.c-
+-rw-------  1 meerkat  staff    265 Apr 23 22:18 tinyCall.expected
+-rw-------  1 meerkat  staff    111 Apr 23 22:18 tinyCall.out
+-rw-------  1 meerkat  staff  16576 Apr 23 22:18 tinyCall.tm
+tinyCall.out ztmp85436.txt differ: char 91, line 10
+tinyCall (Output DIFF)
+Loading file: tinyCall.tm							Loading file: tinyCall.tm
+666 T c										666 T c
+777 F d										777 F d
+555 T z										555 T z
+555 T z										555 T z
+888 F g										888 F g
+888 T z										888 T z
+999 T s										999 T s
+999 T z										999 T z
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyCall2.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   289 Apr 21 23:41 tinyCall2.c-
+-rw-------  1 meerkat  staff   225 Apr 23 22:18 tinyCall2.expected
+-rw-------  1 meerkat  staff    71 Apr 23 22:18 tinyCall2.out
+-rw-------  1 meerkat  staff  9973 Apr 23 22:18 tinyCall2.tm
+tinyCall2.out ztmp85436.txt differ: char 51, line 4
+tinyCall2 (Output DIFF)
+Loading file: tinyCall2.tm							Loading file: tinyCall2.tm
+42 42 42 									42 42 42 
+666 666 666 									666 666 666 
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyCall3.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    368 Apr 21 23:41 tinyCall3.c-
+-rw-------  1 meerkat  staff    229 Apr 23 22:18 tinyCall3.expected
+-rw-------  1 meerkat  staff     75 Apr 23 22:18 tinyCall3.out
+-rw-------  1 meerkat  staff  11560 Apr 23 22:18 tinyCall3.tm
+tinyCall3.out ztmp85436.txt differ: char 55, line 4
+tinyCall3 (Output DIFF)
+Loading file: tinyCall3.tm							Loading file: tinyCall3.tm
+42 42 42 									42 42 42 
+666 666 666 666 								666 666 666 666 
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyConstants.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    98 Apr 21 23:41 tinyConstants.c-
+-rw-------  1 meerkat  staff   216 Apr 23 22:18 tinyConstants.expected
+-rw-------  1 meerkat  staff    62 Apr 23 22:18 tinyConstants.out
+-rw-------  1 meerkat  staff  4708 Apr 23 22:18 tinyConstants.tm
+tinyConstants.out ztmp85436.txt differ: char 42, line 3
+tinyConstants (Output DIFF)
+Loading file: tinyConstants.tm							Loading file: tinyConstants.tm
+111 T F x									111 T F x
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyDecl.c-
+WARNING(3): The variable 'a' seems not to be used.
+WARNING(4): The variable 'b' seems not to be used.
+WARNING(5): The variable 'c' seems not to be used.
+Number of warnings: 3
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    46 Apr 21 23:41 tinyDecl.c-
+-rw-------  1 meerkat  staff   201 Apr 23 22:18 tinyDecl.expected
+-rw-------  1 meerkat  staff    47 Apr 23 22:18 tinyDecl.out
+-rw-------  1 meerkat  staff  2893 Apr 23 22:18 tinyDecl.tm
+tinyDecl.out ztmp85436.txt differ: char 27, line 2
+tinyDecl (Output DIFF)
+Loading file: tinyDecl.tm							Loading file: tinyDecl.tm
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyEmpty.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff     9 Apr 21 23:41 tinyEmpty.c-
+-rw-------  1 meerkat  staff   202 Apr 23 22:18 tinyEmpty.expected
+-rw-------  1 meerkat  staff    48 Apr 23 22:18 tinyEmpty.out
+-rw-------  1 meerkat  staff  2852 Apr 23 22:18 tinyEmpty.tm
+tinyEmpty.out ztmp85436.txt differ: char 28, line 2
+tinyEmpty (Output DIFF)
+Loading file: tinyEmpty.tm							Loading file: tinyEmpty.tm
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyExp.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   1028 Apr 21 23:47 tinyExp.c-
+-rw-------  1 meerkat  staff    274 Apr 23 22:18 tinyExp.expected
+-rw-------  1 meerkat  staff    120 Apr 23 22:18 tinyExp.out
+-rw-------  1 meerkat  staff  30037 Apr 23 22:18 tinyExp.tm
+tinyExp.out ztmp85436.txt differ: char 100, line 10
+tinyExp (Output DIFF)
+Loading file: tinyExp.tm							Loading file: tinyExp.tm
+111 24642 24642 								111 24642 24642 
+24975 110889 									24975 110889 
+-333 333 									-333 333 
+110889 249 39 									110889 249 39 
+T F 										T F 
+F T 										F T 
+T T 										T T 
+T 										T 
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyExpL.c-
+WARNING(5): Variable 'x' may be uninitialized when used here.
+Number of warnings: 1
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    40 Apr 21 23:41 tinyExpL.c-
+-rw-------  1 meerkat  staff   201 Apr 23 22:18 tinyExpL.expected
+-rw-------  1 meerkat  staff    47 Apr 23 22:18 tinyExpL.out
+-rw-------  1 meerkat  staff  3387 Apr 23 22:18 tinyExpL.tm
+tinyExpL.out ztmp85436.txt differ: char 27, line 2
+tinyExpL (Output DIFF)
+Loading file: tinyExpL.tm							Loading file: tinyExpL.tm
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyExpR.c-
+WARNING(5): Variable 'x' may be uninitialized when used here.
+Number of warnings: 1
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    40 Apr 21 23:41 tinyExpR.c-
+-rw-------  1 meerkat  staff   201 Apr 23 22:18 tinyExpR.expected
+-rw-------  1 meerkat  staff    47 Apr 23 22:18 tinyExpR.out
+-rw-------  1 meerkat  staff  3387 Apr 23 22:18 tinyExpR.tm
+tinyExpR.out ztmp85436.txt differ: char 27, line 2
+tinyExpR (Output DIFF)
+Loading file: tinyExpR.tm							Loading file: tinyExpR.tm
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyIf.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    90 Apr 21 23:41 tinyIf.c-
+-rw-------  1 meerkat  staff   199 Apr 23 22:18 tinyIf.expected
+-rw-------  1 meerkat  staff    45 Apr 23 22:18 tinyIf.out
+-rw-------  1 meerkat  staff  3841 Apr 23 22:18 tinyIf.tm
+tinyIf.out ztmp85436.txt differ: char 25, line 2
+tinyIf (Output DIFF)
+Loading file: tinyIf.tm								Loading file: tinyIf.tm
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyInit.c-
+WARNING(7): The variable 'b' seems not to be used.
+WARNING(9): The variable 'c' seems not to be used.
+WARNING(8): The variable 'y' seems not to be used.
+WARNING(2): The variable 'a' seems not to be used.
+WARNING(9): The variable 'c-1' seems not to be used.
+WARNING(3): The variable 'x' seems not to be used.
+Number of warnings: 6
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   126 Apr 21 23:41 tinyInit.c-
+-rw-------  1 meerkat  staff   201 Apr 23 22:18 tinyInit.expected
+-rw-------  1 meerkat  staff    47 Apr 23 22:18 tinyInit.out
+-rw-------  1 meerkat  staff  3496 Apr 23 22:18 tinyInit.tm
+tinyInit.out ztmp85436.txt differ: char 27, line 2
+tinyInit (Output DIFF)
+Loading file: tinyInit.tm							Loading file: tinyInit.tm
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyInit2.c-
+WARNING(12): Variable 'b' may be uninitialized when used here.
+Number of warnings: 1
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   252 Apr 21 23:41 tinyInit2.c-
+-rw-------  1 meerkat  staff   234 Apr 23 22:18 tinyInit2.expected
+-rw-------  1 meerkat  staff    80 Apr 23 22:18 tinyInit2.out
+-rw-------  1 meerkat  staff  7376 Apr 23 22:18 tinyInit2.tm
+tinyInit2.out ztmp85436.txt differ: char 60, line 4
+tinyInit2 (Output DIFF)
+Loading file: tinyInit2.tm							Loading file: tinyInit2.tm
+11 22 33 									11 22 33 
+690642 592185 518370 								690642 592185 518370 
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyNest.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   1490 Apr 21 23:41 tinyNest.c-
+-rw-------  1 meerkat  staff    329 Apr 23 22:18 tinyNest.expected
+-rw-------  1 meerkat  staff    175 Apr 23 22:18 tinyNest.out
+-rw-------  1 meerkat  staff  23420 Apr 23 22:18 tinyNest.tm
+tinyNest.out ztmp85436.txt differ: char 155, line 10
+tinyNest (Output DIFF)
+Loading file: tinyNest.tm							Loading file: tinyNest.tm
+6 7 8 9 10 									6 7 8 9 10 
+666 666 8 9 666 								666 666 8 9 666 
+11 12 13 14 15 									11 12 13 14 15 
+11 12 13 14 15 									11 12 13 14 15 
+16 17 18 19 20 									16 17 18 19 20 
+16 17 18 19 20 									16 17 18 19 20 
+666 666 666 19 666 								666 666 666 19 666 
+16 17 18 4 20 									16 17 18 4 20 
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyOps.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   4233 Apr 23 12:58 tinyOps.c-
+-rw-------  1 meerkat  staff    430 Apr 23 22:18 tinyOps.expected
+-rw-------  1 meerkat  staff    276 Apr 23 22:18 tinyOps.out
+-rw-------  1 meerkat  staff  61510 Apr 23 22:18 tinyOps.tm
+tinyOps.out ztmp85436.txt differ: char 256, line 25
+tinyOps (Output DIFF)
+Loading file: tinyOps.tm							Loading file: tinyOps.tm
+F T T 										F T T 
+F T F 										F T F 
+T F F 										T F F 
+T F T 										T F T 
+F F T 										F F T 
+F T T F 									F T T F 
+T F F F 									T F F F 
+T T T F 									T T T F 
+F T T T 									F T T T 
+55 52 										55 52 
+-45 -25 									-45 -25 
+-50 50 -50 0 -1 								-50 50 -50 0 -1 
+2310 100 100 									2310 100 100 
+25 0 2 10 									25 0 2 10 
+1 1 1 3 3 2 									1 1 1 3 3 2 
+43 43 12 									43 43 12 
+46 44 0 12 									46 44 0 12 
+88 44 1 20 									88 44 1 20 
+45 1 										45 1 
+-6 2 70 									-6 2 70 
+F T T 										F T T 
+T T T T T T T T T T T T T 							T T T T T T T T T T T T T 
+T T 										T T 
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyOverlap.c-
+WARNING(7): The variable 'b' seems not to be used.
+WARNING(10): The variable 'c' seems not to be used.
+WARNING(14): The variable 'b' seems not to be used.
+WARNING(17): The variable 'c' seems not to be used.
+WARNING(5): The variable 'a' seems not to be used.
+WARNING(3): The parameter 'p' seems not to be used.
+WARNING(1): The variable 'g' seems not to be used.
+WARNING(22): The variable 'h' seems not to be used.
+Number of warnings: 8
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   344 Apr 21 23:41 tinyOverlap.c-
+-rw-------  1 meerkat  staff   204 Apr 23 22:18 tinyOverlap.expected
+-rw-------  1 meerkat  staff    50 Apr 23 22:18 tinyOverlap.out
+-rw-------  1 meerkat  staff  3107 Apr 23 22:18 tinyOverlap.tm
+tinyOverlap.out ztmp85436.txt differ: char 30, line 2
+tinyOverlap (Output DIFF)
+Loading file: tinyOverlap.tm							Loading file: tinyOverlap.tm
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyOverlapArray.c-
+------------------------------------
+-rw-------  1 meerkat  staff   377 Apr 21 23:41 tinyOverlapArray.c-
+-rw-------  1 meerkat  staff   209 Apr 23 22:18 tinyOverlapArray.expected
+-rw-------  1 meerkat  staff    55 Apr 23 22:18 tinyOverlapArray.out
+-rw-------  1 meerkat  staff  3353 Apr 23 22:18 tinyOverlapArray.tm
+tinyOverlapArray.out ztmp85436.txt differ: char 35, line 2
+tinyOverlapArray (Output DIFF)
+Loading file: tinyOverlapArray.tm						Loading file: tinyOverlapArray.tm
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyOverlapStatic.c-
+WARNING(7): The variable 'b' seems not to be used.
+WARNING(10): The variable 'c' seems not to be used.
+WARNING(14): The variable 'b' seems not to be used.
+WARNING(17): The variable 'c' seems not to be used.
+WARNING(5): The variable 'a' seems not to be used.
+WARNING(3): The parameter 'p' seems not to be used.
+WARNING(5): The variable 'a-1' seems not to be used.
+WARNING(7): The variable 'b-2' seems not to be used.
+WARNING(14): The variable 'b-4' seems not to be used.
+WARNING(10): The variable 'c-3' seems not to be used.
+WARNING(17): The variable 'c-5' seems not to be used.
+WARNING(1): The variable 'g' seems not to be used.
+WARNING(22): The variable 'h' seems not to be used.
+Number of warnings: 13
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   830 Apr 21 23:41 tinyOverlapStatic.c-
+-rw-------  1 meerkat  staff   210 Apr 23 22:18 tinyOverlapStatic.expected
+-rw-------  1 meerkat  staff    56 Apr 23 22:18 tinyOverlapStatic.out
+-rw-------  1 meerkat  staff  3113 Apr 23 22:18 tinyOverlapStatic.tm
+tinyOverlapStatic.out ztmp85436.txt differ: char 36, line 2
+tinyOverlapStatic (Output DIFF)
+Loading file: tinyOverlapStatic.tm						Loading file: tinyOverlapStatic.tm
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyRandomRoll.c-
+------------------------------------
+-rw-------  1 meerkat  staff   205 Apr 23 12:58 tinyRandomRoll.c-
+-rw-------  1 meerkat  staff    53 Apr 23 22:18 tinyRandomRoll.out
+-rw-------  1 meerkat  staff  3117 Apr 23 22:18 tinyRandomRoll.tm
+tinyRandomRoll (Output NoExpectedFile) File tinyRandomRoll.expected does not exist!
+====================================
+FILE: tinyReturn.c-
+WARNING(1): Expecting to return type int but function 'bender' has no return statement.
+WARNING(20): Expecting to return type char but function 'zapp' has no return statement.
+WARNING(29): Expecting to return type bool but function 'hermes' has no return statement.
+WARNING(33): Expecting to return type int but function 'main' has no return statement.
+Number of warnings: 4
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    395 Apr 21 23:41 tinyReturn.c-
+-rw-------  1 meerkat  staff    574 Apr 23 22:18 tinyReturn.expected
+-rw-------  1 meerkat  staff     67 Apr 23 22:18 tinyReturn.out
+-rw-------  1 meerkat  staff  11664 Apr 23 22:18 tinyReturn.tm
+tinyReturn.out ztmp85436.txt differ: char 1, line 1
+tinyReturn (Output DIFF)
+									      >	WARNING(1): Expecting to return type int but function 'bender' has no return 
+									      >	WARNING(20): Expecting to return type char but function 'zapp' has no return 
+									      >	WARNING(29): Expecting to return type bool but function 'hermes' has no retur
+									      >	WARNING(33): Expecting to return type int but function 'main' has no return s
+Loading file: tinyReturn.tm							Loading file: tinyReturn.tm
+L										L
+0 114 										0 114 
+zT 										zT 
+T F 										T F 
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyStatic.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    73 Apr 22 16:36 tinyStatic.c-
+-rw-------  1 meerkat  staff    57 Apr 23 22:18 tinyStatic.out
+-rw-------  1 meerkat  staff  3815 Apr 23 22:18 tinyStatic.tm
+tinyStatic (Output NoExpectedFile) File tinyStatic.expected does not exist!
+====================================
+FILE: tinyVar.c-
+WARNING(11): Variable 'x' may be uninitialized when used here.
+WARNING(12): Variable 'y' may be uninitialized when used here.
+Number of warnings: 2
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   201 Apr 21 23:41 tinyVar.c-
+-rw-------  1 meerkat  staff   200 Apr 23 22:18 tinyVar.expected
+-rw-------  1 meerkat  staff    46 Apr 23 22:18 tinyVar.out
+-rw-------  1 meerkat  staff  4882 Apr 23 22:18 tinyVar.tm
+tinyVar.out ztmp85436.txt differ: char 26, line 2
+tinyVar (Output DIFF)
+Loading file: tinyVar.tm							Loading file: tinyVar.tm
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyVarAssign.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    914 Apr 21 23:41 tinyVarAssign.c-
+-rw-------  1 meerkat  staff    273 Apr 23 22:18 tinyVarAssign.expected
+-rw-------  1 meerkat  staff    119 Apr 23 22:18 tinyVarAssign.out
+-rw-------  1 meerkat  staff  18620 Apr 23 22:18 tinyVarAssign.tm
+tinyVarAssign.out ztmp85436.txt differ: char 99, line 8
+tinyVarAssign (Output DIFF)
+Loading file: tinyVarAssign.tm							Loading file: tinyVarAssign.tm
+999 111 									999 111 
+222 444 222 									222 444 222 
+333 555 10 									333 555 10 
+999 111 10 									999 111 10 
+444 666 10 									444 666 10 
+999 111 									999 111 
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyVarPair.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    625 Apr 23 16:59 tinyVarPair.c-
+-rw-------  1 meerkat  staff    276 Apr 23 22:18 tinyVarPair.expected
+-rw-------  1 meerkat  staff    122 Apr 23 22:18 tinyVarPair.out
+-rw-------  1 meerkat  staff  14040 Apr 23 22:18 tinyVarPair.tm
+tinyVarPair.out ztmp85436.txt differ: char 102, line 10
+tinyVarPair (Output DIFF)
+Loading file: tinyVarPair.tm							Loading file: tinyVarPair.tm
+111 222 									111 222 
+333 444 									333 444 
+555 666 									555 666 
+777 888 									777 888 
+111 222 									111 222 
+333 444 									333 444 
+555 666 									555 666 
+777 888 									777 888 
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyWhile.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    54 Apr 21 23:41 tinyWhile.c-
+-rw-------  1 meerkat  staff   202 Apr 23 22:18 tinyWhile.expected
+-rw-------  1 meerkat  staff    48 Apr 23 22:18 tinyWhile.out
+-rw-------  1 meerkat  staff  3465 Apr 23 22:18 tinyWhile.tm
+tinyWhile.out ztmp85436.txt differ: char 28, line 2
+tinyWhile (Output DIFF)
+Loading file: tinyWhile.tm							Loading file: tinyWhile.tm
+									      <
+Status: Halted									Status: Halted
+Bye.										Bye.
+====================================
+FILE: tinyelsif.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   298 Apr 21 23:41 tinyelsif.c-
+-rw-------  1 meerkat  staff    76 Apr 23 22:18 tinyelsif.out
+-rw-------  1 meerkat  staff  7549 Apr 23 22:18 tinyelsif.tm
+tinyelsif (Output NoExpectedFile) File tinyelsif.expected does not exist!
+====================================
+FILE: tinyifelse.c-
+Number of warnings: 0
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff   304 Apr 21 23:41 tinyifelse.c-
+-rw-------  1 meerkat  staff    77 Apr 23 22:18 tinyifelse.out
+-rw-------  1 meerkat  staff  7532 Apr 23 22:18 tinyifelse.tm
+tinyifelse (Output NoExpectedFile) File tinyifelse.expected does not exist!
+====================================
+FILE: tinyloopnest.c-
+WARNING(3): The variable 'i' seems not to be used.
+WARNING(3): The variable 'j' seems not to be used.
+WARNING(3): The variable 'k' seems not to be used.
+Number of warnings: 3
+Number of errors: 0
+------------------------------------
+-rw-------  1 meerkat  staff    507 Apr 21 23:41 tinyloopnest.c-
+-rw-------  1 meerkat  staff    215 Apr 23 22:18 tinyloopnest.out
+-rw-------  1 meerkat  staff  13932 Apr 23 22:18 tinyloopnest.tm
+tinyloopnest (Output NoExpectedFile) File tinyloopnest.expected does not exist!

@@ -1,0 +1,59 @@
+int abc(int x; char y; bool z) 8;
+char abc(bool x,y,z) 8;
+bool asdf(char io,oi[]; int arf,barf) 8;
+asud(int ui) 345;
+int x: ?8;
+bool y: opo[*(?(8))];
+int x: (fg or uio) and (not gh) or ((gh > 89) + (87 - 9 * 6 + ?9));
+char b: gh = ((ug++) * (9 + 8) and (not gh) * (?9));
+
+
+int abc(int x; char y; bool z) 8;
+char abc(bool x,y,z) 8;
+bool asdf(char io,oi[]; int arf,barf) 8;
+asud(int ui) 345;
+int x: ?8;
+bool y: opo[*(?(8))];
+int x: (fg or uio) and (not gh) or ((gh > 89) + (87 - 9 * 6 + ?9));
+
+
+    loop forever x=7301;
+    loop y=103..107 do z=900;
+    loop y=217..13 : -63 do z=x;
+
+
+
+
+
+
+matchedSelStmt    : IF simpleExpression THEN matched ELSE matched
+			{ 
+			 $$ = newNode(StmtK, IfK, Void, $1->linenum, $1);
+			 $$->child[0] = $2;
+			 $$->child[1] = $4;
+			 $$->child[2] = $6;
+			}
+		   
+		  ;
+
+
+unmatchedSelStmt    : IF simpleExpression THEN unmatched
+			{ 
+			 $$ = newNode(StmtK, IfK, Void, $1->linenum, $1);
+			 $$->child[0] = $2;
+			 $$->child[1] = $4;
+			}
+		    | IF simpleExpression THEN matched
+			{ 
+			 $$ = newNode(StmtK, IfK, Void, $1->linenum, $1);
+			 $$->child[0] = $2;
+			 $$->child[1] = $4;
+			}
+		    | IF simpleExpression THEN matched ELSE unmatched
+			{ 
+			 $$ = newNode(StmtK, IfK, Void, $1->linenum, $1);
+			 $$->child[0] = $2;
+			 $$->child[1] = $4;
+			 $$->child[2] = $6;
+			}
+		    ;

@@ -1,0 +1,22 @@
+ERROR(3): Too many parameters passed for function 'main' declared on line 1.
+WARNING(1): The parameter 'x' seems not to be used.
+Func main returns type void [mem: Global  loc: 0]
+!   Child: 0  Param x of type int [mem: Parameter  size: 1  loc: -2]
+!   Child: 1  Compound
+!   !   Child: 1  Op: +
+!   !   !   Child: 0  Op: +
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Child: 1  Const: 2
+!   !   !   Child: 1  Const: 3
+!   !   Sibling: 0  Call: main
+!   !   !   Child: 0  Op: +
+!   !   !   !   Child: 0  Op: +
+!   !   !   !   !   Child: 0  Const: 1
+!   !   !   !   !   Child: 1  Const: 2
+!   !   !   !   Child: 1  Const: 3
+!   !   !   Sibling: 0  Op: +
+!   !   !   !   Child: 0  Const: 4
+!   !   !   !   Child: 1  Const: 5
+Offset for end of global space: 0
+Number of warnings: 1
+Number of errors: 1

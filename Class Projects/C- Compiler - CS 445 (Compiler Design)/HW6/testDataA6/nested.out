@@ -1,0 +1,91 @@
+WARNING(4): The variable 'i' seems not to be used.
+WARNING(3): The variable 'i' seems not to be used.
+WARNING(8): The variable 'i' seems not to be used.
+WARNING(6): The variable 'i' seems not to be used.
+WARNING(12): The variable 'i' seems not to be used.
+WARNING(10): The variable 'i' seems not to be used.
+WARNING(16): The variable 'i' seems not to be used.
+WARNING(14): The variable 'i' seems not to be used.
+WARNING(22): The variable 'i' seems not to be used.
+WARNING(20): The parameter 'i' seems not to be used.
+ERROR(27): Symbol 'i' is already declared at line 26.
+WARNING(32): The variable 'i' seems not to be used.
+WARNING(29): The variable 'i' seems not to be used.
+ERROR(38): Symbol 'i' is already declared at line 36.
+WARNING(36): The variable 'i' seems not to be used.
+WARNING(26): The parameter 'i' seems not to be used.
+WARNING(20): The function 'cat' seems not to be used.
+WARNING(26): The function 'errorZ' seems not to be used.
+WARNING(1): The function 'fred' seems not to be used.
+ERROR(LINKER): Procedure main is not declared.
+Func fred returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 1  Loop
+!   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 2  Const: 1
+!   !   !   Child: 2  Loop
+!   !   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Range
+!   !   !   !   !   Child: 0  Const: 1
+!   !   !   !   !   Child: 1  Const: 10
+!   !   !   !   !   Child: 2  Const: 1
+!   !   !   !   Child: 2  Const: 7
+!   !   Sibling: 0  Loop
+!   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 2  Const: 1
+!   !   !   Child: 2  If
+!   !   !   !   Child: 0  Const: true
+!   !   !   !   Child: 1  Compound
+!   !   !   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 1  Loop
+!   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 2  Const: 1
+!   !   !   Child: 2  While
+!   !   !   !   Child: 0  Const: false
+!   !   !   !   Child: 1  Compound
+!   !   !   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 2  Loop
+!   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 2  Const: 1
+!   !   !   Child: 2  LoopForever
+!   !   !   !   Child: 1  Compound
+!   !   !   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -3]
+Sibling: 0  Func cat returns type void [mem: Global  loc: 0]
+!   Child: 0  Param i of type int [mem: Parameter  size: 1  loc: -2]
+!   Child: 1  If
+!   !   Child: 0  Const: true
+!   !   Child: 1  Compound
+!   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -3]
+Sibling: 1  Func errorZ returns type void [mem: Global  loc: 0]
+!   Child: 0  Param i of type int [mem: Parameter  size: 1  loc: -2]
+!   Child: 1  Compound
+!   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: 0]
+!   !   Child: 1  Compound
+!   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Const: true
+!   !   !   !   Child: 1  Compound
+!   !   !   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 0  Loop
+!   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 2  Const: 1
+!   !   !   Child: 2  Compound
+!   !   !   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: 0]
+Offset for end of global space: 0
+Number of warnings: 17
+Number of errors: 3

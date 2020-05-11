@@ -1,0 +1,197 @@
+ERROR(4): Syntax error, unexpected ')', expecting identifier.
+ERROR(5): Syntax error, unexpected identifier "z", expecting "bool" or "char" or "int".
+ERROR(6): Syntax error, unexpected ')', expecting "bool" or "char" or "int".
+ERROR(7): Syntax error, unexpected "bool", expecting ')'.
+ERROR(8): Syntax error, unexpected "bool", expecting ',' or ';'.
+ERROR(9): Syntax error, unexpected identifier "z", expecting ')'.
+ERROR(11): Syntax error, unexpected ';', expecting identifier.
+ERROR(12): Syntax error, unexpected ';', expecting identifier.
+ERROR(13): Syntax error, unexpected ';', expecting identifier.
+ERROR(14): Syntax error, unexpected ';', expecting identifier.
+ERROR(15): Syntax error, unexpected "bool", expecting identifier.
+ERROR(16): Syntax error, unexpected "bool", expecting identifier.
+ERROR(18): Syntax error, unexpected ')', expecting identifier.
+ERROR(19): Syntax error, unexpected identifier "y", expecting ')'.
+ERROR(20): Syntax error, unexpected identifier "y", expecting ')'.
+ERROR(21): Syntax error, unexpected identifier "y", expecting ')'.
+ERROR(22): Syntax error, unexpected identifier "y", expecting ')'.
+ERROR(23): Syntax error, unexpected identifier "y", expecting ')'.
+ERROR(25): Syntax error, unexpected identifier "y", expecting ')'.
+ERROR(26): Syntax error, unexpected identifier "y", expecting ')'.
+ERROR(28): Syntax error, unexpected ')', expecting identifier.
+ERROR(29): Syntax error, unexpected identifier "z", expecting "bool" or "char" or "int".
+ERROR(30): Syntax error, unexpected ')', expecting "bool" or "char" or "int".
+ERROR(31): Syntax error, unexpected "bool", expecting ')'.
+ERROR(33): Syntax error, unexpected identifier "z", expecting ')'.
+ERROR(36): Syntax error, unexpected ',', expecting identifier.
+ERROR(37): Syntax error, unexpected ',', expecting identifier.
+ERROR(37): Syntax error, unexpected ')', expecting identifier.
+ERROR(38): Syntax error, unexpected ',', expecting identifier.
+ERROR(38): Syntax error, unexpected identifier "z", expecting "bool" or "char" or "int".
+ERROR(39): Syntax error, unexpected ',', expecting identifier.
+ERROR(39): Syntax error, unexpected ')', expecting "bool" or "char" or "int".
+ERROR(40): Syntax error, unexpected ',', expecting identifier.
+ERROR(40): Syntax error, unexpected "bool", expecting ')'.
+ERROR(41): Syntax error, unexpected "bool", expecting ',' or ';'.
+ERROR(42): Syntax error, unexpected ',', expecting identifier.
+ERROR(42): Syntax error, unexpected identifier "z", expecting ')'.
+ERROR(43): Syntax error, unexpected ',', expecting identifier.
+ERROR(44): Syntax error, unexpected ',', expecting identifier.
+ERROR(45): Syntax error, unexpected ',', expecting identifier.
+ERROR(46): Syntax error, unexpected ',', expecting identifier.
+ERROR(47): Syntax error, unexpected ',', expecting identifier.
+ERROR(48): Syntax error, unexpected ',', expecting identifier.
+ERROR(49): Syntax error, unexpected ',', expecting identifier.
+ERROR(50): Syntax error, unexpected ',', expecting identifier.
+ERROR(51): Syntax error, unexpected ',', expecting identifier.
+ERROR(53): Syntax error, unexpected ')', expecting identifier.
+ERROR(54): Syntax error, unexpected identifier "z", expecting "bool" or "char" or "int".
+ERROR(55): Syntax error, unexpected ')', expecting "bool" or "char" or "int".
+ERROR(56): Syntax error, unexpected "bool", expecting ')'.
+ERROR(58): Syntax error, unexpected identifier "z", expecting ')'.
+ERROR(60): Syntax error, unexpected ';', expecting identifier.
+ERROR(61): Syntax error, unexpected ';', expecting identifier.
+ERROR(62): Syntax error, unexpected ';', expecting identifier.
+ERROR(63): Syntax error, unexpected ';', expecting identifier.
+ERROR(64): Syntax error, unexpected "bool", expecting identifier.
+ERROR(65): Syntax error, unexpected "bool", expecting identifier.
+ERROR(67): Syntax error, unexpected ')', expecting identifier.
+ERROR(69): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(69): Syntax error, unexpected ')', expecting ',' or ';'.
+ERROR(70): Syntax error, unexpected ')', expecting identifier.
+ERROR(71): Syntax error, unexpected ')', expecting '('.
+ERROR(72): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(73): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(74): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(75): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(76): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(77): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(77): Syntax error, unexpected ')', expecting ',' or ';'.
+ERROR(80): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(81): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(82): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(83): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(84): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(85): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(85): Syntax error, unexpected ')', expecting ',' or ';'.
+ERROR(88): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(89): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(90): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(91): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(92): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(93): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(94): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(95): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(96): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(97): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(99): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(100): Syntax error, unexpected identifier "x", expecting "bool" or "char" or "int" or ')'.
+ERROR(102): Syntax error, unexpected ',', expecting "bool" or "char" or "int" or ')'.
+ERROR(102): Syntax error, unexpected ')', expecting ',' or ';'.
+ERROR(103): Syntax error, unexpected ')', expecting identifier.
+ERROR(104): Syntax error, unexpected ')', expecting '('.
+ERROR(105): Syntax error, unexpected ',', expecting "bool" or "char" or "int" or ')'.
+ERROR(106): Syntax error, unexpected ',', expecting "bool" or "char" or "int" or ')'.
+ERROR(107): Syntax error, unexpected ',', expecting "bool" or "char" or "int" or ')'.
+ERROR(108): Syntax error, unexpected ',', expecting "bool" or "char" or "int" or ')'.
+ERROR(109): Syntax error, unexpected ',', expecting "bool" or "char" or "int" or ')'.
+ERROR(110): Syntax error, unexpected ',', expecting "bool" or "char" or "int" or ')'.
+ERROR(111): Syntax error, unexpected ',', expecting "bool" or "char" or "int" or ')'.
+ERROR(112): Syntax error, unexpected ',', expecting "bool" or "char" or "int" or ')'.
+ERROR(113): Syntax error, unexpected ',', expecting "bool" or "char" or "int" or ')'.
+ERROR(114): Syntax error, unexpected ',', expecting "bool" or "char" or "int" or ')'.
+ERROR(116): Syntax error, unexpected ',', expecting "bool" or "char" or "int" or ')'.
+ERROR(117): Syntax error, unexpected ',', expecting "bool" or "char" or "int" or ')'.
+ERROR(118): Syntax error, unexpected identifier "y", expecting "bool" or "char" or "int" or ')'.
+ERROR(119): Syntax error, unexpected identifier "y", expecting "bool" or "char" or "int" or ')'.
+ERROR(120): Syntax error, unexpected identifier "y", expecting "bool" or "char" or "int" or ')'.
+ERROR(121): Syntax error, unexpected identifier "y", expecting "bool" or "char" or "int" or ')'.
+ERROR(122): Syntax error, unexpected identifier "y", expecting "bool" or "char" or "int" or ')'.
+ERROR(124): Syntax error, unexpected identifier "y", expecting "bool" or "char" or "int" or ')'.
+ERROR(125): Syntax error, unexpected identifier "y", expecting "bool" or "char" or "int" or ')'.
+ERROR(126): Syntax error, unexpected ';', expecting "bool" or "char" or "int" or ')'.
+ERROR(127): Syntax error, unexpected ';', expecting "bool" or "char" or "int" or ')'.
+ERROR(128): Syntax error, unexpected ';', expecting "bool" or "char" or "int" or ')'.
+ERROR(129): Syntax error, unexpected ';', expecting "bool" or "char" or "int" or ')'.
+ERROR(131): Syntax error, unexpected ')', expecting identifier.
+ERROR(132): Syntax error, unexpected identifier "z", expecting "bool" or "char" or "int" or ')'.
+Func dog returns type int [mem: Local  loc: 0]
+Sibling: 0  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param x of type int [mem: Local  size: 1  loc: 0]
+!   Sibling: 0  Param y of type int [mem: Local  size: 1  loc: 0]
+!   Sibling: 1  Param z of type bool [mem: Local  size: 1  loc: 0]
+Sibling: 1  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param x of type int [mem: Local  size: 1  loc: 0]
+!   Sibling: 0  Param y of type int [mem: Local  size: 1  loc: 0]
+Sibling: 2  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 3  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 4  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param x of type int [mem: Local  size: 1  loc: 0]
+!   Sibling: 0  Param y of type int [mem: Local  size: 1  loc: 0]
+Sibling: 5  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param z of type bool [mem: Local  size: 1  loc: 0]
+Sibling: 6  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 7  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 8  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 9  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 10  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param x of type int [mem: Local  size: 1  loc: 0]
+!   Sibling: 0  Param z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 11  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 12  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param x of type int [mem: Local  size: 1  loc: 0]
+!   Sibling: 0  Param z of type bool [mem: Local  size: 1  loc: 0]
+Sibling: 13  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param x of type int [mem: Local  size: 1  loc: 0]
+Sibling: 14  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 15  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 16  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param x of type int [mem: Local  size: 1  loc: 0]
+Sibling: 17  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param y of type int [mem: Local  size: 1  loc: 0]
+!   Sibling: 0  Param z of type bool [mem: Local  size: 1  loc: 0]
+Sibling: 18  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param y of type int [mem: Local  size: 1  loc: 0]
+Sibling: 19  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 20  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 21  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param y of type int [mem: Local  size: 1  loc: 0]
+Sibling: 22  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param z of type bool [mem: Local  size: 1  loc: 0]
+Sibling: 23  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 24  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 25  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 26  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 27  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 28  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 29  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param y of type int [mem: Local  size: 1  loc: 0]
+!   Sibling: 0  Param z of type bool [mem: Local  size: 1  loc: 0]
+Sibling: 30  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param y of type int [mem: Local  size: 1  loc: 0]
+Sibling: 31  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 32  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 33  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param y of type int [mem: Local  size: 1  loc: 0]
+Sibling: 34  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param z of type bool [mem: Local  size: 1  loc: 0]
+Sibling: 35  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 36  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 37  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 38  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 39  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 40  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 41  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param z of type bool [mem: Local  size: 1  loc: 0]
+Sibling: 42  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 43  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 44  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 45  Func dog returns type int [mem: Local  loc: 0]
+!   Child: 0  Param z of type bool [mem: Local  size: 1  loc: 0]
+Sibling: 46  Func dog returns type int [mem: Local  loc: 0]
+Sibling: 47  Func dog returns type int [mem: Local  loc: 0]
+Offset for end of global space: 0
+Number of warnings: 0
+Number of errors: 117

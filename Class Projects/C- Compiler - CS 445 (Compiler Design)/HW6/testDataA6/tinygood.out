@@ -1,0 +1,31 @@
+WARNING(4): The parameter 'corgi' seems not to be used.
+WARNING(4): The function 'dog' seems not to be used.
+ERROR(LINKER): Procedure main is not declared.
+Var ant is array of type int [mem: Global  size: 11  loc: -1]
+Sibling: 0  Var bat of type int [mem: Global  size: 1  loc: -11]
+Sibling: 1  Func dog returns type int [mem: Global  loc: 0]
+!   Child: 0  Param corgi of type bool [mem: Parameter  size: 1  loc: -2]
+!   Child: 1  Compound
+!   !   Child: 0  Var cat of type char [mem: Local  size: 1  loc: -3]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: cat [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Const: 'x'
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: bat [mem: Global  size: 1  loc: -11]
+!   !   !   Child: 1  Op: *
+!   !   !   !   Child: 0  Const: 666
+!   !   !   !   Child: 1  Op: -
+!   !   !   !   !   Child: 0  Const: 777
+!   !   !   !   !   Child: 1  Const: 888
+!   !   Sibling: 1  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: ant [mem: Global  size: 11  loc: -1]
+!   !   !   !   Child: 1  Const: 7
+!   !   !   Child: 1  Op: [
+!   !   !   !   Child: 0  Id: ant [mem: Global  size: 11  loc: -1]
+!   !   !   !   Child: 1  Const: 8
+!   !   Sibling: 2  Return
+!   !   !   Child: 0  Id: bat [mem: Global  size: 1  loc: -11]
+Offset for end of global space: -12
+Number of warnings: 2
+Number of errors: 1

@@ -1,0 +1,7 @@
+WARNING(5): Variable 'v' may be uninitialized when used here.
+WARNING(7): Variable 'w' may be uninitialized when used here.
+WARNING(10): Variable 'x' may be uninitialized when used here.
+WARNING(12): Variable 'y' may be uninitialized when used here.
+WARNING(14): Variable 'z' may be uninitialized when used here.
+Number of warnings: 5
+Number of errors: 0

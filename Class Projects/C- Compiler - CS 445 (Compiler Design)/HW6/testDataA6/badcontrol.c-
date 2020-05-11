@@ -1,0 +1,64 @@
+nothin();
+
+main() {
+    int x, y;
+
+    x = true;
+    y = false;
+
+    if x then 111;
+
+    if y then 222;
+    else 333;
+
+    if x then if y then 444;
+        else 555;
+
+    if x then
+        if y then 444;
+        elsif 555 then 556;
+            else if x then 557;
+                 elsif 559 then x;
+
+    while x do 666;
+
+    while nothin() do {
+        777;
+        break;
+        888;
+        break;
+        999;
+    }
+
+    while x do {
+        111;
+        break;
+        while y do {
+            222;
+            break;
+            333;
+        }
+        break;
+        444;
+    }
+    break;
+
+    loop forever break;
+
+    loop i=1..10 do break;
+
+    loop i=true..10 do ;
+
+    loop i=nothin()..zog do ;
+    
+    loop i=1..10:99 do { char c; c = i; }
+
+    loop i=1..10:true do break;
+
+    loop i=1..10:nothin() do break;
+
+    loop i=1..10:zog do break;
+
+    loop i=1..10:zog() do break;
+}
+

@@ -1,0 +1,78 @@
+ERROR(6): Expecting Boolean test condition in if statement but got type int.
+WARNING(6): Variable 't' may be uninitialized when used here.
+WARNING(6): Variable 'a' may be uninitialized when used here.
+WARNING(6): Variable 'b' may be uninitialized when used here.
+ERROR(7): Expecting Boolean test condition in if statement but got type int.
+WARNING(7): Variable 'u' may be uninitialized when used here.
+ERROR(8): Expecting Boolean test condition in if statement but got type int.
+WARNING(8): Variable 'v' may be uninitialized when used here.
+WARNING(8): Variable 'c' may be uninitialized when used here.
+WARNING(8): Variable 'd' may be uninitialized when used here.
+ERROR(9): Expecting Boolean test condition in if statement but got type int.
+ERROR(10): Expecting Boolean test condition in if statement but got type int.
+ERROR(11): Expecting Boolean test condition in if statement but got type int.
+WARNING(3): The variable 's' seems not to be used.
+Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var s of type bool [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 0  Var t of type bool [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 1  Var u of type bool [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 2  Var v of type bool [mem: Local  size: 1  loc: -5]
+!   !   Sibling: 3  Var a of type char [mem: Local  size: 1  loc: -6]
+!   !   Sibling: 4  Var b of type char [mem: Local  size: 1  loc: -7]
+!   !   Sibling: 5  Var c of type char [mem: Local  size: 1  loc: -8]
+!   !   Sibling: 6  Var d of type char [mem: Local  size: 1  loc: -9]
+!   !   Child: 1  If
+!   !   !   Child: 0  Const: 1
+!   !   !   Child: 1  While
+!   !   !   !   Child: 0  Id: t [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Id: a [mem: Local  size: 1  loc: -6]
+!   !   !   Child: 2  Id: b [mem: Local  size: 1  loc: -7]
+!   !   Sibling: 0  If
+!   !   !   Child: 0  Const: 2
+!   !   !   Child: 1  While
+!   !   !   !   Child: 0  Id: t [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  If
+!   !   !   !   !   Child: 0  Id: u [mem: Local  size: 1  loc: -4]
+!   !   !   !   !   Child: 1  Id: a [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   Child: 2  Id: b [mem: Local  size: 1  loc: -7]
+!   !   Sibling: 1  If
+!   !   !   Child: 0  Const: 3
+!   !   !   Child: 1  Id: a [mem: Local  size: 1  loc: -6]
+!   !   !   Child: 2  If
+!   !   !   !   Child: 0  Id: u [mem: Local  size: 1  loc: -4]
+!   !   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -7]
+!   !   !   !   Child: 2  Elsif
+!   !   !   !   !   Child: 0  Id: v [mem: Local  size: 1  loc: -5]
+!   !   !   !   !   Child: 1  Id: c [mem: Local  size: 1  loc: -8]
+!   !   !   !   !   Child: 2  Id: d [mem: Local  size: 1  loc: -9]
+!   !   Sibling: 2  If
+!   !   !   Child: 0  Const: 4
+!   !   !   Child: 1  While
+!   !   !   !   Child: 0  Id: t [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  If
+!   !   !   !   !   Child: 0  Id: u [mem: Local  size: 1  loc: -4]
+!   !   !   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -7]
+!   !   !   !   !   Child: 2  Elsif
+!   !   !   !   !   !   Child: 0  Id: v [mem: Local  size: 1  loc: -5]
+!   !   !   !   !   !   Child: 1  Id: c [mem: Local  size: 1  loc: -8]
+!   !   !   !   !   !   Child: 2  Id: d [mem: Local  size: 1  loc: -9]
+!   !   Sibling: 3  If
+!   !   !   Child: 0  Const: 5
+!   !   !   Child: 1  While
+!   !   !   !   Child: 0  Id: t [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  LoopForever
+!   !   !   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -7]
+!   !   !   Child: 2  Id: c [mem: Local  size: 1  loc: -8]
+!   !   Sibling: 4  If
+!   !   !   Child: 0  Const: 6
+!   !   !   Child: 1  While
+!   !   !   !   Child: 0  Id: t [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  If
+!   !   !   !   !   Child: 0  Id: u [mem: Local  size: 1  loc: -4]
+!   !   !   !   !   Child: 1  LoopForever
+!   !   !   !   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -7]
+!   !   !   !   !   Child: 2  Id: c [mem: Local  size: 1  loc: -8]
+Offset for end of global space: 0
+Number of warnings: 8
+Number of errors: 6

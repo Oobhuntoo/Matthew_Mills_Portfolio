@@ -1,0 +1,536 @@
+ERROR(34): Symbol 'penguin' is not declared.
+ERROR(34): Unary '--' requires an operand of type int but was given type bool.
+WARNING(46): Variable 'wrong' may be uninitialized when used here.
+WARNING(46): Variable 'trousers' may be uninitialized when used here.
+WARNING(54): Expecting to return type bool but function 'penguin' has no return statement.
+WARNING(58): The variable 'c' seems not to be used.
+WARNING(54): The parameter 'cheese' seems not to be used.
+WARNING(59): The variable 'i' seems not to be used.
+WARNING(54): The parameter 'launch' seems not to be used.
+WARNING(54): The parameter 'moon' seems not to be used.
+ERROR(71): '-' requires operands of type int but lhs is of type bool.
+WARNING(68): The parameter 'shaun' seems not to be used.
+WARNING(70): The variable 'void' seems not to be used.
+WARNING(81): Variable 'chicken' may be uninitialized when used here.
+WARNING(81): Variable 'run' may be uninitialized when used here.
+WARNING(84): Variable 'wallace' may be uninitialized when used here.
+WARNING(84): Variable 'gromit' may be uninitialized when used here.
+WARNING(89): The parameter 'y' seems not to be used.
+WARNING(124): Variable 'yarn' may be uninitialized when used here.
+WARNING(125): Variable 'wool' may be uninitialized when used here.
+WARNING(125): Variable 'shaun' may be uninitialized when used here.
+ERROR(125): Unary '?' requires an operand of type int but was given type bool.
+WARNING(127): Variable 'preston' may be uninitialized when used here.
+WARNING(91): The function 'LadyCampanula' seems not to be used.
+WARNING(103): The function 'TheWereRabbit' seems not to be used.
+WARNING(89): The function 'Wensleydale' seems not to be used.
+WARNING(7): The variable '_' seems not to be used.
+WARNING(7): The variable '_1024' seems not to be used.
+WARNING(7): The variable '_nouveau' seems not to be used.
+WARNING(130): The variable 'aBigLongVariableName6' seems not to be used.
+WARNING(134): The variable 'ant' seems not to be used.
+WARNING(135): The variable 'bat' seems not to be used.
+WARNING(136): The variable 'cat' seems not to be used.
+WARNING(137): The variable 'dog' seems not to be used.
+WARNING(7): The variable 'dog__cat' seems not to be used.
+WARNING(138): The variable 'hog' seems not to be used.
+WARNING(131): The variable 'odd' seems not to be used.
+WARNING(131): The variable 'of' seems not to be used.
+WARNING(54): The function 'penguin' seems not to be used.
+WARNING(75): The function 'ramsBottom' seems not to be used.
+WARNING(131): The variable 'separation' seems not to be used.
+WARNING(132): The variable 'stuff' seems not to be used.
+Var gromit of type int [mem: Global  size: 1  loc: 0]
+Sibling: 0  Var _ of type int [mem: Global  size: 1  loc: -1]
+Sibling: 1  Var dog__cat of type int [mem: Global  size: 1  loc: -2]
+Sibling: 2  Var _nouveau of type int [mem: Global  size: 1  loc: -3]
+Sibling: 3  Var _1024 of type int [mem: Global  size: 1  loc: -4]
+Sibling: 4  Func wallace returns type void [mem: Global  loc: 0]
+!   Child: 0  Param wrong of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param trousers of type int [mem: Parameter  size: 1  loc: -3]
+!   Child: 1  Compound
+!   !   Child: 0  Var close of type bool [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 0  Const: true
+!   !   Sibling: 0  Var shave of type bool [mem: Local  size: 1  loc: -5]
+!   !   !   Child: 0  Const: false
+!   !   Child: 1  Const: 1729
+!   !   Sibling: 0  Id: close [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 1  Op: +
+!   !   !   Child: 0  Op: *
+!   !   !   !   Child: 0  Const: 11
+!   !   !   !   Child: 1  Const: 22
+!   !   !   Child: 1  Op: *
+!   !   !   !   Child: 0  Const: 33
+!   !   !   !   Child: 1  Const: 44
+!   !   Sibling: 2  Assign: =
+!   !   !   Child: 0  Id: close [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Id: shave [mem: Local  size: 1  loc: -5]
+!   !   Sibling: 3  Assign: =
+!   !   !   Child: 0  Id: wrong [mem: Parameter  size: 1  loc: -2]
+!   !   !   Child: 1  Op: %
+!   !   !   !   Child: 0  Id: trousers [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   Child: 1  Op: /
+!   !   !   !   !   Child: 0  Const: 666
+!   !   !   !   !   Child: 1  Id: wrong [mem: Parameter  size: 1  loc: -2]
+!   !   Sibling: 4  Assign: =
+!   !   !   Child: 0  Id: gromit [mem: Global  size: 1  loc: 0]
+!   !   !   Child: 1  Op: +
+!   !   !   !   Child: 0  Op: -
+!   !   !   !   !   Child: 0  Op: *
+!   !   !   !   !   !   Child: 0  Id: wrong [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   !   Child: 1  Id: trousers [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   !   Child: 1  Id: gromit [mem: Global  size: 1  loc: 0]
+!   !   !   !   Child: 1  Op: -
+!   !   !   !   !   Child: 0  Const: 42
+!   !   Sibling: 5  Assign: +=
+!   !   !   Child: 0  Id: gromit [mem: Global  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 27182818
+!   !   Sibling: 6  Assign: -=
+!   !   !   Child: 0  Id: gromit [mem: Global  size: 1  loc: 0]
+!   !   !   Child: 1  Op: -
+!   !   !   !   Child: 0  Const: 31415927
+!   !   Sibling: 7  Assign: /=
+!   !   !   Child: 0  Id: gromit [mem: Global  size: 1  loc: 0]
+!   !   !   Child: 1  Assign: *=
+!   !   !   !   Child: 0  Id: wrong [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 42
+!   !   Sibling: 8  Assign: =
+!   !   !   Child: 0  Id: close [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Op: and
+!   !   !   !   Child: 0  Op: <
+!   !   !   !   !   Child: 0  Id: wrong [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   Child: 1  Id: trousers [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   Child: 1  Op: <=
+!   !   !   !   !   Child: 0  Id: trousers [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   !   Child: 1  Id: gromit [mem: Global  size: 1  loc: 0]
+!   !   Sibling: 9  Assign: =
+!   !   !   Child: 0  Id: shave [mem: Local  size: 1  loc: -5]
+!   !   !   Child: 1  Op: and
+!   !   !   !   Child: 0  Op: >
+!   !   !   !   !   Child: 0  Id: wrong [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   Child: 1  Id: trousers [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   Child: 1  Op: >=
+!   !   !   !   !   Child: 0  Id: trousers [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   !   Child: 1  Id: gromit [mem: Global  size: 1  loc: 0]
+!   !   Sibling: 10  Compound
+!   !   !   Child: 0  Var a of type int [mem: Local  size: 1  loc: -6]
+!   !   !   Sibling: 0  Var grand of type int [mem: Local  size: 1  loc: -7]
+!   !   !   !   Child: 0  Op: /
+!   !   !   !   !   Child: 0  Const: 1
+!   !   !   !   !   Child: 1  Const: 2
+!   !   !   Sibling: 1  Var day of type int [mem: Local  size: 1  loc: -8]
+!   !   !   !   Child: 0  Op: *
+!   !   !   !   !   Child: 0  Const: 3
+!   !   !   !   !   Child: 1  Const: 4
+!   !   !   Sibling: 2  Var out of type int [mem: Local  size: 1  loc: -9]
+!   !   !   !   Child: 0  Op: -
+!   !   !   !   !   Child: 0  Const: 9
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -6]
+!   !   !   !   Child: 1  Assign: +=
+!   !   !   !   !   Child: 0  Id: grand [mem: Local  size: 1  loc: -7]
+!   !   !   !   !   Child: 1  Assign: -=
+!   !   !   !   !   !   Child: 0  Id: day [mem: Local  size: 1  loc: -8]
+!   !   !   !   !   !   Child: 1  Id: out [mem: Local  size: 1  loc: -9]
+!   !   Sibling: 11  Assign: =
+!   !   !   Child: 0  Id: close [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Op: and
+!   !   !   !   Child: 0  Op: <
+!   !   !   !   !   Child: 0  Op: +
+!   !   !   !   !   !   Child: 0  Op: *
+!   !   !   !   !   !   !   Child: 0  Op: -
+!   !   !   !   !   !   !   !   Child: 0  Const: 1
+!   !   !   !   !   !   !   Child: 1  Const: 2
+!   !   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   !   Child: 1  Op: *
+!   !   !   !   !   !   Child: 0  Const: 4
+!   !   !   !   !   !   Child: 1  Const: 5
+!   !   !   !   Child: 1  Op: >
+!   !   !   !   !   Child: 0  Op: +
+!   !   !   !   !   !   Child: 0  Const: 6
+!   !   !   !   !   !   Child: 1  Const: 7
+!   !   !   !   !   Child: 1  Op: -
+!   !   !   !   !   !   Child: 0  Const: 3
+!   !   Sibling: 12  Assign: =
+!   !   !   Child: 0  Id: shave [mem: Local  size: 1  loc: -5]
+!   !   !   Child: 1  Op: or
+!   !   !   !   Child: 0  Const: true
+!   !   !   !   Child: 1  Op: and
+!   !   !   !   !   Child: 0  Op: <
+!   !   !   !   !   !   Child: 0  Op: -
+!   !   !   !   !   !   !   Child: 0  Op: *
+!   !   !   !   !   !   !   !   Child: 0  Const: 1
+!   !   !   !   !   !   !   !   Child: 1  Op: +
+!   !   !   !   !   !   !   !   !   Child: 0  Const: 2
+!   !   !   !   !   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   !   !   Child: 1  Op: *
+!   !   !   !   !   !   !   Child: 0  Const: 4
+!   !   !   !   !   !   !   Child: 1  Const: 5
+!   !   !   !   !   Child: 1  Op: >
+!   !   !   !   !   !   Child: 0  Op: +
+!   !   !   !   !   !   !   Child: 0  Const: 6
+!   !   !   !   !   !   !   Child: 1  Const: 7
+!   !   !   !   !   !   Child: 1  Op: -
+!   !   !   !   !   !   !   Child: 0  Const: 3
+!   !   Sibling: 13  If
+!   !   !   Child: 0  Op: !=
+!   !   !   !   Child: 0  Id: shave [mem: Local  size: 1  loc: -5]
+!   !   !   !   Child: 1  Id: close [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: shave [mem: Local  size: 1  loc: -5]
+!   !   !   !   Child: 1  Op: not
+!   !   !   !   !   Child: 0  Id: close [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 14  If
+!   !   !   Child: 0  Op: not
+!   !   !   !   Child: 0  Op: or
+!   !   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   !   Child: 0  Id: shave [mem: Local  size: 1  loc: -5]
+!   !   !   !   !   !   Child: 1  Id: close [mem: Local  size: 1  loc: -4]
+!   !   !   !   !   Child: 1  Op: not
+!   !   !   !   !   !   Child: 0  Id: close [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: shave [mem: Local  size: 1  loc: -5]
+!   !   !   !   Child: 1  Const: true
+!   !   !   Child: 2  Assign: =
+!   !   !   !   Child: 0  Id: close [mem: Local  size: 1  loc: -4]
+!   !   !   !   Child: 1  Const: false
+!   !   Sibling: 15  Assign: =
+!   !   !   Child: 0  Id: penguin [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Op: -
+!   !   !   !   Child: 0  Op: -
+!   !   !   !   !   Child: 0  Op: -
+!   !   !   !   !   !   Child: 0  Op: -
+!   !   !   !   !   !   !   Child: 0  Const: 8
+!   !   !   !   !   Child: 1  Op: -
+!   !   !   !   !   !   Child: 0  Assign: --
+!   !   !   !   !   !   !   Child: 0  Id: close [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 16  While
+!   !   !   Child: 0  Id: shave [mem: Local  size: 1  loc: -5]
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 0  Var were of type int [mem: LocalStatic  size: 1  loc: -5]
+!   !   !   !   Sibling: 0  Var rabbit of type int [mem: LocalStatic  size: 1  loc: -6]
+!   !   !   !   Sibling: 1  Var sheep is array of type int [mem: LocalStatic  size: 11  loc: -8]
+!   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   Child: 0  Id: sheep [mem: LocalStatic  size: 11  loc: -8]
+!   !   !   !   !   !   Child: 1  Const: 2
+!   !   !   !   !   Child: 1  Const: 1618
+!   !   !   !   Sibling: 0  If
+!   !   !   !   !   Child: 0  Op: <
+!   !   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   !   Child: 0  Id: sheep [mem: LocalStatic  size: 11  loc: -8]
+!   !   !   !   !   !   !   Child: 1  Const: 2
+!   !   !   !   !   !   Child: 1  Const: 496
+!   !   !   !   !   Child: 1  Break
+!   !   !   !   Sibling: 1  Call: wallace
+!   !   !   !   !   Child: 0  Assign: --
+!   !   !   !   !   !   Child: 0  Id: gromit [mem: Global  size: 1  loc: 0]
+!   !   !   !   !   Sibling: 0  Op: -
+!   !   !   !   !   !   Child: 0  Id: were [mem: LocalStatic  size: 1  loc: -5]
+!   !   !   !   !   !   Child: 1  Id: rabbit [mem: LocalStatic  size: 1  loc: -6]
+!   !   !   !   Sibling: 2  Compound
+!   !   !   !   !   Child: 0  Var the of type int [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   Sibling: 0  Var wrong of type int [mem: Local  size: 1  loc: -7]
+!   !   !   !   !   Sibling: 1  Var trousers of type int [mem: Local  size: 1  loc: -8]
+!   !   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   !   Child: 0  Id: the [mem: Local  size: 1  loc: -6]
+!   !   !   !   !   !   Child: 1  Assign: +=
+!   !   !   !   !   !   !   Child: 0  Id: wrong [mem: Local  size: 1  loc: -7]
+!   !   !   !   !   !   !   Child: 1  Assign: ++
+!   !   !   !   !   !   !   !   Child: 0  Id: trousers [mem: Local  size: 1  loc: -8]
+!   !   !   !   !   Sibling: 0  If
+!   !   !   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   !   !   Child: 0  Id: were [mem: LocalStatic  size: 1  loc: -5]
+!   !   !   !   !   !   !   Child: 1  Id: rabbit [mem: LocalStatic  size: 1  loc: -6]
+!   !   !   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   !   !   Child: 0  Id: were [mem: LocalStatic  size: 1  loc: -5]
+!   !   !   !   !   !   !   Child: 1  Assign: --
+!   !   !   !   !   !   !   !   Child: 0  Id: wrong [mem: Local  size: 1  loc: -7]
+!   !   Sibling: 17  Return
+Sibling: 5  Func penguin returns type bool [mem: Global  loc: 0]
+!   Child: 0  Param Feathers of type char [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param McGraw is array of type char [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param moon of type bool [mem: Parameter  size: 1  loc: -4]
+!   Sibling: 2  Param cheese of type bool [mem: Parameter  size: 1  loc: -5]
+!   Sibling: 3  Param launch of type int [mem: Parameter  size: 1  loc: -6]
+!   Child: 1  Compound
+!   !   Child: 0  Var tottington of type char [mem: LocalStatic  size: 1  loc: -18]
+!   !   !   Child: 0  Const: 'x'
+!   !   Sibling: 0  Var Wensleydale is array of type char [mem: Local  size: 18  loc: -8]
+!   !   Sibling: 1  Var c of type char [mem: Local  size: 1  loc: -25]
+!   !   Sibling: 2  Var i of type int [mem: Local  size: 1  loc: -26]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: tottington [mem: LocalStatic  size: 1  loc: -18]
+!   !   !   Child: 1  Id: Feathers [mem: Parameter  size: 1  loc: -2]
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: McGraw [mem: Parameter  size: 1  loc: -3]
+!   !   !   Child: 1  Id: Feathers [mem: Parameter  size: 1  loc: -2]
+!   !   Sibling: 1  Assign: =
+!   !   !   Child: 0  Id: Wensleydale [mem: Local  size: 18  loc: -8]
+!   !   !   Child: 1  Id: McGraw [mem: Parameter  size: 1  loc: -3]
+!   !   Sibling: 2  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: Wensleydale [mem: Local  size: 18  loc: -8]
+!   !   !   !   Child: 1  Op: *
+!   !   !   !   !   Child: 0  Id: McGraw [mem: Parameter  size: 1  loc: -3]
+!   !   !   Child: 1  Const: 'Q'
+!   !   Sibling: 3  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: McGraw [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 3
+!   !   !   Child: 1  Const: 'A'
+Sibling: 6  Func Wendolene returns type int [mem: Global  loc: 0]
+!   Child: 0  Param wool of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param shaun of type bool [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param yarn is array of type int [mem: Parameter  size: 1  loc: -4]
+!   Sibling: 2  Param preston is array of type bool [mem: Parameter  size: 1  loc: -5]
+!   Child: 1  Compound
+!   !   Child: 0  Var void of type int [mem: Local  size: 1  loc: -6]
+!   !   Child: 1  Return
+!   !   !   Child: 0  Op: +
+!   !   !   !   Child: 0  Op: +
+!   !   !   !   !   Child: 0  Op: +
+!   !   !   !   !   !   Child: 0  Op: +
+!   !   !   !   !   !   !   Child: 0  Id: wool [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   !   !   Child: 1  Op: [
+!   !   !   !   !   !   !   !   Child: 0  Id: yarn [mem: Parameter  size: 1  loc: -4]
+!   !   !   !   !   !   !   !   Child: 1  Const: 0
+!   !   !   !   !   !   Child: 1  Op: *
+!   !   !   !   !   !   !   Child: 0  Id: yarn [mem: Parameter  size: 1  loc: -4]
+!   !   !   !   !   Child: 1  Op: [
+!   !   !   !   !   !   Child: 0  Id: yarn [mem: Parameter  size: 1  loc: -4]
+!   !   !   !   !   !   Child: 1  Op: *
+!   !   !   !   !   !   !   Child: 0  Const: 7
+!   !   !   !   !   !   !   Child: 1  Id: wool [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Op: [
+!   !   !   !   !   Child: 0  Id: yarn [mem: Parameter  size: 1  loc: -4]
+!   !   !   !   !   Child: 1  Op: -
+!   !   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   !   Child: 0  Id: preston [mem: Parameter  size: 1  loc: -5]
+!   !   !   !   !   !   !   Child: 1  Op: +
+!   !   !   !   !   !   !   !   Child: 0  Const: 3
+!   !   !   !   !   !   !   !   Child: 1  Op: *
+!   !   !   !   !   !   !   !   !   Child: 0  Id: wool [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   !   !   !   !   Child: 1  Const: 2
+!   !   !   !   !   !   Child: 1  Const: 4
+Sibling: 7  Func ramsBottom returns type bool [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var chicken is array of type int [mem: Local  size: 3  loc: -3]
+!   !   Sibling: 0  Var run is array of type bool [mem: Local  size: 4  loc: -6]
+!   !   Sibling: 1  Var wallace is array of type int [mem: Local  size: 3  loc: -10]
+!   !   Sibling: 2  Var gromit is array of type int [mem: Local  size: 4  loc: -13]
+!   !   Child: 1  Op: *
+!   !   !   Child: 0  Const: 42
+!   !   !   Child: 1  Call: Wendolene
+!   !   !   !   Child: 0  Op: +
+!   !   !   !   !   Child: 0  Op: +
+!   !   !   !   !   !   Child: 0  Const: 1
+!   !   !   !   !   !   Child: 1  Const: 2
+!   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   Sibling: 0  Op: or
+!   !   !   !   !   Child: 0  Op: not
+!   !   !   !   !   !   Child: 0  Const: true
+!   !   !   !   !   Child: 1  Op: and
+!   !   !   !   !   !   Child: 0  Const: true
+!   !   !   !   !   !   Child: 1  Const: false
+!   !   !   !   Sibling: 1  Id: chicken [mem: Local  size: 3  loc: -3]
+!   !   !   !   Sibling: 2  Id: run [mem: Local  size: 4  loc: -6]
+!   !   Sibling: 0  Op: [
+!   !   !   Child: 0  Id: run [mem: Local  size: 4  loc: -6]
+!   !   !   Child: 1  Op: -
+!   !   !   !   Child: 0  Op: *
+!   !   !   !   !   Child: 0  Id: run [mem: Local  size: 4  loc: -6]
+!   !   !   !   Child: 1  Const: 1
+!   !   Sibling: 1  Return
+!   !   !   Child: 0  Op: not
+!   !   !   !   Child: 0  Op: >=
+!   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   Child: 0  Id: wallace [mem: Local  size: 3  loc: -10]
+!   !   !   !   !   !   Child: 1  Const: 1
+!   !   !   !   !   Child: 1  Op: *
+!   !   !   !   !   !   Child: 0  Op: -
+!   !   !   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   !   !   Child: 0  Id: gromit [mem: Local  size: 4  loc: -13]
+!   !   !   !   !   !   !   !   Child: 1  Const: 2
+!   !   !   !   !   !   Child: 1  Const: 3
+Sibling: 8  Func cheese returns type int [mem: Global  loc: 0]
+!   Child: 0  Param x of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param y of type int [mem: Parameter  size: 1  loc: -3]
+!   Child: 1  While
+!   !   Child: 0  Op: >
+!   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   Child: 1  Const: 0
+!   !   Child: 1  If
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: y [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 3
+!   !   !   Child: 1  Assign: --
+!   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   Child: 2  Return
+!   !   !   !   Child: 0  Op: %
+!   !   !   !   !   Child: 0  Op: *
+!   !   !   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   !   Child: 1  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   Child: 1  Id: y [mem: Parameter  size: 1  loc: -3]
+Sibling: 9  Func Wensleydale returns type int [mem: Global  loc: 0]
+!   Child: 0  Param x of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param y of type int [mem: Parameter  size: 1  loc: -3]
+!   Child: 1  Return
+!   !   Child: 0  Call: cheese
+!   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   Sibling: 0  Id: gromit [mem: Global  size: 1  loc: 0]
+Sibling: 10  Func LadyCampanula returns type int [mem: Global  loc: 0]
+!   Child: 0  Param c of type char [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param s is array of type char [mem: Parameter  size: 1  loc: -3]
+!   Child: 1  Loop
+!   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: -4]
+!   !   Child: 1  Range
+!   !   !   Child: 0  Op: -
+!   !   !   !   Child: 0  Op: *
+!   !   !   !   !   Child: 0  Id: s [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 1
+!   !   !   Child: 1  Const: 0
+!   !   !   Child: 2  Op: -
+!   !   !   !   Child: 0  Const: 1
+!   !   Child: 2  If
+!   !   !   Child: 0  Op: ==
+!   !   !   !   Child: 0  Op: [
+!   !   !   !   !   Child: 0  Id: s [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   !   Child: 1  Id: i [mem: Local  size: 1  loc: -4]
+!   !   !   !   Child: 1  Id: c [mem: Parameter  size: 1  loc: -2]
+!   !   !   Child: 1  Return
+!   !   !   !   Child: 0  Id: i [mem: Local  size: 1  loc: -4]
+Sibling: 11  Func MrsTweedy returns type char [mem: Global  loc: 0]
+!   Child: 0  Param c of type char [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param s is array of type char [mem: Parameter  size: 1  loc: -3]
+!   Child: 1  Compound
+!   !   Child: 1  Loop
+!   !   !   Child: 0  Var ginger of type int [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: 0
+!   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 2  Const: 1
+!   !   !   Child: 2  Assign: =
+!   !   !   !   Child: 0  Op: [
+!   !   !   !   !   Child: 0  Id: s [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   !   Child: 1  Id: ginger [mem: Local  size: 1  loc: -4]
+!   !   !   !   Child: 1  Id: c [mem: Parameter  size: 1  loc: -2]
+!   !   Sibling: 0  LoopForever
+!   !   !   Child: 1  Break
+!   !   Sibling: 1  LoopForever
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   Child: 0  Id: s [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   !   !   Child: 1  Const: 0
+!   !   !   !   !   Child: 1  Op: [
+!   !   !   !   !   !   Child: 0  Id: s [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   !   !   Child: 1  Const: 1
+!   !   !   !   Child: 1  Break
+!   !   Sibling: 2  While
+!   !   !   Child: 0  Const: true
+!   !   !   Child: 1  Break
+!   !   Sibling: 3  Return
+!   !   !   Child: 0  Const: 'x'
+Sibling: 12  Func TheWereRabbit returns type char [mem: Global  loc: 0]
+!   Child: 0  Param x of type int [mem: Parameter  size: 1  loc: -2]
+!   Child: 1  Compound
+!   !   Child: 1  If
+!   !   !   Child: 0  Op: ==
+!   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 0
+!   !   !   Child: 1  Return
+!   !   !   !   Child: 0  Const: '@'
+!   !   !   Child: 2  Elsif
+!   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   Child: 1  Const: 1
+!   !   !   !   Child: 1  Return
+!   !   !   !   !   Child: 0  Const: 'a'
+!   !   !   !   Child: 2  Elsif
+!   !   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   !   Child: 1  Const: 2
+!   !   !   !   !   Child: 1  Return
+!   !   !   !   !   !   Child: 0  Const: 'b'
+!   !   !   !   !   Child: 2  Elsif
+!   !   !   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   !   !   Child: 1  Return
+!   !   !   !   !   !   !   Child: 0  Const: 'c'
+!   !   !   !   !   !   Child: 2  Elsif
+!   !   !   !   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   !   !   !   Child: 1  Const: 4
+!   !   !   !   !   !   !   Child: 1  Return
+!   !   !   !   !   !   !   !   Child: 0  Const: 'd'
+!   !   !   !   !   !   !   Child: 2  Return
+!   !   !   !   !   !   !   !   Child: 0  Const: ' '
+Sibling: 13  Func main returns type int [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var wool of type int [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 0  Var yarn is array of type int [mem: Local  size: 114  loc: -4]
+!   !   Sibling: 1  Var shaun of type bool [mem: Local  size: 1  loc: -117]
+!   !   Sibling: 2  Var preston is array of type bool [mem: Local  size: 23  loc: -119]
+!   !   Sibling: 3  Var rocky is array of type char [mem: Local  size: 13  loc: -142]
+!   !   Child: 1  Call: wallace
+!   !   !   Child: 0  Call: cheese
+!   !   !   !   Child: 0  Const: 62
+!   !   !   !   Sibling: 0  Op: -
+!   !   !   !   !   Child: 0  Const: 311
+!   !   !   Sibling: 0  Id: gromit [mem: Global  size: 1  loc: 0]
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: rocky [mem: Local  size: 13  loc: -142]
+!   !   !   Child: 1  Const: "molybdenum"
+!   !   Sibling: 1  Call: MrsTweedy
+!   !   !   Child: 0  Const: 'Z'
+!   !   !   Sibling: 0  Id: rocky [mem: Local  size: 13  loc: -142]
+!   !   Sibling: 2  Op: +
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: yarn [mem: Local  size: 114  loc: -4]
+!   !   !   !   Child: 1  Op: ?
+!   !   !   !   !   Child: 0  Const: 100
+!   !   !   Child: 1  Op: [
+!   !   !   !   Child: 0  Id: yarn [mem: Local  size: 114  loc: -4]
+!   !   !   !   Child: 1  Op: ?
+!   !   !   !   !   Child: 0  Op: *
+!   !   !   !   !   !   Child: 0  Id: yarn [mem: Local  size: 114  loc: -4]
+!   !   Sibling: 3  Op: +
+!   !   !   Child: 0  Op: +
+!   !   !   !   Child: 0  Op: ?
+!   !   !   !   !   Child: 0  Id: wool [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Op: ?
+!   !   !   !   !   Child: 0  Id: shaun [mem: Local  size: 1  loc: -117]
+!   !   !   Child: 1  Op: ?
+!   !   !   !   Child: 0  Op: ?
+!   !   !   !   !   Child: 0  Const: 10
+!   !   Sibling: 4  Return
+!   !   !   Child: 0  Call: Wendolene
+!   !   !   !   Child: 0  Op: *
+!   !   !   !   !   Child: 0  Op: *
+!   !   !   !   !   !   Child: 0  Id: preston [mem: Local  size: 23  loc: -119]
+!   !   !   !   !   Child: 1  Op: *
+!   !   !   !   !   !   Child: 0  Id: yarn [mem: Local  size: 114  loc: -4]
+!   !   !   !   Sibling: 0  Id: shaun [mem: Local  size: 1  loc: -117]
+!   !   !   !   Sibling: 1  Id: yarn [mem: Local  size: 114  loc: -4]
+!   !   !   !   Sibling: 2  Id: preston [mem: Local  size: 23  loc: -119]
+Sibling: 14  Var aBigLongVariableName6 of type bool [mem: Global  size: 1  loc: -19]
+Sibling: 15  Var odd of type int [mem: Global  size: 1  loc: -20]
+Sibling: 16  Var separation of type int [mem: Global  size: 1  loc: -21]
+Sibling: 17  Var of of type int [mem: Global  size: 1  loc: -22]
+Sibling: 18  Var stuff of type int [mem: Global  size: 1  loc: -23]
+Sibling: 19  Var ant is array of type char [mem: Global  size: 11  loc: -25]
+!   Child: 0  Const: "unwrinkled"
+Sibling: 20  Var bat of type char [mem: Global  size: 1  loc: -35]
+!   Child: 0  Const: '''
+Sibling: 21  Var cat of type char [mem: Global  size: 1  loc: -36]
+!   Child: 0  Const: 't'
+Sibling: 22  Var dog of type char [mem: Global  size: 1  loc: -37]
+!   Child: 0  Const: '
+'
+Sibling: 23  Var hog of type char [mem: Global  size: 1  loc: -38]
+!   Child: 0  Const: ' '
+Offset for end of global space: -39
+Number of warnings: 38
+Number of errors: 4

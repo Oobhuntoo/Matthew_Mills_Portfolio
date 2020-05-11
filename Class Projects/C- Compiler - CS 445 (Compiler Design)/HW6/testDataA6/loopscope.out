@@ -1,0 +1,32 @@
+ERROR(6): Symbol 'y' is already declared at line 5.
+ERROR(11): Symbol 'y' is not declared.
+Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var x of type int [mem: Local  size: 1  loc: -2]
+!   !   Child: 1  Loop
+!   !   !   Child: 0  Var y of type int [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 2  Const: 1
+!   !   !   Child: 2  Compound
+!   !   !   !   Child: 0  Var y of type int [mem: Local  size: 1  loc: 0]
+!   !   !   !   Sibling: 0  Var x of type int [mem: Local  size: 1  loc: -4]
+!   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -4]
+!   !   !   !   !   Child: 1  Id: y [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Id: y [mem: None  size: 1  loc: 0]
+!   !   Sibling: 1  Loop
+!   !   !   Child: 0  Var y of type int [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Range
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Child: 1  Const: 10
+!   !   !   !   Child: 2  Const: 1
+!   !   !   Child: 2  Assign: =
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: y [mem: Local  size: 1  loc: -3]
+Offset for end of global space: 0
+Number of warnings: 0
+Number of errors: 2

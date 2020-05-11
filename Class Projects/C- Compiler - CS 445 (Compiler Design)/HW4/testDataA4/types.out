@@ -1,0 +1,78 @@
+ERROR(16): '+' requires operands of type int but rhs is of type bool.
+ERROR(17): '+' requires operands of type int but lhs is of type bool.
+ERROR(18): '+' requires operands of type int but lhs is of type bool.
+ERROR(18): '+' requires operands of type int but rhs is of type bool.
+ERROR(20): 'and' requires operands of type bool but lhs is of type int.
+ERROR(20): 'and' requires operands of type bool but rhs is of type int.
+ERROR(21): 'and' requires operands of type bool but lhs is of type int.
+ERROR(22): 'and' requires operands of type bool but rhs is of type int.
+ERROR(26): '=' requires operands of the same type but lhs is type int and rhs is type bool.
+ERROR(27): '=' requires operands of the same type but lhs is type bool and rhs is type int.
+ERROR(31): '==' requires operands of the same type but lhs is type int and rhs is type bool.
+ERROR(32): '==' requires operands of the same type but lhs is type bool and rhs is type int.
+ERROR(36): '!=' requires operands of the same type but lhs is type int and rhs is type bool.
+ERROR(37): '!=' requires operands of the same type but lhs is type bool and rhs is type int.
+WARNING(40): Variable 'ia' may be uninitialized when used here.
+ERROR(40): The operation '+' does not work with arrays.
+WARNING(41): Variable 'ba' may be uninitialized when used here.
+ERROR(41): '+' requires operands of type int but rhs is of type bool.
+ERROR(41): The operation '+' does not work with arrays.
+ERROR(42): '+' requires operands of type int but lhs is of type bool.
+ERROR(42): The operation '+' does not work with arrays.
+ERROR(43): '+' requires operands of type int but lhs is of type bool.
+ERROR(43): '+' requires operands of type int but rhs is of type bool.
+ERROR(43): The operation '+' does not work with arrays.
+ERROR(45): 'and' requires operands of type bool but lhs is of type int.
+ERROR(45): 'and' requires operands of type bool but rhs is of type int.
+ERROR(45): The operation 'and' does not work with arrays.
+ERROR(46): 'and' requires operands of type bool but lhs is of type int.
+ERROR(46): The operation 'and' does not work with arrays.
+ERROR(47): 'and' requires operands of type bool but rhs is of type int.
+ERROR(47): The operation 'and' does not work with arrays.
+ERROR(48): The operation 'and' does not work with arrays.
+ERROR(51): '=' requires operands of the same type but lhs is type int and rhs is type bool.
+ERROR(52): '=' requires operands of the same type but lhs is type bool and rhs is type int.
+ERROR(56): '==' requires operands of the same type but lhs is type int and rhs is type bool.
+ERROR(57): '==' requires operands of the same type but lhs is type bool and rhs is type int.
+ERROR(60): '+' requires operands of type int but lhs is of type bool.
+ERROR(61): '+' requires operands of type int but rhs is of type bool.
+ERROR(62): '+' requires operands of type int but rhs is of type bool.
+ERROR(64): 'or' requires operands of type bool but lhs is of type int.
+ERROR(65): 'or' requires operands of type bool but rhs is of type int.
+ERROR(66): 'or' requires operands of type bool but rhs is of type int.
+ERROR(69): Unary 'not' requires an operand of type bool but was given type int.
+ERROR(70): The operation 'not' does not work with arrays.
+ERROR(71): Unary 'not' requires an operand of type bool but was given type int.
+ERROR(71): The operation 'not' does not work with arrays.
+ERROR(73): Unary '-' requires an operand of type int but was given type bool.
+ERROR(75): Unary '-' requires an operand of type int but was given type bool.
+ERROR(75): The operation '-' does not work with arrays.
+ERROR(76): The operation '-' does not work with arrays.
+ERROR(79): '>' requires operands of type char or type int but lhs is of type bool.
+ERROR(80): '>' requires operands of type char or type int but rhs is of type bool.
+ERROR(81): '>' requires operands of type char or type int but lhs is of type bool.
+ERROR(82): '>' requires operands of type char or type int but lhs is of type bool.
+ERROR(82): '>' requires operands of type char or type int but rhs is of type bool.
+ERROR(85): Expecting Boolean test condition in if statement but got type int.
+ERROR(88): Cannot use array as test condition in if statement.
+ERROR(91): Expecting Boolean test condition in if statement but got type int.
+ERROR(91): Cannot use array as test condition in if statement.
+ERROR(97): Expecting Boolean test condition in if statement but got type int.
+ERROR(100): Expecting Boolean test condition in while statement but got type int.
+ERROR(101): Cannot use array as test condition in while statement.
+ERROR(102): Expecting Boolean test condition in while statement but got type int.
+ERROR(102): Cannot use array as test condition in while statement.
+ERROR(104): Expecting Boolean test condition in while statement but got type int.
+ERROR(106): Cannot use function 'main' as a variable.
+ERROR(107): 'i' is a simple variable and cannot be called.
+ERROR(109): Cannot index nonarray 'i'.
+ERROR(110): Cannot index nonarray 'i'.
+ERROR(112): '=' requires operands of the same type but lhs is type int and rhs is type char.
+ERROR(113): '=' requires operands of the same type but lhs is type int and rhs is type bool.
+ERROR(115): Cannot use function 'main' as a variable.
+ERROR(116): Array index is the unindexed array 'ia'.
+ERROR(118): The operation '*' only works with arrays.
+WARNING(2): Expecting to return type int but function 'main' has no return statement.
+WARNING(9): The variable 'ca' seems not to be used.
+Number of warnings: 4
+Number of errors: 72

@@ -1,0 +1,18 @@
+main()
+{
+    if false then output(101);
+    elsif false then output(103);
+    output(105);
+
+    if false then output(101);
+    elsif true then output(103);
+    output(105);
+
+    if true then output(101);
+    elsif false then output(103);
+    output(105);
+
+    if true then output(101);
+    elsif true then output(103);
+    output(105);
+}

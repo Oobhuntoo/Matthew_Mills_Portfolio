@@ -1,0 +1,83 @@
+ERROR(14): Symbol 'outputs' is not declared.
+WARNING(9): The variable 's' seems not to be used.
+Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var x of type int [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 0  Var b of type bool [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 1  Var c of type char [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 2  Var s is array of type char [mem: Local  size: 11  loc: -6]
+!   !   Child: 1  Call: output
+!   !   !   Child: 0  Const: 777
+!   !   Sibling: 0  Call: outputb
+!   !   !   Child: 0  Const: false
+!   !   Sibling: 1  Call: outputc
+!   !   !   Child: 0  Const: 'a'
+!   !   Sibling: 2  Call: outputs
+!   !   !   Child: 0  Const: "dogs"
+!   !   Sibling: 3  Call: outnl
+!   !   Sibling: 4  Assign: =
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Const: 666
+!   !   Sibling: 5  Call: output
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 6  Call: outnl
+!   !   Sibling: 7  Call: output
+!   !   !   Child: 0  Op: -
+!   !   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 8  Call: output
+!   !   !   Child: 0  Op: *
+!   !   !   !   Child: 0  Op: -
+!   !   !   !   !   Child: 0  Const: 1
+!   !   !   !   Child: 1  Id: x [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 9  Call: outnl
+!   !   Sibling: 10  Call: output
+!   !   !   Child: 0  Op: +
+!   !   !   !   Child: 0  Op: +
+!   !   !   !   !   Child: 0  Const: 111
+!   !   !   !   !   Child: 1  Const: 222
+!   !   !   !   Child: 1  Const: 333
+!   !   Sibling: 11  Call: output
+!   !   !   Child: 0  Op: *
+!   !   !   !   Child: 0  Op: *
+!   !   !   !   !   Child: 0  Const: 3
+!   !   !   !   !   Child: 1  Const: 6
+!   !   !   !   Child: 1  Op: +
+!   !   !   !   !   Child: 0  Op: *
+!   !   !   !   !   !   Child: 0  Const: 6
+!   !   !   !   !   !   Child: 1  Const: 6
+!   !   !   !   !   Child: 1  Const: 1
+!   !   Sibling: 12  Call: outnl
+!   !   Sibling: 13  Assign: =
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Call: input
+!   !   Sibling: 14  Call: output
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 15  Call: outnl
+!   !   Sibling: 16  Assign: =
+!   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Call: inputb
+!   !   Sibling: 17  Call: outputb
+!   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 18  Call: outnl
+!   !   Sibling: 19  Assign: =
+!   !   !   Child: 0  Id: c [mem: Local  size: 1  loc: -4]
+!   !   !   Child: 1  Call: inputc
+!   !   Sibling: 20  Call: outputc
+!   !   !   Child: 0  Id: c [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 21  Call: outnl
+!   !   Sibling: 22  Call: output
+!   !   !   Child: 0  Op: *
+!   !   !   !   Child: 0  Call: input
+!   !   !   !   Child: 1  Call: input
+!   !   Sibling: 23  Call: outnl
+!   !   Sibling: 24  Call: outputb
+!   !   !   Child: 0  Op: and
+!   !   !   !   Child: 0  Call: inputb
+!   !   !   !   Child: 1  Call: inputb
+!   !   Sibling: 25  Call: outnl
+!   !   Sibling: 26  Call: outputc
+!   !   !   Child: 0  Call: inputc
+!   !   Sibling: 27  Call: outnl
+Offset for end of global space: 0
+Number of warnings: 1
+Number of errors: 1

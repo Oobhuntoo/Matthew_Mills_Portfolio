@@ -1,0 +1,60 @@
+ERROR(6): Symbol 'v' is already declared at line 5.
+ERROR(7): Symbol 'x' is already declared at line 5.
+WARNING(11): Variable y may be uninitialized when used here.
+ERROR(12): Symbol 'w' is not declared.
+ERROR(12): Symbol 'u' is not declared.
+WARNING(5): The variable v seems not to be used.
+WARNING(5): The variable z seems not to be used.
+ERROR(15): Symbol 'bob' is already declared at line 15.
+ERROR(16): Symbol 'bob' is already declared at line 15.
+ERROR(19): Symbol 'bob' is already declared at line 18.
+WARNING(18): The variable bob seems not to be used.
+Var x of type int [line: 1]
+Sibling: 0  Var q of type int [line: 1]
+Sibling: 1  Func main returns type void [line: 3]
+!   Child: 1  Compound [line: 4]
+!   !   Child: 0  Var v of type int [line: 5]
+!   !   Sibling: 0  Var x of type int [line: 5]
+!   !   Sibling: 1  Var y of type int [line: 5]
+!   !   Sibling: 2  Var z of type int [line: 5]
+!   !   Sibling: 3  Var v of type int [line: 6]
+!   !   Sibling: 4  Var x of type char [line: 7]
+!   !   Child: 1  Assign: = [type int] [line: 9]
+!   !   !   Child: 0  Id: q [type int] [line: 9]
+!   !   !   Child: 1  Const: 7 [type int] [line: 9]
+!   !   Sibling: 0  Assign: = [type int] [line: 10]
+!   !   !   Child: 0  Id: x [type int] [line: 10]
+!   !   !   Child: 1  Const: 3 [type int] [line: 10]
+!   !   Sibling: 1  Assign: = [type int] [line: 11]
+!   !   !   Child: 0  Id: x [type int] [line: 11]
+!   !   !   Child: 1  Id: y [type int] [line: 11]
+!   !   Sibling: 2  Assign: = [undefined type] [line: 12]
+!   !   !   Child: 0  Id: w [undefined type] [line: 12]
+!   !   !   Child: 1  Id: u [undefined type] [line: 12]
+Sibling: 2  Func bob returns type void [line: 15]
+!   Child: 0  Param bob of type int [line: 15]
+!   Sibling: 0  Param bob of type int [line: 15]
+!   Child: 1  Compound [line: 15]
+!   !   Child: 0  Var bob of type int [line: 16]
+!   !   !   Child: 0  Id: bob [type int] [line: 16]
+!   !   Child: 1  Loop [line: 18]
+!   !   !   Child: 0  Var bob of type int [line: 18]
+!   !   !   Child: 1  Range [line: 18]
+!   !   !   !   Child: 0  Const: 1 [type int] [line: 18]
+!   !   !   !   Child: 1  Const: 10 [type int] [line: 18]
+!   !   !   !   Child: 2  Const: 1 [type int] [line: 18]
+!   !   !   Child: 2  Compound [line: 18]
+!   !   !   !   Child: 0  Var bob of type int [line: 19]
+!   !   Sibling: 0  Assign: = [type int] [line: 22]
+!   !   !   Child: 0  Id: bob [type int] [line: 22]
+!   !   !   Child: 1  Const: 1 [type int] [line: 22]
+!   !   Sibling: 1  Compound [line: 23]
+!   !   !   Child: 0  Var bob of type int [line: 24]
+!   !   !   Child: 1  Assign: = [type int] [line: 25]
+!   !   !   !   Child: 0  Id: bob [type int] [line: 25]
+!   !   !   !   Child: 1  Const: 2 [type int] [line: 25]
+!   !   Sibling: 2  Assign: = [type int] [line: 27]
+!   !   !   Child: 0  Id: bob [type int] [line: 27]
+!   !   !   Child: 1  Const: 3 [type int] [line: 27]
+Number of warnings: 4
+Number of errors: 7

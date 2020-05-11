@@ -1,0 +1,5 @@
+WARNING(4): The variable 'corgi' seems not to be used.
+WARNING(4): The variable 'dog' seems not to be used.
+ERROR(LINKER): Procedure main is not declared.
+Number of warnings: 2
+Number of errors: 1

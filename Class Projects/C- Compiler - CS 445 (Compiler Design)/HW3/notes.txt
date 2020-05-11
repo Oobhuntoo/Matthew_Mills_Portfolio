@@ -1,0 +1,78 @@
+THINGS WITH TYPES
+const
+op
+assign
+id
+call
+
+
+SEMANTIC CHECK TASKS
+check for [ operator and set its nodetype as the nodetype of its child ID
+check for = assignment and set its nodetype as the nodetype of its child ID
+
+
+call enter and leave for function declaration, compound, and loop with ID
+
+call insert for varK, funK, and paramK
+
+call lookup for IDs and calls
+
+
+
+
+OLD CODE FOR VARK AND FUNK:
+		if (st.isGlobal()){
+
+			if (!st.insertGlobal((std::string)syntaxTree->token->tokenstr, syntaxTree)){
+				printf("ERROR(%d): Symbol '%s' is already declared at line %d.\n", syntaxTree->lineno, syntaxTree->token->tokenstr, ((TreeNode*)st.lookup((std::string)syntaxTree->token->tokenstr))->lineno);
+
+				++*numErrors;
+			}
+		}
+		else{
+
+			if (!st.insert((std::string)syntaxTree->token->tokenstr, syntaxTree)){
+				printf("ERROR(%d): Symbol '%s' is already declared at line %d.\n", syntaxTree->lineno, syntaxTree->token->tokenstr, ((TreeNode*)st.lookup((std::string)syntaxTree->token->tokenstr))->lineno);
+				++*numErrors;
+			}
+		}
+
+
+
+
+
+
+		else{
+
+		Kind LHSKind = syntaxTree->child[0]->kind;
+
+		int lineno = syntaxTree->lineno;
+		std::string LHSsymbolName;
+
+		if (LHSKind == IdK){
+			LHSsymbolName = (std::string)syntaxTree->child[0]->token->tokenstr;
+		}
+		if (LHSKind == OpK){
+			if ((std::string)syntaxTree->child[0]->token->tokenstr == "["){
+				LHSsymbolName = (std::string)syntaxTree->child[0]->child[0]->token->tokenstr;
+			}
+		}
+
+		TreeNode *LHSnode = (TreeNode*)st.lookup(LHSsymbolName);
+
+		if (LHSnode != NULL){
+
+			Type LHSactualType = LHSnode->nodetype;
+
+			if (LHSactualType != Int){
+				printf("ERROR(%d): '%s' requires operands of type %s but lhs is of type %s.\n", syntaxTree->lineno, syntaxTree->token->tokenstr, typeList[Int].c_str(), typeList[LHSactualType].c_str());
+				++*numErrors;
+			}
+		}
+
+
+		}
+
+
+
+

@@ -1,0 +1,246 @@
+ERROR(24): Syntax error, unexpected "return", expecting "or" or "then".
+ERROR(90): Syntax error, unexpected "return", expecting "or" or "then".
+Func pow returns type int [mem: Local  loc: 0]
+!   Child: 0  Param n of type int [mem: Local  size: 1  loc: 0]
+!   Sibling: 0  Param p of type int [mem: Local  size: 1  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var sqr of type int [mem: Local  size: 1  loc: 0]
+!   !   Sibling: 0  Var ans of type int [mem: Local  size: 1  loc: 0]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: ans [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 1
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: sqr [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Id: n [mem: None  size: 1  loc: 0]
+!   !   Sibling: 1  While
+!   !   !   Child: 0  Const: true
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 1  If
+!   !   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   !   Child: 0  Op: %
+!   !   !   !   !   !   !   Child: 0  Id: p [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   !   Child: 1  Const: 2
+!   !   !   !   !   !   Child: 1  Const: 1
+!   !   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   !   Child: 0  Id: ans [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Op: *
+!   !   !   !   !   !   !   Child: 0  Id: ans [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   !   Child: 1  Id: sqr [mem: None  size: 1  loc: 0]
+!   !   !   !   Sibling: 0  Assign: =
+!   !   !   !   !   Child: 0  Id: p [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Child: 1  Op: /
+!   !   !   !   !   !   Child: 0  Id: p [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Const: 2
+!   !   !   !   Sibling: 1  If
+!   !   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   !   Child: 0  Id: p [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Const: 0
+!   !   !   !   !   Child: 1  Return
+!   !   !   !   !   !   Child: 0  Id: ans [mem: None  size: 1  loc: 0]
+!   !   !   !   Sibling: 2  Assign: =
+!   !   !   !   !   Child: 0  Id: sqr [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Child: 1  Op: *
+!   !   !   !   !   !   Child: 0  Id: sqr [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Id: sqr [mem: None  size: 1  loc: 0]
+Sibling: 0  Func getFunc returns type int [mem: Local  loc: 0]
+!   Child: 0  Param f is array of type int [mem: Local  size: 1  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var numbits of type int [mem: Local  size: 1  loc: 0]
+!   !   Sibling: 0  Var i of type int [mem: Local  size: 1  loc: 0]
+!   !   Sibling: 1  Var size of type int [mem: Local  size: 1  loc: 0]
+!   !   Child: 1  Return
+!   !   !   Child: 0  Const: 0
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: size [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Call: pow
+!   !   !   !   Child: 0  Const: 2
+!   !   !   !   Sibling: 0  Id: numbits [mem: None  size: 1  loc: 0]
+!   !   Sibling: 1  Assign: =
+!   !   !   Child: 0  Id: i [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 0
+!   !   Sibling: 2  While
+!   !   !   Child: 0  Op: <
+!   !   !   !   Child: 0  Id: i [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Id: size [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   Child: 0  Id: f [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Id: i [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Child: 1  Call: input
+!   !   !   !   Sibling: 0  Assign: =
+!   !   !   !   !   Child: 0  Id: i [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Child: 1  Op: +
+!   !   !   !   !   !   Child: 0  Id: i [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Const: 1
+!   !   Sibling: 3  Return
+!   !   !   Child: 0  Id: numbits [mem: None  size: 1  loc: 0]
+Sibling: 1  Func printFunc returns type void [mem: Local  loc: 0]
+!   Child: 0  Param f is array of type int [mem: Local  size: 1  loc: 0]
+!   Sibling: 0  Param size of type int [mem: Local  size: 1  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: 0]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: i [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 0
+!   !   Sibling: 0  While
+!   !   !   Child: 0  Op: <
+!   !   !   !   Child: 0  Id: i [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Id: size [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 1  Call: output
+!   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   Child: 0  Id: f [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Id: i [mem: None  size: 1  loc: 0]
+!   !   !   !   Sibling: 0  Assign: =
+!   !   !   !   !   Child: 0  Id: i [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Child: 1  Op: +
+!   !   !   !   !   !   Child: 0  Id: i [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Const: 1
+!   !   Sibling: 1  Call: outnl
+Sibling: 2  Func fwt returns type void [mem: Local  loc: 0]
+!   Child: 0  Param w is array of type int [mem: Local  size: 1  loc: 0]
+!   Sibling: 0  Param start of type int [mem: Local  size: 1  loc: 0]
+!   Sibling: 1  Param size of type int [mem: Local  size: 1  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var a of type int [mem: Local  size: 1  loc: 0]
+!   !   Sibling: 0  Var b of type int [mem: Local  size: 1  loc: 0]
+!   !   Sibling: 1  Var tmp of type int [mem: Local  size: 1  loc: 0]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: size [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Op: /
+!   !   !   !   Child: 0  Id: size [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Const: 2
+!   !   Sibling: 0  If
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: size [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Const: 1
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 1  Call: fwt
+!   !   !   !   !   Child: 0  Id: w [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Sibling: 0  Id: start [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Sibling: 1  Id: size [mem: None  size: 1  loc: 0]
+!   !   !   !   Sibling: 0  Call: fwt
+!   !   !   !   !   Child: 0  Id: w [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Sibling: 0  Op: +
+!   !   !   !   !   !   Child: 0  Id: start [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Id: size [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Sibling: 1  Id: size [mem: None  size: 1  loc: 0]
+!   !   Sibling: 1  Assign: =
+!   !   !   Child: 0  Id: a [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Id: start [mem: None  size: 1  loc: 0]
+!   !   Sibling: 2  Assign: =
+!   !   !   Child: 0  Id: b [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Op: +
+!   !   !   !   Child: 0  Id: start [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Id: size [mem: None  size: 1  loc: 0]
+!   !   Sibling: 3  While
+!   !   !   Child: 0  Op: <
+!   !   !   !   Child: 0  Id: a [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Op: +
+!   !   !   !   !   Child: 0  Id: start [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Child: 1  Id: size [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   Child: 0  Id: tmp [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Child: 1  Op: [
+!   !   !   !   !   !   Child: 0  Id: w [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Id: a [mem: None  size: 1  loc: 0]
+!   !   !   !   Sibling: 0  Assign: =
+!   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   Child: 0  Id: w [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Id: a [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Child: 1  Op: +
+!   !   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   !   Child: 0  Id: w [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   !   Child: 1  Id: a [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Op: [
+!   !   !   !   !   !   !   Child: 0  Id: w [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   !   Child: 1  Id: b [mem: None  size: 1  loc: 0]
+!   !   !   !   Sibling: 1  Assign: =
+!   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   Child: 0  Id: w [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Id: b [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Child: 1  Op: -
+!   !   !   !   !   !   Child: 0  Id: tmp [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Op: [
+!   !   !   !   !   !   !   Child: 0  Id: w [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   !   Child: 1  Id: b [mem: None  size: 1  loc: 0]
+!   !   !   !   Sibling: 2  Assign: =
+!   !   !   !   !   Child: 0  Id: a [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Child: 1  Op: +
+!   !   !   !   !   !   Child: 0  Id: a [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Const: 1
+!   !   !   !   Sibling: 3  Assign: =
+!   !   !   !   !   Child: 0  Id: b [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Child: 1  Op: +
+!   !   !   !   !   !   Child: 0  Id: b [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Const: 1
+Sibling: 3  Func div returns type void [mem: Local  loc: 0]
+!   Child: 0  Param f is array of type int [mem: Local  size: 1  loc: 0]
+!   Sibling: 0  Param size of type int [mem: Local  size: 1  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var i of type int [mem: Local  size: 1  loc: 0]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: i [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Const: 0
+!   !   Sibling: 0  While
+!   !   !   Child: 0  Op: <
+!   !   !   !   Child: 0  Id: i [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Id: size [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   Child: 0  Id: f [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Id: i [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Child: 1  Op: /
+!   !   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   !   Child: 0  Id: f [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   !   Child: 1  Id: i [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Id: size [mem: None  size: 1  loc: 0]
+!   !   !   !   Sibling: 0  Assign: ++
+!   !   !   !   !   Child: 0  Id: i [mem: None  size: 1  loc: 0]
+Sibling: 4  Func main returns type int [mem: Local  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var f is array of type int [mem: Local  size: 257  loc: 0]
+!   !   Sibling: 0  Var j of type int [mem: Local  size: 1  loc: 0]
+!   !   Sibling: 1  Var size of type int [mem: Local  size: 1  loc: 0]
+!   !   Sibling: 2  Var numbits of type int [mem: Local  size: 1  loc: 0]
+!   !   Sibling: 3  Var half of type int [mem: Local  size: 1  loc: 0]
+!   !   Child: 1  While
+!   !   !   Child: 0  Const: true
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 1  Return
+!   !   !   !   !   Child: 0  Const: 0
+!   !   !   !   Sibling: 0  Assign: =
+!   !   !   !   !   Child: 0  Id: size [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Child: 1  Call: pow
+!   !   !   !   !   !   Child: 0  Const: 2
+!   !   !   !   !   !   Sibling: 0  Id: numbits [mem: None  size: 1  loc: 0]
+!   !   !   !   Sibling: 1  Assign: =
+!   !   !   !   !   Child: 0  Id: half [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Child: 1  Op: /
+!   !   !   !   !   !   Child: 0  Id: size [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Const: 2
+!   !   !   !   Sibling: 2  Call: fwt
+!   !   !   !   !   Child: 0  Id: f [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Sibling: 0  Const: 0
+!   !   !   !   !   Sibling: 1  Id: size [mem: None  size: 1  loc: 0]
+!   !   !   !   Sibling: 3  Call: printFunc
+!   !   !   !   !   Child: 0  Id: f [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Sibling: 0  Id: size [mem: None  size: 1  loc: 0]
+!   !   !   !   Sibling: 4  Call: fwt
+!   !   !   !   !   Child: 0  Id: f [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Sibling: 0  Const: 0
+!   !   !   !   !   Sibling: 1  Id: size [mem: None  size: 1  loc: 0]
+!   !   !   !   Sibling: 5  Call: div
+!   !   !   !   !   Child: 0  Id: f [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Sibling: 0  Id: size [mem: None  size: 1  loc: 0]
+!   !   !   !   Sibling: 6  Call: printFunc
+!   !   !   !   !   Child: 0  Id: f [mem: None  size: 1  loc: 0]
+!   !   !   !   !   Sibling: 0  Id: size [mem: None  size: 1  loc: 0]
+!   !   Sibling: 0  Return
+!   !   !   Child: 0  Const: 0
+Offset for end of global space: 0
+Number of warnings: 0
+Number of errors: 2

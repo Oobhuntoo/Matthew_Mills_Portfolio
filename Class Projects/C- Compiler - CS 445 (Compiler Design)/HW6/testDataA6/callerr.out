@@ -1,0 +1,56 @@
+ERROR(10): Function 'ella' at line 8 is expecting no return value, but return has return value.
+ERROR(18): Symbol 'lyra' is not declared.
+ERROR(20): Expecting type int in parameter 1 of call to 'ella' declared on line 8 but got type void.
+ERROR(22): Too many parameters passed for function 'dory' declared on line 3.
+ERROR(23): Too many parameters passed for function 'dory' declared on line 3.
+ERROR(26): '=' requires operands of type bool, char, or int but rhs is of type void.
+ERROR(27): '+' requires operands of type int but lhs is of type void.
+ERROR(27): 'and' requires operands of type bool but rhs is of type int.
+ERROR(27): '=' requires operands of the same type but lhs is type int and rhs is type bool.
+WARNING(1): The variable 'main' seems not to be used.
+ERROR(LINKER): Procedure main is not declared.
+Var main of type int [mem: Global  size: 1  loc: 0]
+Sibling: 0  Func dory returns type int [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 1  Return
+!   !   !   Child: 0  Const: 6
+Sibling: 1  Func ella returns type void [mem: Global  loc: 0]
+!   Child: 0  Param x of type int [mem: Parameter  size: 1  loc: -2]
+!   Child: 1  Compound
+!   !   Child: 1  Return
+!   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+Sibling: 2  Func fred returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var x of type int [mem: Local  size: 1  loc: -2]
+!   !   Child: 1  Call: fred
+!   !   Sibling: 0  Call: lyra
+!   !   !   Child: 0  Call: ella
+!   !   !   !   Child: 0  Const: 3
+!   !   Sibling: 1  Call: ella
+!   !   !   Child: 0  Call: ella
+!   !   !   !   Child: 0  Const: 9
+!   !   Sibling: 2  Call: ella
+!   !   !   Child: 0  Call: dory
+!   !   Sibling: 3  Call: dory
+!   !   !   Child: 0  Call: ella
+!   !   !   !   Child: 0  Const: 7
+!   !   Sibling: 4  Call: dory
+!   !   !   Child: 0  Call: dory
+!   !   Sibling: 5  Assign: =
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Call: dory
+!   !   Sibling: 6  Assign: =
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Call: ella
+!   !   !   !   Child: 0  Const: 8
+!   !   Sibling: 7  Assign: =
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Op: and
+!   !   !   !   Child: 0  Const: true
+!   !   !   !   Child: 1  Op: +
+!   !   !   !   !   Child: 0  Call: ella
+!   !   !   !   !   !   Child: 0  Const: 9
+!   !   !   !   !   Child: 1  Const: 10
+Offset for end of global space: -1
+Number of warnings: 1
+Number of errors: 10

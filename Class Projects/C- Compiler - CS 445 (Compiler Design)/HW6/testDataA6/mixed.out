@@ -1,0 +1,75 @@
+WARNING(13): The parameter 'c' seems not to be used.
+ERROR(24): Symbol 'thelma' is already declared at line 13.
+ERROR(28): Expecting array in parameter 2 of call to 'thelma' declared on line 13.
+WARNING(24): Expecting to return type int but function 'thelma' has no return statement.
+WARNING(24): The parameter 'c' seems not to be used.
+WARNING(26): The variable 'zz' seems not to be used.
+WARNING(2): The variable 'c' seems not to be used.
+Var a of type int [mem: Global  size: 1  loc: 0]
+!   Child: 0  Const: 1
+Sibling: 0  Var b is array of type int [mem: Global  size: 5  loc: -2]
+Sibling: 1  Var c of type int [mem: Global  size: 1  loc: -6]
+!   Child: 0  Const: 3
+Sibling: 2  Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 1  While
+!   !   !   Child: 0  Const: true
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Const: false
+!   !   !   !   Child: 1  Compound
+!   !   !   !   !   Child: 1  Compound
+!   !   !   !   !   !   Child: 1  Compound
+!   !   !   !   !   !   !   Child: 1  Op: [
+!   !   !   !   !   !   !   !   Child: 0  Id: b [mem: Global  size: 5  loc: -2]
+!   !   !   !   !   !   !   !   Child: 1  Op: *
+!   !   !   !   !   !   !   !   !   Child: 0  Const: 2
+!   !   !   !   !   !   !   !   !   Child: 1  Id: a [mem: Global  size: 1  loc: 0]
+!   !   !   !   Child: 2  Break
+!   !   Sibling: 0  If
+!   !   !   Child: 0  Const: true
+Sibling: 3  Var gromit is array of type int [mem: Global  size: 11  loc: -8]
+Sibling: 4  Func thelma returns type int [mem: Global  loc: 0]
+!   Child: 0  Param a of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param b is array of type int [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param c of type bool [mem: Parameter  size: 1  loc: -4]
+!   Child: 1  Compound
+!   !   Child: 0  Var zz of type int [mem: Local  size: 1  loc: -5]
+!   !   !   Child: 0  Const: 666
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: a [mem: Parameter  size: 1  loc: -2]
+!   !   !   Child: 1  Op: *
+!   !   !   !   Child: 0  Call: thelma
+!   !   !   !   !   Child: 0  Id: a [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   Sibling: 0  Id: b [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   !   Sibling: 1  Const: true
+!   !   !   !   Child: 1  Const: 2
+!   !   Sibling: 0  If
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: a [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 3
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   Child: 0  Id: a [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   Child: 1  Op: [
+!   !   !   !   !   !   Child: 0  Id: gromit [mem: Global  size: 11  loc: -8]
+!   !   !   !   !   !   Child: 1  Const: 7
+!   !   !   Child: 2  Return
+!   !   !   !   Child: 0  Id: zz [mem: Local  size: 1  loc: -5]
+Sibling: 5  Func thelma returns type int [mem: Global  loc: 0]
+!   Child: 0  Param a of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param b of type int [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param c of type bool [mem: Parameter  size: 1  loc: -4]
+!   Child: 1  Compound
+!   !   Child: 0  Var zz of type int [mem: Local  size: 1  loc: -5]
+!   !   !   Child: 0  Const: 666
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: a [mem: Parameter  size: 1  loc: -2]
+!   !   !   Child: 1  Op: *
+!   !   !   !   Child: 0  Call: thelma
+!   !   !   !   !   Child: 0  Id: a [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   !   Sibling: 0  Id: b [mem: Parameter  size: 1  loc: -3]
+!   !   !   !   !   Sibling: 1  Const: true
+!   !   !   !   Child: 1  Const: 2
+Offset for end of global space: -18
+Number of warnings: 5
+Number of errors: 2

@@ -1,0 +1,138 @@
+ERROR(11): Cannot use function 'main' as a variable.
+ERROR(11): Cannot index nonarray 'main'.
+WARNING(13): Variable xa may be uninitialized when used here.
+WARNING(14): Variable ca may be uninitialized when used here.
+WARNING(15): Variable ba may be uninitialized when used here.
+ERROR(16): '=' requires operands of the same type but lhs is type int and rhs is type char.
+ERROR(17): '=' requires operands of the same type but lhs is type int and rhs is type bool.
+WARNING(20): Variable x may be uninitialized when used here.
+WARNING(21): Variable c may be uninitialized when used here.
+WARNING(22): Variable b may be uninitialized when used here.
+ERROR(23): '=' requires operands of the same type but lhs is type int and rhs is type char.
+ERROR(24): '=' requires operands of the same type but lhs is type int and rhs is type bool.
+ERROR(29): '=' requires operands of the same type but lhs is type int and rhs is type char.
+ERROR(30): '=' requires operands of the same type but lhs is type int and rhs is type bool.
+ERROR(32): The operation '>' does not work with arrays.
+ERROR(33): The operation '<' does not work with arrays.
+ERROR(34): The operation '>=' does not work with arrays.
+ERROR(35): The operation '<=' does not work with arrays.
+ERROR(39): The operation '>' does not work with arrays.
+ERROR(40): The operation '>' does not work with arrays.
+ERROR(42): The operation '?' does not work with arrays.
+ERROR(45): The operation '*' only works with arrays.
+ERROR(46): Cannot index nonarray 'x'.
+ERROR(47): Cannot index nonarray 'x'.
+ERROR(47): The operation '*' only works with arrays.
+ERROR(49): The operation '*' only works with arrays.
+WARNING(9): The variable y seems not to be used.
+WARNING(9): The variable ya seems not to be used.
+Func main returns type void [line: 1]
+!   Child: 1  Compound [line: 2]
+!   !   Child: 0  Var x of type int [line: 3]
+!   !   Sibling: 0  Var c of type char [line: 4]
+!   !   Sibling: 1  Var b of type bool [line: 5]
+!   !   Sibling: 2  Var xa is array of type int [line: 6]
+!   !   Sibling: 3  Var ca is array of type char [line: 7]
+!   !   Sibling: 4  Var ba is array of type bool [line: 8]
+!   !   Sibling: 5  Var y of type int [line: 9]
+!   !   Sibling: 6  Var ya is array of type int [line: 9]
+!   !   Child: 1  Op: [ [undefined type] [line: 11]
+!   !   !   Child: 0  Id: main [undefined type] [line: 11]
+!   !   !   Child: 1  Const: 3 [type int] [line: 11]
+!   !   Sibling: 0  Assign: = [type int] [line: 13]
+!   !   !   Child: 0  Id: xa [type int] [line: 13]
+!   !   !   Child: 1  Id: xa [type int] [line: 13]
+!   !   Sibling: 1  Assign: = [type char] [line: 14]
+!   !   !   Child: 0  Id: ca [type char] [line: 14]
+!   !   !   Child: 1  Id: ca [type char] [line: 14]
+!   !   Sibling: 2  Assign: = [type bool] [line: 15]
+!   !   !   Child: 0  Id: ba [type bool] [line: 15]
+!   !   !   Child: 1  Id: ba [type bool] [line: 15]
+!   !   Sibling: 3  Assign: = [type int] [line: 16]
+!   !   !   Child: 0  Id: xa [type int] [line: 16]
+!   !   !   Child: 1  Id: ca [type char] [line: 16]
+!   !   Sibling: 4  Assign: = [type int] [line: 17]
+!   !   !   Child: 0  Id: xa [type int] [line: 17]
+!   !   !   Child: 1  Id: ba [type bool] [line: 17]
+!   !   Sibling: 5  Assign: = [type char] [line: 18]
+!   !   !   Child: 0  Id: ca [type char] [line: 18]
+!   !   !   Child: 1  Const: 'z' [type char] [line: 18]
+!   !   Sibling: 6  Assign: = [type int] [line: 20]
+!   !   !   Child: 0  Id: xa [type int] [line: 20]
+!   !   !   Child: 1  Id: x [type int] [line: 20]
+!   !   Sibling: 7  Assign: = [type char] [line: 21]
+!   !   !   Child: 0  Id: ca [type char] [line: 21]
+!   !   !   Child: 1  Id: c [type char] [line: 21]
+!   !   Sibling: 8  Assign: = [type bool] [line: 22]
+!   !   !   Child: 0  Id: ba [type bool] [line: 22]
+!   !   !   Child: 1  Id: b [type bool] [line: 22]
+!   !   Sibling: 9  Assign: = [type int] [line: 23]
+!   !   !   Child: 0  Id: xa [type int] [line: 23]
+!   !   !   Child: 1  Id: c [type char] [line: 23]
+!   !   Sibling: 10  Assign: = [type int] [line: 24]
+!   !   !   Child: 0  Id: xa [type int] [line: 24]
+!   !   !   Child: 1  Id: b [type bool] [line: 24]
+!   !   Sibling: 11  Assign: = [type int] [line: 26]
+!   !   !   Child: 0  Id: x [type int] [line: 26]
+!   !   !   Child: 1  Id: xa [type int] [line: 26]
+!   !   Sibling: 12  Assign: = [type char] [line: 27]
+!   !   !   Child: 0  Id: c [type char] [line: 27]
+!   !   !   Child: 1  Id: ca [type char] [line: 27]
+!   !   Sibling: 13  Assign: = [type bool] [line: 28]
+!   !   !   Child: 0  Id: b [type bool] [line: 28]
+!   !   !   Child: 1  Id: ba [type bool] [line: 28]
+!   !   Sibling: 14  Assign: = [type int] [line: 29]
+!   !   !   Child: 0  Id: x [type int] [line: 29]
+!   !   !   Child: 1  Id: ca [type char] [line: 29]
+!   !   Sibling: 15  Assign: = [type int] [line: 30]
+!   !   !   Child: 0  Id: x [type int] [line: 30]
+!   !   !   Child: 1  Id: ba [type bool] [line: 30]
+!   !   Sibling: 16  Op: > [type bool] [line: 32]
+!   !   !   Child: 0  Id: xa [type int] [line: 32]
+!   !   !   Child: 1  Id: xa [type int] [line: 32]
+!   !   Sibling: 17  Op: < [type bool] [line: 33]
+!   !   !   Child: 0  Id: xa [type int] [line: 33]
+!   !   !   Child: 1  Id: xa [type int] [line: 33]
+!   !   Sibling: 18  Op: >= [type bool] [line: 34]
+!   !   !   Child: 0  Id: xa [type int] [line: 34]
+!   !   !   Child: 1  Id: xa [type int] [line: 34]
+!   !   Sibling: 19  Op: <= [type bool] [line: 35]
+!   !   !   Child: 0  Id: xa [type int] [line: 35]
+!   !   !   Child: 1  Id: xa [type int] [line: 35]
+!   !   Sibling: 20  Op: == [type bool] [line: 36]
+!   !   !   Child: 0  Id: xa [type int] [line: 36]
+!   !   !   Child: 1  Id: xa [type int] [line: 36]
+!   !   Sibling: 21  Op: != [type bool] [line: 37]
+!   !   !   Child: 0  Id: xa [type int] [line: 37]
+!   !   !   Child: 1  Id: xa [type int] [line: 37]
+!   !   Sibling: 22  Op: > [type bool] [line: 39]
+!   !   !   Child: 0  Id: xa [type int] [line: 39]
+!   !   !   Child: 1  Id: x [type int] [line: 39]
+!   !   Sibling: 23  Op: > [type bool] [line: 40]
+!   !   !   Child: 0  Id: x [type int] [line: 40]
+!   !   !   Child: 1  Id: xa [type int] [line: 40]
+!   !   Sibling: 24  Op: ? [type int] [line: 42]
+!   !   !   Child: 0  Id: xa [type int] [line: 42]
+!   !   Sibling: 25  Op: * [type int] [line: 43]
+!   !   !   Child: 0  Id: xa [type int] [line: 43]
+!   !   Sibling: 26  Op: * [type int] [line: 44]
+!   !   !   Child: 0  Id: ba [type bool] [line: 44]
+!   !   Sibling: 27  Op: * [type int] [line: 45]
+!   !   !   Child: 0  Op: * [type int] [line: 45]
+!   !   !   !   Child: 0  Id: ba [type bool] [line: 45]
+!   !   Sibling: 28  Op: [ [type int] [line: 46]
+!   !   !   Child: 0  Id: x [type int] [line: 46]
+!   !   !   Child: 1  Const: 2 [type int] [line: 46]
+!   !   Sibling: 29  Op: * [type int] [line: 47]
+!   !   !   Child: 0  Op: [ [type int] [line: 47]
+!   !   !   !   Child: 0  Id: x [type int] [line: 47]
+!   !   !   !   Child: 1  Const: 2 [type int] [line: 47]
+!   !   Sibling: 30  Op: [ [type int] [line: 48]
+!   !   !   Child: 0  Id: xa [type int] [line: 48]
+!   !   !   Child: 1  Const: 2 [type int] [line: 48]
+!   !   Sibling: 31  Op: * [type int] [line: 49]
+!   !   !   Child: 0  Op: [ [type int] [line: 49]
+!   !   !   !   Child: 0  Id: xa [type int] [line: 49]
+!   !   !   !   Child: 1  Const: 2 [type int] [line: 49]
+Number of warnings: 8
+Number of errors: 20

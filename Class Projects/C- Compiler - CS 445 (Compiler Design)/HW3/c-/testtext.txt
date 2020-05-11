@@ -1,0 +1,22 @@
+char c;
+
+int man(bool b){
+
+	int x;
+	
+	char d[4];
+
+	x = *d;
+
+
+
+
+	
+
+
+}
+
+
+
+
+

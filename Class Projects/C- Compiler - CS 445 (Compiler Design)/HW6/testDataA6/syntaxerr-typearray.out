@@ -1,0 +1,64 @@
+ERROR(4): Syntax error, unexpected identifier "x", expecting numeric constant.
+ERROR(6): Syntax error, unexpected '*', expecting ']'.
+ERROR(11): Syntax error, unexpected ';', expecting ']'.
+ERROR(13): Syntax error, unexpected ']', expecting numeric constant.
+ERROR(15): Syntax error, unexpected ';', expecting numeric constant.
+ERROR(17): Syntax error, unexpected numeric constant "33", expecting ',' or ';'.
+ERROR(19): Syntax error, unexpected numeric constant "33", expecting ',' or ';'.
+ERROR(21): Syntax error, unexpected ']', expecting ',' or ';'.
+ERROR(25): Syntax error, unexpected '[', expecting identifier.
+ERROR(27): Syntax error, unexpected '[', expecting identifier.
+ERROR(29): Syntax error, unexpected '[', expecting identifier.
+ERROR(31): Syntax error, unexpected '[', expecting identifier.
+ERROR(35): Syntax error, unexpected numeric constant "33", expecting identifier.
+ERROR(41): Syntax error, unexpected "bool", expecting ']'.
+ERROR(43): Syntax error, unexpected ']', expecting numeric constant.
+ERROR(45): Syntax error, unexpected "bool", expecting numeric constant.
+ERROR(47): Syntax error, unexpected numeric constant "33", expecting ',' or ';'.
+ERROR(49): Syntax error, unexpected numeric constant "33", expecting ',' or ';'.
+ERROR(51): Syntax error, unexpected ']', expecting ',' or ';'.
+ERROR(53): Syntax error, unexpected "bool", expecting ',' or ';'.
+ERROR(55): Syntax error, unexpected '[', expecting identifier.
+ERROR(57): Syntax error, unexpected '[', expecting identifier.
+ERROR(59): Syntax error, unexpected '[', expecting identifier.
+ERROR(61): Syntax error, unexpected '[', expecting identifier.
+ERROR(63): Syntax error, unexpected numeric constant "33", expecting identifier.
+ERROR(65): Syntax error, unexpected numeric constant "33", expecting identifier.
+ERROR(67): Syntax error, unexpected ']', expecting identifier.
+ERROR(69): Syntax error, unexpected "bool", expecting identifier.
+Var x is array of type int [mem: Local  size: 3  loc: 0]
+Sibling: 0  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 1  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 2  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 3  Var x is array of type int [mem: Local  size: 34  loc: 0]
+Sibling: 4  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 5  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 6  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 7  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 8  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 9  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 10  Var x of type int [mem: Local  size: 1  loc: 0]
+Sibling: 11  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 12  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 13  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 14  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 15  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 16  Var x is array of type int [mem: Local  size: 34  loc: 0]
+Sibling: 17  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 18  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 19  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 20  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 21  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 22  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 23  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 24  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 25  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 26  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 27  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 28  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 29  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 30  Var z of type int [mem: Local  size: 1  loc: 0]
+Sibling: 31  Var z of type int [mem: Local  size: 1  loc: 0]
+Offset for end of global space: 0
+Number of warnings: 0
+Number of errors: 28

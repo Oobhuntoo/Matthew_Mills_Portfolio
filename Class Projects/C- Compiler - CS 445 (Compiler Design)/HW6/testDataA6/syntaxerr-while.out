@@ -1,0 +1,57 @@
+ERROR(4): Syntax error, unexpected ';', expecting "do" or "or".
+ERROR(6): Syntax error, unexpected "int", expecting ')'.
+ERROR(8): Syntax error, unexpected "int".
+ERROR(8): Syntax error, unexpected ';', expecting "do" or "or".
+ERROR(10): Syntax error, unexpected "int".
+ERROR(12): Syntax error, unexpected "int".
+ERROR(14): Syntax error, unexpected "int".
+ERROR(16): Syntax error, unexpected "int".
+ERROR(18): Syntax error, unexpected "int".
+ERROR(21): Syntax error, unexpected ';', expecting "do" or "or".
+ERROR(23): Syntax error, unexpected ';'.
+ERROR(25): Syntax error, unexpected ')'.
+ERROR(25): Syntax error, unexpected ';', expecting ')'.
+ERROR(27): Syntax error, unexpected ';'.
+ERROR(29): Syntax error, unexpected ')', expecting "do" or "or".
+ERROR(29): Syntax error, unexpected ';', expecting "do" or "or".
+ERROR(31): Syntax error, unexpected ';'.
+ERROR(33): Syntax error, unexpected ')'.
+ERROR(33): Syntax error, unexpected ';', expecting "do" or "or".
+ERROR(35): Syntax error, unexpected ';'.
+ERROR(38): Syntax error, unexpected ';', expecting "do" or "or".
+ERROR(40): Syntax error, unexpected ';', expecting ')'.
+ERROR(42): Syntax error, unexpected ')'.
+ERROR(42): Syntax error, unexpected ';', expecting ')'.
+ERROR(44): Syntax error, unexpected ';'.
+ERROR(46): Syntax error, unexpected ')', expecting "do" or "or".
+ERROR(46): Syntax error, unexpected ';', expecting "do" or "or".
+ERROR(48): Syntax error, unexpected ';', expecting "do" or "or".
+ERROR(50): Syntax error, unexpected ')'.
+ERROR(50): Syntax error, unexpected ';', expecting "do" or "or".
+ERROR(52): Syntax error, unexpected ';'.
+Func main returns type void [mem: Local  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 1  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 0  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 1  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 2  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 3  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 4  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 5  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 6  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 7  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 8  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 9  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 10  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 11  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 12  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 13  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 14  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 15  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 16  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 17  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 18  Id: zz [mem: None  size: 1  loc: 0]
+!   !   Sibling: 19  Id: zz [mem: None  size: 1  loc: 0]
+Offset for end of global space: 0
+Number of warnings: 0
+Number of errors: 31

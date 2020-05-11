@@ -1,0 +1,40 @@
+fred()
+{
+   loop i=1..10 do
+       loop i=1..10 do
+           7;
+   loop i=1..10 do
+       if true then {
+           int i;
+       }
+   loop i=1..10 do
+       while false do {
+           int i;
+       }
+   loop i=1..10 do
+       loop forever {
+           int i;
+       }
+}
+        
+cat(int i)
+     if true then {
+        int i;
+     }
+
+
+errorZ(int i) {
+     int i;
+     {
+          int i;
+  
+          if true then {
+              int i;
+          }    
+     }
+
+   loop i=1..10 do
+       {
+           int i;
+       }
+}

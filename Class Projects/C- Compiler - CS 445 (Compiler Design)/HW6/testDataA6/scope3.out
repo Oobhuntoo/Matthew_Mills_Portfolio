@@ -1,0 +1,101 @@
+WARNING(25): The variable 'sla' seems not to be used.
+WARNING(28): The variable 'slaa' seems not to be used.
+WARNING(26): The variable 'slb' seems not to be used.
+WARNING(29): The variable 'slbb' seems not to be used.
+WARNING(27): The variable 'slc' seems not to be used.
+WARNING(30): The variable 'slcc' seems not to be used.
+WARNING(34): The variable 'tla' seems not to be used.
+WARNING(37): The variable 'tlaa' seems not to be used.
+WARNING(35): The variable 'tlb' seems not to be used.
+WARNING(38): The variable 'tlbb' seems not to be used.
+WARNING(36): The variable 'tlc' seems not to be used.
+WARNING(39): The variable 'tlcc' seems not to be used.
+WARNING(43): The variable 'sa' seems not to be used.
+WARNING(46): The variable 'saa' seems not to be used.
+WARNING(44): The variable 'sb' seems not to be used.
+WARNING(47): The variable 'sbb' seems not to be used.
+WARNING(45): The variable 'sc' seems not to be used.
+WARNING(48): The variable 'scc' seems not to be used.
+WARNING(17): The variable 'la' seems not to be used.
+WARNING(20): The variable 'laa' seems not to be used.
+WARNING(18): The variable 'lb' seems not to be used.
+WARNING(21): The variable 'lbb' seems not to be used.
+WARNING(19): The variable 'lc' seems not to be used.
+WARNING(22): The variable 'lcc' seems not to be used.
+WARNING(9): The parameter 'pa' seems not to be used.
+WARNING(12): The parameter 'paa' seems not to be used.
+WARNING(10): The parameter 'pb' seems not to be used.
+WARNING(13): The parameter 'pbb' seems not to be used.
+WARNING(11): The parameter 'pc' seems not to be used.
+WARNING(14): The parameter 'pcc' seems not to be used.
+WARNING(58): The variable 'foxa' seems not to be used.
+WARNING(56): The parameter 'fpa' seems not to be used.
+WARNING(56): The parameter 'fpaa' seems not to be used.
+WARNING(56): The parameter 'fpb' seems not to be used.
+WARNING(56): The parameter 'fpbb' seems not to be used.
+WARNING(56): The parameter 'fpc' seems not to be used.
+WARNING(56): The parameter 'fpcc' seems not to be used.
+WARNING(1): The variable 'a' seems not to be used.
+WARNING(4): The variable 'aa' seems not to be used.
+WARNING(2): The variable 'b' seems not to be used.
+WARNING(5): The variable 'bb' seems not to be used.
+WARNING(3): The variable 'c' seems not to be used.
+WARNING(6): The variable 'cc' seems not to be used.
+WARNING(53): The variable 'd' seems not to be used.
+WARNING(53): The variable 'ee' seems not to be used.
+WARNING(56): The function 'fox' seems not to be used.
+Var a of type int [mem: Global  size: 1  loc: 0]
+Sibling: 0  Var b of type bool [mem: Global  size: 1  loc: -1]
+Sibling: 1  Var c of type char [mem: Global  size: 1  loc: -2]
+Sibling: 2  Var aa is array of type int [mem: Global  size: 12  loc: -4]
+Sibling: 3  Var bb is array of type bool [mem: Global  size: 23  loc: -16]
+Sibling: 4  Var cc is array of type char [mem: Global  size: 34  loc: -39]
+Sibling: 5  Func main returns type void [mem: Global  loc: 0]
+!   Child: 0  Param pa of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param pb of type bool [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param pc of type char [mem: Parameter  size: 1  loc: -4]
+!   Sibling: 2  Param paa is array of type int [mem: Parameter  size: 1  loc: -5]
+!   Sibling: 3  Param pbb is array of type bool [mem: Parameter  size: 1  loc: -6]
+!   Sibling: 4  Param pcc is array of type char [mem: Parameter  size: 1  loc: -7]
+!   Child: 1  Compound
+!   !   Child: 0  Var la of type int [mem: Local  size: 1  loc: -8]
+!   !   Sibling: 0  Var lb of type bool [mem: Local  size: 1  loc: -9]
+!   !   Sibling: 1  Var lc of type char [mem: Local  size: 1  loc: -10]
+!   !   Sibling: 2  Var laa is array of type int [mem: Local  size: 12  loc: -12]
+!   !   Sibling: 3  Var lbb is array of type bool [mem: Local  size: 23  loc: -24]
+!   !   Sibling: 4  Var lcc is array of type char [mem: Local  size: 34  loc: -47]
+!   !   Child: 1  Compound
+!   !   !   Child: 0  Var sla of type int [mem: Local  size: 1  loc: -80]
+!   !   !   Sibling: 0  Var slb of type bool [mem: Local  size: 1  loc: -81]
+!   !   !   Sibling: 1  Var slc of type char [mem: Local  size: 1  loc: -82]
+!   !   !   Sibling: 2  Var slaa is array of type int [mem: Local  size: 12  loc: -84]
+!   !   !   Sibling: 3  Var slbb is array of type bool [mem: Local  size: 23  loc: -96]
+!   !   !   Sibling: 4  Var slcc is array of type char [mem: Local  size: 34  loc: -119]
+!   !   Sibling: 0  Compound
+!   !   !   Child: 0  Var tla of type int [mem: Local  size: 1  loc: -80]
+!   !   !   Sibling: 0  Var tlb of type bool [mem: Local  size: 1  loc: -81]
+!   !   !   Sibling: 1  Var tlc of type char [mem: Local  size: 1  loc: -82]
+!   !   !   Sibling: 2  Var tlaa is array of type int [mem: Local  size: 12  loc: -84]
+!   !   !   Sibling: 3  Var tlbb is array of type bool [mem: Local  size: 23  loc: -96]
+!   !   !   Sibling: 4  Var tlcc is array of type char [mem: Local  size: 34  loc: -119]
+!   !   Sibling: 1  Compound
+!   !   !   Child: 0  Var sa of type int [mem: LocalStatic  size: 1  loc: -72]
+!   !   !   Sibling: 0  Var sb of type bool [mem: LocalStatic  size: 1  loc: -73]
+!   !   !   Sibling: 1  Var sc of type char [mem: LocalStatic  size: 1  loc: -74]
+!   !   !   Sibling: 2  Var saa is array of type int [mem: LocalStatic  size: 12  loc: -76]
+!   !   !   Sibling: 3  Var sbb is array of type bool [mem: LocalStatic  size: 23  loc: -88]
+!   !   !   Sibling: 4  Var scc is array of type char [mem: LocalStatic  size: 34  loc: -111]
+Sibling: 6  Var d of type int [mem: Global  size: 1  loc: -144]
+Sibling: 7  Var ee is array of type int [mem: Global  size: 11  loc: -146]
+Sibling: 8  Func fox returns type void [mem: Global  loc: 0]
+!   Child: 0  Param fpa of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param fpb of type bool [mem: Parameter  size: 1  loc: -3]
+!   Sibling: 1  Param fpc of type char [mem: Parameter  size: 1  loc: -4]
+!   Sibling: 2  Param fpaa is array of type int [mem: Parameter  size: 1  loc: -5]
+!   Sibling: 3  Param fpbb is array of type bool [mem: Parameter  size: 1  loc: -6]
+!   Sibling: 4  Param fpcc is array of type char [mem: Parameter  size: 1  loc: -7]
+!   Child: 1  Compound
+!   !   Child: 0  Var foxa of type int [mem: Local  size: 1  loc: -8]
+Offset for end of global space: -156
+Number of warnings: 46
+Number of errors: 0

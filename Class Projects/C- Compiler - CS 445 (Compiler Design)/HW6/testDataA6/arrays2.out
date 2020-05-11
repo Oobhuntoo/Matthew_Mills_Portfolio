@@ -1,0 +1,94 @@
+WARNING(8): Variable 'aa' may be uninitialized when used here.
+WARNING(14): Variable 'cc' may be uninitialized when used here.
+ERROR(20): '=' requires operands of the same type but lhs is type int and rhs is type char.
+ERROR(21): '=' requires operands of the same type but lhs is type int and rhs is type char.
+ERROR(22): '=' requires operands of the same type but lhs is type int and rhs is type char.
+ERROR(23): '=' requires operands of the same type but lhs is type int and rhs is type char.
+ERROR(24): '=' requires operands of the same type but lhs is type int and rhs is type char.
+ERROR(28): The operation '>' does not work with arrays.
+WARNING(5): The variable 'b' seems not to be used.
+WARNING(5): The variable 'bb' seems not to be used.
+WARNING(5): The variable 'bbb' seems not to be used.
+Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var a is array of type int [mem: Local  size: 11  loc: -3]
+!   !   Sibling: 0  Var aa is array of type int [mem: Local  size: 11  loc: -14]
+!   !   Sibling: 1  Var aaa of type int [mem: Local  size: 1  loc: -24]
+!   !   Sibling: 2  Var b is array of type bool [mem: Local  size: 11  loc: -26]
+!   !   Sibling: 3  Var bb is array of type bool [mem: Local  size: 11  loc: -37]
+!   !   Sibling: 4  Var bbb of type bool [mem: Local  size: 1  loc: -47]
+!   !   Sibling: 5  Var c is array of type char [mem: Local  size: 11  loc: -49]
+!   !   Sibling: 6  Var cc is array of type char [mem: Local  size: 11  loc: -60]
+!   !   Sibling: 7  Var ccc of type char [mem: Local  size: 1  loc: -70]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: a [mem: Local  size: 11  loc: -3]
+!   !   !   Child: 1  Id: aa [mem: Local  size: 11  loc: -14]
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: aaa [mem: Local  size: 1  loc: -24]
+!   !   !   Child: 1  Id: aa [mem: Local  size: 11  loc: -14]
+!   !   Sibling: 1  Assign: =
+!   !   !   Child: 0  Id: aa [mem: Local  size: 11  loc: -14]
+!   !   !   Child: 1  Id: aaa [mem: Local  size: 1  loc: -24]
+!   !   Sibling: 2  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 11  loc: -3]
+!   !   !   !   Child: 1  Const: 0
+!   !   !   Child: 1  Id: aaa [mem: Local  size: 1  loc: -24]
+!   !   Sibling: 3  Assign: =
+!   !   !   Child: 0  Id: aaa [mem: Local  size: 1  loc: -24]
+!   !   !   Child: 1  Op: [
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 11  loc: -3]
+!   !   !   !   Child: 1  Const: 0
+!   !   Sibling: 4  Assign: =
+!   !   !   Child: 0  Id: c [mem: Local  size: 11  loc: -49]
+!   !   !   Child: 1  Id: cc [mem: Local  size: 11  loc: -60]
+!   !   Sibling: 5  Assign: =
+!   !   !   Child: 0  Id: ccc [mem: Local  size: 1  loc: -70]
+!   !   !   Child: 1  Id: cc [mem: Local  size: 11  loc: -60]
+!   !   Sibling: 6  Assign: =
+!   !   !   Child: 0  Id: cc [mem: Local  size: 11  loc: -60]
+!   !   !   Child: 1  Id: ccc [mem: Local  size: 1  loc: -70]
+!   !   Sibling: 7  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: c [mem: Local  size: 11  loc: -49]
+!   !   !   !   Child: 1  Const: 0
+!   !   !   Child: 1  Id: ccc [mem: Local  size: 1  loc: -70]
+!   !   Sibling: 8  Assign: =
+!   !   !   Child: 0  Id: ccc [mem: Local  size: 1  loc: -70]
+!   !   !   Child: 1  Op: [
+!   !   !   !   Child: 0  Id: c [mem: Local  size: 11  loc: -49]
+!   !   !   !   Child: 1  Const: 0
+!   !   Sibling: 9  Assign: =
+!   !   !   Child: 0  Id: a [mem: Local  size: 11  loc: -3]
+!   !   !   Child: 1  Id: cc [mem: Local  size: 11  loc: -60]
+!   !   Sibling: 10  Assign: =
+!   !   !   Child: 0  Id: aaa [mem: Local  size: 1  loc: -24]
+!   !   !   Child: 1  Id: cc [mem: Local  size: 11  loc: -60]
+!   !   Sibling: 11  Assign: =
+!   !   !   Child: 0  Id: aa [mem: Local  size: 11  loc: -14]
+!   !   !   Child: 1  Id: ccc [mem: Local  size: 1  loc: -70]
+!   !   Sibling: 12  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 11  loc: -3]
+!   !   !   !   Child: 1  Const: 0
+!   !   !   Child: 1  Id: ccc [mem: Local  size: 1  loc: -70]
+!   !   Sibling: 13  Assign: =
+!   !   !   Child: 0  Id: aaa [mem: Local  size: 1  loc: -24]
+!   !   !   Child: 1  Op: [
+!   !   !   !   Child: 0  Id: c [mem: Local  size: 11  loc: -49]
+!   !   !   !   Child: 1  Const: 0
+!   !   Sibling: 14  Op: ==
+!   !   !   Child: 0  Id: c [mem: Local  size: 11  loc: -49]
+!   !   !   Child: 1  Id: cc [mem: Local  size: 11  loc: -60]
+!   !   Sibling: 15  Op: !=
+!   !   !   Child: 0  Id: c [mem: Local  size: 11  loc: -49]
+!   !   !   Child: 1  Id: cc [mem: Local  size: 11  loc: -60]
+!   !   Sibling: 16  Op: >
+!   !   !   Child: 0  Id: c [mem: Local  size: 11  loc: -49]
+!   !   !   Child: 1  Id: cc [mem: Local  size: 11  loc: -60]
+!   !   Sibling: 17  Op: ==
+!   !   !   Child: 0  Id: c [mem: Local  size: 11  loc: -49]
+!   !   !   Child: 1  Id: cc [mem: Local  size: 11  loc: -60]
+Offset for end of global space: 0
+Number of warnings: 5
+Number of errors: 6

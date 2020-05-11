@@ -1,0 +1,21 @@
+WARNING(7): Variable 'a' may be uninitialized when used here.
+WARNING(3): The function 'dog' seems not to be used.
+Var a of type int [mem: Global  size: 1  loc: 0]
+Sibling: 0  Func dog returns type void [mem: Global  loc: 0]
+!   Child: 0  Param a of type char [mem: Parameter  size: 1  loc: -2]
+!   Child: 1  Compound
+!   !   Child: 1  Id: a [mem: Parameter  size: 1  loc: -2]
+!   !   Sibling: 0  Compound
+!   !   !   Child: 0  Var a of type int [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Id: a [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 1  Id: a [mem: Parameter  size: 1  loc: -2]
+!   !   Sibling: 2  Compound
+!   !   !   Child: 0  Var a of type char [mem: LocalStatic  size: 1  loc: -1]
+!   !   !   Child: 1  Id: a [mem: LocalStatic  size: 1  loc: -1]
+!   !   Sibling: 3  Id: a [mem: Parameter  size: 1  loc: -2]
+Sibling: 1  Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 1  Id: a [mem: Global  size: 1  loc: 0]
+Offset for end of global space: -2
+Number of warnings: 2
+Number of errors: 0

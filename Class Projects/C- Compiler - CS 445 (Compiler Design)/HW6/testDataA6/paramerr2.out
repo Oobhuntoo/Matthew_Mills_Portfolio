@@ -1,0 +1,61 @@
+WARNING(4): The parameter 'boar' seems not to be used.
+ERROR(10): Too many parameters passed for function 'cow' declared on line 3.
+ERROR(10): '+' requires operands of type int but lhs is of type bool.
+ERROR(10): '+' requires operands of type int but rhs is of type bool.
+ERROR(10): 'and' requires operands of type bool but lhs is of type int.
+ERROR(10): 'and' requires operands of type bool but rhs is of type int.
+ERROR(11): '+' requires operands of type int but rhs is of type bool.
+ERROR(11): Too few parameters passed for function 'dog' declared on line 4.
+ERROR(12): '+' requires operands of type int but rhs is of type bool.
+ERROR(12): '*' requires operands of type int but rhs is of type bool.
+ERROR(13): '+' requires operands of type int but rhs is of type bool.
+ERROR(13): '*' requires operands of type int but rhs is of type bool.
+ERROR(13): Too many parameters passed for function 'dog' declared on line 4.
+ERROR(13): '-' requires operands of type int but rhs is of type bool.
+ERROR(14): Symbol 'elk' is not declared.
+ERROR(14): '+' requires operands of type int but rhs is of type bool.
+Func cow returns type void [mem: Global  loc: 0]
+Sibling: 0  Func dog returns type void [mem: Global  loc: 0]
+!   Child: 0  Param aardvark of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param boar of type int [mem: Parameter  size: 1  loc: -3]
+!   Child: 1  Id: aardvark [mem: Parameter  size: 1  loc: -2]
+Sibling: 1  Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var a of type int [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 0  Const: 1
+!   !   Sibling: 0  Var b of type bool [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 0  Const: true
+!   !   Child: 1  Call: cow
+!   !   !   Child: 0  Op: and
+!   !   !   !   Child: 0  Op: +
+!   !   !   !   !   Child: 0  Id: b [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Id: a [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 0  Call: dog
+!   !   !   Child: 0  Op: +
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 1  Call: dog
+!   !   !   Child: 0  Op: +
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -3]
+!   !   !   Sibling: 0  Op: *
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 2  Call: dog
+!   !   !   Child: 0  Op: +
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -3]
+!   !   !   Sibling: 0  Op: *
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -3]
+!   !   !   Sibling: 1  Op: -
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 3  Call: elk
+!   !   !   Child: 0  Op: +
+!   !   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -3]
+Offset for end of global space: 0
+Number of warnings: 1
+Number of errors: 15

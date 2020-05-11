@@ -1,0 +1,4 @@
+WARNING(7): Variable 'a' may be uninitialized when used here.
+WARNING(3): The function 'dog' seems not to be used.
+Number of warnings: 2
+Number of errors: 0

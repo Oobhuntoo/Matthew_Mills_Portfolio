@@ -1,0 +1,45 @@
+ERROR(34): Symbol 'penguin' is not declared.
+ERROR(34): Unary '--' requires an operand of type int but was given type bool.
+WARNING(54): Expecting to return type bool but function 'penguin' has no return statement.
+WARNING(58): The variable 'c' seems not to be used.
+WARNING(54): The variable 'cheese' seems not to be used.
+WARNING(59): The variable 'i' seems not to be used.
+WARNING(54): The variable 'launch' seems not to be used.
+WARNING(54): The variable 'moon' seems not to be used.
+ERROR(71): '-' requires operands of type int but lhs is of type bool.
+WARNING(68): The variable 'shaun' seems not to be used.
+WARNING(70): The variable 'void' seems not to be used.
+WARNING(81): Variable 'chicken' may be uninitialized when used here.
+WARNING(81): Variable 'run' may be uninitialized when used here.
+WARNING(84): Variable 'wallace' may be uninitialized when used here.
+WARNING(84): Variable 'gromit' may be uninitialized when used here.
+WARNING(89): The variable 'y' seems not to be used.
+ERROR(91): Symbol 'i' is not declared.
+ERROR(91): Symbol 'i' is not declared.
+ERROR(91): Symbol 'i' is not declared.
+WARNING(124): Variable 'yarn' may be uninitialized when used here.
+WARNING(125): Variable 'wool' may be uninitialized when used here.
+WARNING(125): Variable 'shaun' may be uninitialized when used here.
+ERROR(125): Unary '?' requires an operand of type int but was given type bool.
+WARNING(127): Variable 'preston' may be uninitialized when used here.
+WARNING(91): The variable 'LadyCampanula' seems not to be used.
+WARNING(103): The variable 'TheWereRabbit' seems not to be used.
+WARNING(89): The variable 'Wensleydale' seems not to be used.
+WARNING(7): The variable '_' seems not to be used.
+WARNING(7): The variable '_1024' seems not to be used.
+WARNING(7): The variable '_nouveau' seems not to be used.
+WARNING(130): The variable 'aBigLongVariableName6' seems not to be used.
+WARNING(134): The variable 'ant' seems not to be used.
+WARNING(135): The variable 'bat' seems not to be used.
+WARNING(136): The variable 'cat' seems not to be used.
+WARNING(137): The variable 'dog' seems not to be used.
+WARNING(7): The variable 'dog__cat' seems not to be used.
+WARNING(138): The variable 'hog' seems not to be used.
+WARNING(131): The variable 'odd' seems not to be used.
+WARNING(131): The variable 'of' seems not to be used.
+WARNING(54): The variable 'penguin' seems not to be used.
+WARNING(75): The variable 'ramsBottom' seems not to be used.
+WARNING(131): The variable 'separation' seems not to be used.
+WARNING(132): The variable 'stuff' seems not to be used.
+Number of warnings: 36
+Number of errors: 7

@@ -1,0 +1,5 @@
+main()
+{
+   loop i=0..10:-1 do output(i);
+   output(666);
+}

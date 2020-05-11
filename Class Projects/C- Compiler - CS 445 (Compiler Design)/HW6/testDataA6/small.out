@@ -1,0 +1,65 @@
+ERROR(21): Symbol 'aardvark' is not declared.
+WARNING(21): Variable 'in' may be uninitialized when used here.
+ERROR(23): Cannot index nonarray 'in'.
+WARNING(24): Variable 'zz' may be uninitialized when used here.
+WARNING(19): The variable 'for' seems not to be used.
+ERROR(28): Function 'max' at line 7 is expecting to return type int but return has no return value.
+WARNING(10): The variable 'c' seems not to be used.
+WARNING(3): The variable 'a' seems not to be used.
+ERROR(LINKER): Procedure main is not declared.
+Var a of type bool [mem: Global  size: 1  loc: 0]
+Sibling: 0  Var b is array of type int [mem: Global  size: 101  loc: -2]
+Sibling: 1  Func max returns type int [mem: Global  loc: 0]
+!   Child: 0  Param x of type int [mem: Parameter  size: 1  loc: -2]
+!   Sibling: 0  Param y of type int [mem: Parameter  size: 1  loc: -3]
+!   Child: 1  Compound
+!   !   Child: 0  Var z of type int [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 0  Var zz of type int [mem: Local  size: 1  loc: -5]
+!   !   Sibling: 1  Var c of type char [mem: Local  size: 1  loc: -6]
+!   !   Child: 1  If
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   !   Child: 1  Id: y [mem: Parameter  size: 1  loc: -3]
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   !   !   Child: 1  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   Child: 2  Assign: =
+!   !   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   !   !   Child: 1  Id: y [mem: Parameter  size: 1  loc: -3]
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: b [mem: Global  size: 101  loc: -2]
+!   !   !   !   Child: 1  Const: 41
+!   !   !   Child: 1  Call: max
+!   !   !   !   Child: 0  Op: [
+!   !   !   !   !   Child: 0  Id: b [mem: Global  size: 101  loc: -2]
+!   !   !   !   !   Child: 1  Op: *
+!   !   !   !   !   !   Child: 0  Const: 42
+!   !   !   !   !   !   Child: 1  Const: 1
+!   !   !   !   Sibling: 0  Const: 43
+!   !   Sibling: 1  While
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Const: 666
+!   !   !   !   Child: 1  Const: 665
+!   !   !   Child: 1  Compound
+!   !   !   !   Child: 0  Var in of type int [mem: Local  size: 1  loc: -7]
+!   !   !   !   Sibling: 0  Var for of type int [mem: Local  size: 1  loc: -8]
+!   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   Child: 0  Op: [
+!   !   !   !   !   !   Child: 0  Id: aardvark [mem: None  size: 1  loc: 0]
+!   !   !   !   !   !   Child: 1  Const: 2
+!   !   !   !   !   Child: 1  Id: in [mem: Local  size: 1  loc: -7]
+!   !   !   !   Sibling: 0  Op: [
+!   !   !   !   !   Child: 0  Id: b [mem: Global  size: 101  loc: -2]
+!   !   !   !   !   Child: 1  Const: 3
+!   !   !   !   Sibling: 1  Op: [
+!   !   !   !   !   Child: 0  Id: in [mem: Local  size: 1  loc: -7]
+!   !   !   !   !   Child: 1  Const: 6
+!   !   !   !   Sibling: 2  Assign: =
+!   !   !   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -4]
+!   !   !   !   !   Child: 1  Id: zz [mem: Local  size: 1  loc: -5]
+!   !   !   !   Sibling: 3  Break
+!   !   Sibling: 2  Return
+Offset for end of global space: -102
+Number of warnings: 5
+Number of errors: 4

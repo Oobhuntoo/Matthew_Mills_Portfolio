@@ -1,0 +1,7 @@
+ERROR(13): Expecting type void in parameter 1 of call to 'outputc' declared on line -1 but got type char.
+ERROR(14): Symbol 'outputs' is not declared.
+ERROR(38): Expecting type void in parameter 1 of call to 'outputc' declared on line -1 but got type char.
+ERROR(47): Expecting type void in parameter 1 of call to 'outputc' declared on line -1 but got type char.
+WARNING(9): The variable 's' seems not to be used.
+Number of warnings: 1
+Number of errors: 4

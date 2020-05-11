@@ -1,0 +1,10 @@
+main()
+{
+    int i;
+
+    i = 723;
+    loop i=0..50:7 do {
+       output(i); outnl();
+    }
+    output(i);
+}    

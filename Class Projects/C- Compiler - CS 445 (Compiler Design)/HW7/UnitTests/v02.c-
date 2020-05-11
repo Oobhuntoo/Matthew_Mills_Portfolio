@@ -1,0 +1,4 @@
+main()
+{
+   loop i=1..21:3 do output(i);
+}

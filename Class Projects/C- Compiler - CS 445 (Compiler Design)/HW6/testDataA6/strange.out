@@ -1,0 +1,68 @@
+ERROR(19): Expecting Boolean test condition in if statement but got type int.
+ERROR(21): Expecting Boolean test condition in if statement but got type int.
+Func main returns type void [mem: Global  loc: 0]
+!   Child: 0  Param x of type int [mem: Parameter  size: 1  loc: -2]
+!   Child: 1  Compound
+!   !   Child: 0  Var y of type int [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 0  Var z is array of type int [mem: Local  size: 11  loc: -5]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Const: 3
+!   !   Sibling: 0  Call: main
+!   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 1  Assign: ++
+!   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 2  Assign: =
+!   !   !   Child: 0  Id: x [mem: Parameter  size: 1  loc: -2]
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Assign: ++
+!   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 3  Op: +
+!   !   !   Child: 0  Assign: ++
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Const: 1
+!   !   Sibling: 4  Assign: =
+!   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Assign: ++
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 5  Assign: =
+!   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Op: +
+!   !   !   !   Child: 0  Assign: ++
+!   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 1
+!   !   Sibling: 6  Call: main
+!   !   !   Child: 0  Assign: ++
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 7  If
+!   !   !   Child: 0  Assign: ++
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 4
+!   !   Sibling: 8  If
+!   !   !   Child: 0  Assign: =
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Op: +
+!   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   Child: 1  Const: 1
+!   !   !   Child: 1  Assign: =
+!   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   Child: 1  Const: 4
+!   !   Sibling: 9  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: z [mem: Local  size: 11  loc: -5]
+!   !   !   !   Child: 1  Assign: ++
+!   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Const: 6
+!   !   Sibling: 10  Assign: =
+!   !   !   Child: 0  Op: [
+!   !   !   !   Child: 0  Id: z [mem: Local  size: 11  loc: -5]
+!   !   !   !   Child: 1  Assign: =
+!   !   !   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -3]
+!   !   !   !   !   Child: 1  Const: 7
+!   !   !   Child: 1  Const: 6
+Offset for end of global space: 0
+Number of warnings: 0
+Number of errors: 2

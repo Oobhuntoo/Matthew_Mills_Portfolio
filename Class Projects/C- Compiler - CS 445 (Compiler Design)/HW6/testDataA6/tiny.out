@@ -1,0 +1,35 @@
+ERROR(7): Symbol 'aspergillus' is not declared.
+ERROR(7): Symbol 'fungus' is not declared.
+ERROR(8): '=' requires operands of the same type but lhs is type char and rhs is type int.
+ERROR(9): Cannot use function 'dog' as a variable.
+ERROR(10): Cannot use function 'dog' as a variable.
+ERROR(13): Function 'dog' at line 4 is expecting to return type int but got type char.
+WARNING(4): The parameter 'corgi' seems not to be used.
+WARNING(1): The variable 'gromit' seems not to be used.
+WARNING(2): The variable 'preston' seems not to be used.
+WARNING(1): The variable 'walace' seems not to be used.
+ERROR(LINKER): Procedure main is not declared.
+Var walace of type int [mem: Global  size: 1  loc: 0]
+Sibling: 0  Var gromit of type int [mem: Global  size: 1  loc: -1]
+Sibling: 1  Var preston of type char [mem: Global  size: 1  loc: -2]
+Sibling: 2  Func dog returns type int [mem: Global  loc: 0]
+!   Child: 0  Param corgi of type bool [mem: Parameter  size: 1  loc: -2]
+!   Child: 1  Compound
+!   !   Child: 0  Var cat of type char [mem: Local  size: 1  loc: -3]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: aspergillus [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Id: fungus [mem: None  size: 1  loc: 0]
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: cat [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Const: 666
+!   !   Sibling: 1  Assign: =
+!   !   !   Child: 0  Id: cat [mem: Local  size: 1  loc: -3]
+!   !   !   Child: 1  Id: dog [mem: Local  size: 1  loc: 0]
+!   !   Sibling: 2  Assign: =
+!   !   !   Child: 0  Id: dog [mem: Local  size: 1  loc: 0]
+!   !   !   Child: 1  Id: cat [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 3  Return
+!   !   !   Child: 0  Id: cat [mem: Local  size: 1  loc: -3]
+Offset for end of global space: -3
+Number of warnings: 4
+Number of errors: 7

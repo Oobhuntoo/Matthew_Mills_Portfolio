@@ -1,0 +1,120 @@
+WARNING(4): Expecting to return type char but function 'toads' has no return statement.
+WARNING(13): Variable 'bb' may be uninitialized when used here.
+WARNING(14): Variable 'jj' may be uninitialized when used here.
+ERROR(15): '<' requires operands of type char or type int but lhs is of type bool.
+ERROR(15): '<' requires operands of type char or type int but rhs is of type bool.
+ERROR(15): The operation '<' does not work with arrays.
+ERROR(16): The operation '<' does not work with arrays.
+WARNING(19): Variable 'a' may be uninitialized when used here.
+WARNING(19): Variable 'b' may be uninitialized when used here.
+ERROR(19): '<' requires operands of type char or type int but lhs is of type bool.
+ERROR(19): '<' requires operands of type char or type int but rhs is of type bool.
+WARNING(20): Variable 'i' may be uninitialized when used here.
+ERROR(20): '/' requires operands of type int but lhs is of type bool.
+ERROR(21): '/' requires operands of type int but rhs is of type bool.
+ERROR(22): '%' requires operands of type int but lhs is of type bool.
+ERROR(23): '%' requires operands of type int but rhs is of type bool.
+ERROR(24): '-' requires operands of type int but lhs is of type bool.
+ERROR(25): '-' requires operands of type int but rhs is of type bool.
+ERROR(26): '<' requires operands of type char or type int but lhs is of type void.
+ERROR(26): '<' requires operands of type char or type int but rhs is of type void.
+ERROR(28): '<' requires operands of type char or type int but lhs is of type void.
+ERROR(29): '<' requires operands of type char or type int but rhs is of type void.
+ERROR(31): Symbol 'k' is not declared.
+ERROR(32): Symbol 'k' is not declared.
+ERROR(33): Symbol 'k' is not declared.
+ERROR(33): Symbol 'k' is not declared.
+ERROR(34): Symbol 'k' is not declared.
+ERROR(35): 'i' is a simple variable and cannot be called.
+WARNING(10): The variable 'j' seems not to be used.
+Func frogs returns type void [mem: Global  loc: 0]
+Sibling: 0  Func toads returns type char [mem: Global  loc: 0]
+Sibling: 1  Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var ii is array of type int [mem: Local  size: 6  loc: -3]
+!   !   Sibling: 0  Var jj is array of type int [mem: Local  size: 6  loc: -9]
+!   !   Sibling: 1  Var aa is array of type bool [mem: Local  size: 6  loc: -15]
+!   !   Sibling: 2  Var bb is array of type bool [mem: Local  size: 6  loc: -21]
+!   !   Sibling: 3  Var i of type int [mem: Local  size: 1  loc: -26]
+!   !   Sibling: 4  Var j of type int [mem: Local  size: 1  loc: -27]
+!   !   Sibling: 5  Var a of type bool [mem: Local  size: 1  loc: -28]
+!   !   Sibling: 6  Var b of type bool [mem: Local  size: 1  loc: -29]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: aa [mem: Local  size: 6  loc: -15]
+!   !   !   Child: 1  Id: bb [mem: Local  size: 6  loc: -21]
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: ii [mem: Local  size: 6  loc: -3]
+!   !   !   Child: 1  Id: jj [mem: Local  size: 6  loc: -9]
+!   !   Sibling: 1  Op: <
+!   !   !   Child: 0  Id: aa [mem: Local  size: 6  loc: -15]
+!   !   !   Child: 1  Id: bb [mem: Local  size: 6  loc: -21]
+!   !   Sibling: 2  Op: <
+!   !   !   Child: 0  Id: ii [mem: Local  size: 6  loc: -3]
+!   !   !   Child: 1  Id: jj [mem: Local  size: 6  loc: -9]
+!   !   Sibling: 3  Op: ==
+!   !   !   Child: 0  Id: aa [mem: Local  size: 6  loc: -15]
+!   !   !   Child: 1  Id: bb [mem: Local  size: 6  loc: -21]
+!   !   Sibling: 4  Op: ==
+!   !   !   Child: 0  Id: ii [mem: Local  size: 6  loc: -3]
+!   !   !   Child: 1  Id: jj [mem: Local  size: 6  loc: -9]
+!   !   Sibling: 5  Op: <
+!   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -28]
+!   !   !   Child: 1  Id: b [mem: Local  size: 1  loc: -29]
+!   !   Sibling: 6  Op: /
+!   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -28]
+!   !   !   Child: 1  Id: i [mem: Local  size: 1  loc: -26]
+!   !   Sibling: 7  Op: /
+!   !   !   Child: 0  Id: i [mem: Local  size: 1  loc: -26]
+!   !   !   Child: 1  Id: a [mem: Local  size: 1  loc: -28]
+!   !   Sibling: 8  Op: %
+!   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -28]
+!   !   !   Child: 1  Id: i [mem: Local  size: 1  loc: -26]
+!   !   Sibling: 9  Op: %
+!   !   !   Child: 0  Id: i [mem: Local  size: 1  loc: -26]
+!   !   !   Child: 1  Id: a [mem: Local  size: 1  loc: -28]
+!   !   Sibling: 10  Op: -
+!   !   !   Child: 0  Id: a [mem: Local  size: 1  loc: -28]
+!   !   !   Child: 1  Id: i [mem: Local  size: 1  loc: -26]
+!   !   Sibling: 11  Op: -
+!   !   !   Child: 0  Id: i [mem: Local  size: 1  loc: -26]
+!   !   !   Child: 1  Id: a [mem: Local  size: 1  loc: -28]
+!   !   Sibling: 12  Op: <
+!   !   !   Child: 0  Call: frogs
+!   !   !   Child: 1  Call: frogs
+!   !   Sibling: 13  Op: <
+!   !   !   Child: 0  Call: toads
+!   !   !   Child: 1  Call: toads
+!   !   Sibling: 14  Op: <
+!   !   !   Child: 0  Call: frogs
+!   !   !   Child: 1  Call: toads
+!   !   Sibling: 15  Op: <
+!   !   !   Child: 0  Call: toads
+!   !   !   Child: 1  Call: frogs
+!   !   Sibling: 16  Assign: =
+!   !   !   Child: 0  Id: i [mem: Local  size: 1  loc: -26]
+!   !   !   Child: 1  Op: +
+!   !   !   !   Child: 0  Id: i [mem: Local  size: 1  loc: -26]
+!   !   !   !   Child: 1  Id: k [mem: None  size: 1  loc: 0]
+!   !   Sibling: 17  Assign: =
+!   !   !   Child: 0  Id: i [mem: Local  size: 1  loc: -26]
+!   !   !   Child: 1  Op: +
+!   !   !   !   Child: 0  Id: k [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Id: i [mem: Local  size: 1  loc: -26]
+!   !   Sibling: 18  Assign: =
+!   !   !   Child: 0  Id: i [mem: Local  size: 1  loc: -26]
+!   !   !   Child: 1  Op: +
+!   !   !   !   Child: 0  Id: k [mem: None  size: 1  loc: 0]
+!   !   !   !   Child: 1  Id: k [mem: None  size: 1  loc: 0]
+!   !   Sibling: 19  Assign: =
+!   !   !   Child: 0  Id: i [mem: Local  size: 1  loc: -26]
+!   !   !   Child: 1  Op: +
+!   !   !   !   Child: 0  Call: k
+!   !   !   !   Child: 1  Const: 7
+!   !   Sibling: 20  Assign: =
+!   !   !   Child: 0  Id: i [mem: Local  size: 1  loc: -26]
+!   !   !   Child: 1  Op: +
+!   !   !   !   Child: 0  Call: i
+!   !   !   !   Child: 1  Const: 8
+Offset for end of global space: 0
+Number of warnings: 7
+Number of errors: 22

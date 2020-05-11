@@ -1,0 +1,44 @@
+WARNING(5): Variable 'v' may be uninitialized when used here.
+WARNING(7): Variable 'w' may be uninitialized when used here.
+WARNING(10): Variable 'x' may be uninitialized when used here.
+WARNING(12): Variable 'y' may be uninitialized when used here.
+WARNING(14): Variable 'z' may be uninitialized when used here.
+Func main returns type void [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var v of type int [mem: Local  size: 1  loc: -2]
+!   !   Sibling: 0  Var w of type int [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 1  Var x of type int [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 2  Var y of type int [mem: Local  size: 1  loc: -5]
+!   !   Sibling: 3  Var z of type int [mem: Local  size: 1  loc: -6]
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: v [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Op: +
+!   !   !   !   Child: 0  Id: v [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 1
+!   !   Sibling: 0  Assign: =
+!   !   !   Child: 0  Id: v [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Op: +
+!   !   !   !   Child: 0  Id: v [mem: Local  size: 1  loc: -2]
+!   !   !   !   Child: 1  Const: 1
+!   !   Sibling: 1  Id: w [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 2  Id: w [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 3  Assign: =
+!   !   !   Child: 0  Id: v [mem: Local  size: 1  loc: -2]
+!   !   !   Child: 1  Id: w [mem: Local  size: 1  loc: -3]
+!   !   Sibling: 4  Assign: ++
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 5  Assign: ++
+!   !   !   Child: 0  Id: x [mem: Local  size: 1  loc: -4]
+!   !   Sibling: 6  Assign: --
+!   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -5]
+!   !   Sibling: 7  Assign: --
+!   !   !   Child: 0  Id: y [mem: Local  size: 1  loc: -5]
+!   !   Sibling: 8  Assign: +=
+!   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -6]
+!   !   !   Child: 1  Const: 35
+!   !   Sibling: 9  Assign: +=
+!   !   !   Child: 0  Id: z [mem: Local  size: 1  loc: -6]
+!   !   !   Child: 1  Const: 35
+Offset for end of global space: 0
+Number of warnings: 5
+Number of errors: 0

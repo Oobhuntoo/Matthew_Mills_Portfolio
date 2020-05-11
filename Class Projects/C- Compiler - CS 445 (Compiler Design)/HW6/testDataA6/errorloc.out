@@ -1,0 +1,33 @@
+ERROR(28): Syntax error, unexpected ';', expecting "or" or "then".
+ERROR(33): Syntax error, unexpected ';', expecting "do" or "or".
+Func dog returns type char [mem: Local  loc: 0]
+!   Child: 0  Param z of type int [mem: Local  size: 1  loc: 0]
+!   Child: 1  Return
+!   !   Child: 0  Const: true
+Sibling: 0  Func main returns type void [mem: Local  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 0  Var x is array of type int [mem: Local  size: 3  loc: 0]
+!   !   Sibling: 0  Var y of type int [mem: Local  size: 1  loc: 0]
+!   !   !   Child: 0  Const: true
+!   !   Child: 1  Assign: =
+!   !   !   Child: 0  Id: y [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Const: true
+!   !   Sibling: 0  Return
+!   !   !   Child: 0  Id: x [mem: None  size: 1  loc: 0]
+!   !   Sibling: 1  Assign: =
+!   !   !   Child: 0  Id: x [mem: None  size: 1  loc: 0]
+!   !   !   Child: 1  Op: *
+!   !   !   !   Child: 0  Const: 5
+!   !   !   !   Child: 1  Const: true
+!   !   Sibling: 2  Break
+!   !   Sibling: 3  Op: *
+!   !   !   Child: 0  Id: y [mem: None  size: 1  loc: 0]
+!   !   Sibling: 4  Op: ?
+!   !   !   Child: 0  Const: 'x'
+!   !   Sibling: 5  Call: emu
+!   !   Sibling: 6  Op: +
+!   !   !   Child: 0  Const: 42
+!   !   !   Child: 1  Call: dog
+Offset for end of global space: 0
+Number of warnings: 0
+Number of errors: 2

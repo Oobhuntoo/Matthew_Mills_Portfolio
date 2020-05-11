@@ -1,0 +1,70 @@
+WARNING(1): Expecting to return type int but function 'main' has no return statement.
+Func main returns type int [mem: Global  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 1  If
+!   !   !   Child: 0  Op: >
+!   !   !   !   Child: 0  Const: 1
+!   !   !   !   Child: 1  Const: 2
+!   !   !   Child: 1  Const: 3
+!   !   Sibling: 0  If
+!   !   !   Child: 0  Op: <
+!   !   !   !   Child: 0  Const: 21
+!   !   !   !   Child: 1  Const: 22
+!   !   !   Child: 1  Const: 23
+!   !   !   Child: 2  Const: 24
+!   !   Sibling: 1  If
+!   !   !   Child: 0  Op: ==
+!   !   !   !   Child: 0  Const: 31
+!   !   !   !   Child: 1  Const: 32
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   Child: 0  Const: 33
+!   !   !   !   !   Child: 1  Const: 34
+!   !   !   !   Child: 1  Const: 35
+!   !   !   !   Child: 2  Const: 36
+!   !   Sibling: 2  If
+!   !   !   Child: 0  Op: ==
+!   !   !   !   Child: 0  Const: 41
+!   !   !   !   Child: 1  Const: 42
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   Child: 0  Const: 43
+!   !   !   !   !   Child: 1  Const: 44
+!   !   !   !   Child: 1  Const: 45
+!   !   !   !   Child: 2  Const: 46
+!   !   !   Child: 2  Const: 47
+!   !   Sibling: 3  If
+!   !   !   Child: 0  Op: ==
+!   !   !   !   Child: 0  Const: 51
+!   !   !   !   Child: 1  Const: 52
+!   !   !   Child: 1  If
+!   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   Child: 0  Const: 53
+!   !   !   !   !   Child: 1  Const: 54
+!   !   !   !   Child: 1  Const: 151
+!   !   !   !   Child: 2  Const: 152
+!   !   !   Child: 2  If
+!   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   Child: 0  Const: 56
+!   !   !   !   !   Child: 1  Const: 57
+!   !   !   !   Child: 1  Const: 58
+!   !   !   !   Child: 2  Const: 59
+!   !   Sibling: 4  If
+!   !   !   Child: 0  Op: ==
+!   !   !   !   Child: 0  Const: 61
+!   !   !   !   Child: 1  Const: 1
+!   !   !   Child: 1  Const: 11
+!   !   !   Child: 2  If
+!   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   Child: 0  Const: 62
+!   !   !   !   !   Child: 1  Const: 1
+!   !   !   !   Child: 1  Const: 12
+!   !   !   !   Child: 2  If
+!   !   !   !   !   Child: 0  Op: ==
+!   !   !   !   !   !   Child: 0  Const: 63
+!   !   !   !   !   !   Child: 1  Const: 1
+!   !   !   !   !   Child: 1  Const: 13
+!   !   !   !   !   Child: 2  Const: 14
+Offset for end of global space: 0
+Number of warnings: 1
+Number of errors: 0

@@ -1,0 +1,52 @@
+WARNING(3): The variable a seems not to be used.
+WARNING(5): The variable aa seems not to be used.
+WARNING(3): The variable b seems not to be used.
+WARNING(5): The variable bb seems not to be used.
+WARNING(3): The variable c seems not to be used.
+WARNING(5): The variable cc seems not to be used.
+WARNING(3): The variable d seems not to be used.
+WARNING(5): The variable dd seems not to be used.
+WARNING(3): The variable e seems not to be used.
+WARNING(5): The variable ee seems not to be used.
+WARNING(3): The variable f seems not to be used.
+WARNING(5): The variable ff seems not to be used.
+WARNING(3): The variable g seems not to be used.
+WARNING(5): The variable gg seems not to be used.
+WARNING(3): The variable h seems not to be used.
+WARNING(5): The variable hh seems not to be used.
+WARNING(3): The variable i seems not to be used.
+WARNING(5): The variable ii seems not to be used.
+WARNING(3): The variable j seems not to be used.
+WARNING(3): The variable k seems not to be used.
+WARNING(3): The variable l seems not to be used.
+WARNING(3): The variable m seems not to be used.
+ERROR(LINKER): Procedure main is not declared.
+Var x of type int [line: 1]
+Sibling: 0  Var y of type int [line: 1]
+Sibling: 1  Var z of type int [line: 1]
+Sibling: 2  Func fred returns type int [line: 3]
+!   Child: 0  Param a of type int [line: 3]
+!   Sibling: 0  Param b of type int [line: 3]
+!   Sibling: 1  Param c of type int [line: 3]
+!   Sibling: 2  Param d of type int [line: 3]
+!   Sibling: 3  Param e of type int [line: 3]
+!   Sibling: 4  Param f of type char [line: 3]
+!   Sibling: 5  Param g of type char [line: 3]
+!   Sibling: 6  Param h of type char [line: 3]
+!   Sibling: 7  Param i of type char [line: 3]
+!   Sibling: 8  Param j of type bool [line: 3]
+!   Sibling: 9  Param k of type bool [line: 3]
+!   Sibling: 10  Param l is array of type int [line: 3]
+!   Sibling: 11  Param m is array of type int [line: 3]
+!   Child: 1  Compound [line: 4]
+!   !   Child: 0  Var aa of type int [line: 5]
+!   !   Sibling: 0  Var bb of type int [line: 5]
+!   !   Sibling: 1  Var cc of type int [line: 5]
+!   !   Sibling: 2  Var dd of type int [line: 5]
+!   !   Sibling: 3  Var ee of type int [line: 5]
+!   !   Sibling: 4  Var ff of type int [line: 5]
+!   !   Sibling: 5  Var gg of type int [line: 5]
+!   !   Sibling: 6  Var hh of type int [line: 5]
+!   !   Sibling: 7  Var ii of type int [line: 5]
+Number of warnings: 22
+Number of errors: 1

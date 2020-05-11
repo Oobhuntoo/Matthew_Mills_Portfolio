@@ -1,0 +1,10 @@
+ERROR(5): Syntax error, unexpected ')', expecting ';'.
+ERROR(6): Syntax error, unexpected ';', expecting ')'.
+ERROR(7): Syntax error, unexpected ';', expecting ')'.
+ERROR(8): Syntax error, unexpected ')', expecting ';'.
+Func main returns type void [mem: Local  loc: 0]
+!   Child: 1  Compound
+!   !   Child: 1  Const: 333
+Offset for end of global space: 0
+Number of warnings: 0
+Number of errors: 4
