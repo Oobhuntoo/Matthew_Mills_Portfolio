@@ -9,5 +9,5 @@ The final completed code base is stored in the folder called Final_Codebase, and
 test and data files are stored in folders named for their respective homework assignments.
 
 Highlights of the class included solving the dangling Else if problem using Extended BNF for HW2. Also, creating modular semantic checking
-functions for HW3 and solving the algorithm to generate memory location data for static variables in HW6 was challenging too. Overall, I did
+functions for HW3 and solving the algorithm to generate memory location data for static variables in HW6 were challenging too. Overall, I did
 well in the class and learned a lot.
