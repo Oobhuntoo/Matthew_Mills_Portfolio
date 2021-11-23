@@ -1,0 +1,10 @@
+for each ground truth image
+- divide it into 4 equal subimages
+- for each subimage
+    - resize to 128x128
+    - randomly choose to rotate it by 90, 180, or 270
+    - binary OR rotated subimage to original subimage (TODO check that images are binary)
+    - plug results into sensor data kwave procedure ensuring that sensors are only on one edge
+    - plug those results into time reversal
+- now, we have x data (time reversal), y data (ground truth superimposed subimages)
+    
